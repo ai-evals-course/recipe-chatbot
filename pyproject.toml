@@ -1,0 +1,15 @@
+[project]
+name = "recipe-chatbot"
+version = "0.1.0"
+description = "Sample application used as part of the AI Evals course"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "litellm>=1.70.2",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.1.0",
+    "rich>=14.0.0",
+    "uvicorn>=0.34.2",
+]
