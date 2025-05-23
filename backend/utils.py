@@ -7,7 +7,8 @@ wrapper around litellm so the rest of the application stays decluttered.
 """
 
 from pathlib import Path
-from typing import Final, List, Dict
+from typing import List, Dict # Removed Final
+import os # Added os import
 
 import litellm  # type: ignore
 from dotenv import load_dotenv
@@ -17,19 +18,39 @@ load_dotenv(override=False)
 
 # --- Constants -------------------------------------------------------------------
 
-SYSTEM_PROMPT: Final[str] = (
+_DEFAULT_SYSTEM_PROMPT: str = (
     "You are an expert chef recommending delicious and useful recipes. "
     "Present only one recipe at a time. If the user doesn't specify what ingredients "
     "they have available, ask them about their available ingredients rather than "
     "assuming what's in their fridge."
 )
 
+def _load_system_prompt() -> str:
+    """Loads system prompt from SYSTEM_PROMPT_PATH or uses default."""
+    custom_prompt_path_str = os.environ.get("SYSTEM_PROMPT_PATH")
+    if custom_prompt_path_str:
+        try:
+            # Assuming SYSTEM_PROMPT_PATH is relative to the project root
+            project_root = Path.cwd()
+            custom_prompt_file = project_root / custom_prompt_path_str
+            if custom_prompt_file.exists() and custom_prompt_file.is_file():
+                return custom_prompt_file.read_text().strip()
+            else:
+                # Optionally, log a warning if path is set but file not found
+                print(f"Warning: SYSTEM_PROMPT_PATH ('{custom_prompt_path_str}') set, but file not found or not a file. Falling back to default prompt.")
+        except Exception as e:
+            # Optionally, log the error
+            print(f"Warning: Error loading system prompt from '{custom_prompt_path_str}': {e}. Falling back to default prompt.")
+    return _DEFAULT_SYSTEM_PROMPT
+
+SYSTEM_PROMPT: str = _load_system_prompt()
+
 # Fetch configuration *after* we loaded the .env file.
-MODEL_NAME: Final[str] = (
+MODEL_NAME: str = ( # Removed Final here too for consistency, though not strictly required by the task
     Path.cwd()  # noqa: WPS432
     .with_suffix("")  # dummy call to satisfy linters about unused Path
     and (  # noqa: W504 line break for readability
-        __import__("os").environ.get("MODEL_NAME", "gpt-3.5-turbo")
+        os.environ.get("MODEL_NAME", "gpt-3.5-turbo") # Used direct os.environ.get
     )
 )
 
