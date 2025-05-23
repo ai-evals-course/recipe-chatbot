@@ -46,7 +46,8 @@ recipe-chatbot/
 │   └── bulk_test.py    # Bulk testing script
 ├── .env.example        # Example environment file
 ├── env.example         # Backup env example (can be removed if .env.example is preferred)
-├── requirements.txt    # Python dependencies
+├── pyproject.toml      # Python dependencies
+├── uv.lock             # Python dependencies
 └── README.md           # This file (Your guide!)
 ```
 
@@ -58,22 +59,12 @@ recipe-chatbot/
     cd recipe-chatbot
     ```
 
-2.  **Create and Activate a Python Virtual Environment**
-    ```bash
-    python -m venv .venv
-    ```
-    *   On macOS/Linux:
-        ```bash
-        source .venv/bin/activate
-        ```
-    *   On Windows:
-        ```bash
-        .venv\Scripts\activate
-        ```
+2.  **Install uv to setup Python and its dependencies**
+    Follow instructions in https://docs.astral.sh/uv/getting-started/installation/
 
 3.  **Install Dependencies**
     ```bash
-    pip install -r requirements.txt
+    uv sync
     ```
 
 4.  **Configure Environment Variables (`.env` file)**
@@ -113,7 +104,7 @@ recipe-chatbot/
 *   Ensure your virtual environment is activated and your `.env` file is configured.
 *   From the project root directory, start the FastAPI server using Uvicorn:
     ```bash
-    uvicorn backend.main:app --reload
+    uv run uvicorn backend.main:app --reload
     ```
 *   Open your web browser and navigate to: `http://127.0.0.1:8000`
 
@@ -127,11 +118,11 @@ The bulk test script allows you to evaluate your chatbot's responses to a predef
 *   Ensure your virtual environment is activated and your `.env` file is configured.
 *   From the project root directory, run:
     ```bash
-    python scripts/bulk_test.py
+    uv run python scripts/bulk_test.py
     ```
 *   To use a different CSV file for queries:
     ```bash
-    python scripts/bulk_test.py --csv path/to/your/queries.csv
+    uv run python scripts/bulk_test.py --csv path/to/your/queries.csv
     ```
     The CSV file must have `id` and `query` columns.
 *   Check the `results/` folder for a new CSV file containing the IDs, queries, and their corresponding responses. This will be crucial for evaluating your system prompt changes.
@@ -203,7 +194,7 @@ Your main task is to get the repo to a starting point for Lesson 2.
 3.  **Run the Bulk Test & Evaluate**:
     *   After you have updated the system prompt in `backend/utils.py` and expanded the queries in `data/sample_queries.csv`, run the bulk test script:
         ```bash
-        python scripts/bulk_test.py
+        uv run python scripts/bulk_test.py
         ```
     * Make sure a new CSV has been written.
     
