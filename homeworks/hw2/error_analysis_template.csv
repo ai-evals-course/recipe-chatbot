@@ -1,0 +1,12 @@
+# Template for error analysis. Populate based on your bot's traces and defined failure modes.
+# Replace [Failure_Mode_X_Title_From_Taxonomy] with actual failure mode titles from your failure_mode_taxonomy.md
+Trace_ID,User_Query,Dimension_Tuple_JSON,Full_Bot_Trace_Summary,Open_Code_Notes,Failure_Mode_Adherence_Ingredients,Failure_Mode_Dietary_Compliance,Failure_Mode_Time_Effort_Mismatch,Failure_Mode_Recipe_Quality_Clarity,Failure_Mode_Cuisine_Preference,Other_Failure_Mode_Specify
+TRA001,EQ001_placeholder_query_text_here,,Bot suggested X when Y was asked,,,,0,0,0,0,0,
+TRA002,EQ002_placeholder_query_text_here,,Bot misunderstood Z,,,,0,0,0,0,0,
+# Add one row per trace/query analyzed.
+# Trace_ID: A unique identifier for this specific interaction or test run.
+# User_Query: The exact query input by the user (or from your synthetic set).
+# Dimension_Tuple_JSON: The JSON string of dimension values for this query (from synthetic_queries_for_analysis.csv or manually defined).
+# Full_Bot_Trace_Summary: A brief summary of the bot's full response or key parts of the interaction.
+# Open_Code_Notes: Your initial thoughts, observations, or codes during open coding.
+# Failure_Mode_Columns: Mark 0 (absent) or 1 (present) for each defined failure mode in this trace. Add/rename columns to match your taxonomy. 

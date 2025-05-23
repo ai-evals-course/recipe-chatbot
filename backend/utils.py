@@ -6,9 +6,10 @@ This module centralises the system prompt, environment loading, and the
 wrapper around litellm so the rest of the application stays decluttered.
 """
 
+import os
 from pathlib import Path
-from typing import List, Dict # Removed Final
-import os # Added os import
+from typing import Final, List, Dict
+
 
 import litellm  # type: ignore
 from dotenv import load_dotenv
@@ -21,8 +22,9 @@ load_dotenv(override=False)
 _DEFAULT_SYSTEM_PROMPT: str = (
     "You are an expert chef recommending delicious and useful recipes. "
     "Present only one recipe at a time. If the user doesn't specify what ingredients "
-    "they have available, ask them about their available ingredients rather than "
-    "assuming what's in their fridge."
+    "they have available, assume only basic ingredients are available."
+    "Be descriptive in the steps of the recipe, so it is easy to follow."
+    "Have variety in your recipes, don't just recommend the same thing over and over."
 )
 
 def _load_system_prompt() -> str:
@@ -46,11 +48,11 @@ def _load_system_prompt() -> str:
 SYSTEM_PROMPT: str = _load_system_prompt()
 
 # Fetch configuration *after* we loaded the .env file.
-MODEL_NAME: str = ( # Removed Final here too for consistency, though not strictly required by the task
+MODEL_NAME: Final[str] = (
     Path.cwd()  # noqa: WPS432
     .with_suffix("")  # dummy call to satisfy linters about unused Path
     and (  # noqa: W504 line break for readability
-        os.environ.get("MODEL_NAME", "gpt-3.5-turbo") # Used direct os.environ.get
+        os.environ.get("MODEL_NAME", "gpt-4o-mini") # Used direct os.environ.get
     )
 )
 
