@@ -16,6 +16,7 @@ endpoint concurrently, and stores the results for later manual evaluation.
 import argparse
 import csv
 import datetime as dt
+import json
 from typing import List, Tuple, Dict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -41,23 +42,29 @@ MAX_WORKERS = 32 # For ThreadPoolExecutor
 # -----------------------------------------------------------------------------
 
 # --- Sync function for ThreadPoolExecutor ---
-def process_query_sync(query_id: str, query: str) -> Tuple[str, str, str]:
+def process_query_sync(
+    item: Dict[str, str],
+) -> Tuple[str, str, List[Dict[str, str]]]:
     """Processes a single query by calling the agent directly."""
-    initial_messages: List[Dict[str, str]] = [
-        {"role": "user", "content": query}
-    ]
+    query_id = item["id"]
+    initial_query = item["query"]
+    messages: List[Dict[str, str]] = [{"role": "user", "content": initial_query}]
     try:
         # get_agent_response now returns the full history
-        updated_history = get_agent_response(initial_messages)
-        # Extract the last assistant message for the result
-        assistant_reply = ""
-        if updated_history and updated_history[-1]["role"] == "assistant":
-            assistant_reply = updated_history[-1]["content"]
-        else: # Should not happen with current logic but good to handle
-            assistant_reply = "Error: No assistant reply found in history."
-        return query_id, query, assistant_reply
+        messages = get_agent_response(messages)
+
+        i = 1
+        while f"human_followup_{i}" in item and item[f"human_followup_{i}"]:
+            followup_query = item[f"human_followup_{i}"]
+            messages.append({"role": "user", "content": followup_query})
+            messages = get_agent_response(messages)
+            i += 1
+
+        return query_id, initial_query, messages
     except Exception as e:
-        return query_id, query, f"Error processing query: {str(e)}"
+        error_message = f"Error processing query: {str(e)}"
+        messages.append({"role": "system", "content": error_message})
+        return query_id, initial_query, messages
 
 
 # Renamed and made sync
@@ -72,48 +79,82 @@ def run_bulk_test(csv_path: Path, num_workers: int = MAX_WORKERS) -> None:
         ]
 
     if not input_data:
-        raise ValueError("No valid data (with 'id' and 'query') found in the provided CSV file.")
+        raise ValueError(
+            "No valid data (with 'id' and 'query') found in the provided CSV file."
+        )
 
     console = Console()
-    results_data: List[Tuple[str, str, str]] = [] # Will store (id, query, response)
+    results_data: List[
+        Tuple[str, str, str]
+    ] = []  # Will store (id, query, response)
     with ThreadPoolExecutor(max_workers=num_workers) as executor:
         future_to_data = {
-            executor.submit(process_query_sync, item["id"], item["query"]):
-            item for item in input_data
+            executor.submit(process_query_sync, item): item for item in input_data
         }
-        console.print(f"[bold blue]Submitting {len(input_data)} queries to the executor...[/bold blue]")
+        console.print(
+            f"[bold blue]Submitting {len(input_data)} queries to the executor...[/bold blue]"
+        )
         for i, future in enumerate(as_completed(future_to_data)):
             item_data = future_to_data[future]
             item_id = item_data["id"]
             item_query = item_data["query"]
             try:
-                processed_id, original_query, response_text = future.result()
-                results_data.append((processed_id, original_query, response_text))
+                processed_id, original_query, conversation_history = future.result()
+                conversation_json = json.dumps(conversation_history)
+                results_data.append(
+                    (processed_id, original_query, conversation_json)
+                )
 
                 panel_content = Text()
                 panel_content.append(f"ID: {processed_id}\n", style="bold magenta")
-                panel_content.append("Query:\n", style="bold yellow")
-                panel_content.append(f"{original_query}\n\n")
 
-                # Create a separate Markdown object for the response
-                response_markdown = Markdown(response_text)
+                conversation_group = []
+                for msg in conversation_history:
+                    role = msg.get("role")
+                    content = msg.get("content", "")
+                    if role == "user":
+                        conversation_group.append(
+                            Text("👤 User:", style="bold yellow")
+                        )
+                        conversation_group.append(Text(content))
+                    elif role == "assistant":
+                        conversation_group.append(
+                            Text("🤖 Assistant:", style="bold green")
+                        )
+                        conversation_group.append(Markdown(content))
+                    elif role == "system":  # for errors
+                        conversation_group.append(
+                            Text("🔧 System:", style="bold red")
+                        )
+                        conversation_group.append(Text(content))
 
-                # Group the different parts for the Panel
-                panel_group = Group(
-                    panel_content, # Contains ID and Query
-                    Markdown("--- Response ---"), # A small separator for clarity
-                    response_markdown  # The Markdown rendered response
+                panel_group = Group(panel_content, Group(*conversation_group))
+
+                console.print(
+                    Panel(
+                        panel_group,  # Pass the group as the single renderable
+                        title=f"Result {i+1}/{len(input_data)} - ID: {processed_id}",
+                        border_style="cyan",
+                    )
                 )
 
-                console.print(Panel(
-                    panel_group, # Pass the group as the single renderable
-                    title=f"Result {i+1}/{len(input_data)} - ID: {processed_id}", 
-                    border_style="cyan"
-                ))
-
             except Exception as exc:
-                console.print(Panel(f"[bold red]Exception for ID {item_id}, Query:[/bold red]\n{item_query}\n\n[bold red]Error:[/bold red]\n{exc}", title=f"Error in Result {i+1}/{len(input_data)} - ID: {item_id}", border_style="red"))
-                results_data.append((item_id, item_query, f"Exception during processing: {str(exc)}"))
+                console.print(
+                    Panel(
+                        f"[bold red]Exception for ID {item_id}, Query:[/bold red]\n{item_query}\n\n[bold red]Error:[/bold red]\n{exc}",
+                        title=f"Error in Result {i+1}/{len(input_data)} - ID: {item_id}",
+                        border_style="red",
+                    )
+                )
+                error_history = [
+                    {
+                        "role": "system",
+                        "content": f"Exception during processing: {str(exc)}",
+                    }
+                ]
+                results_data.append(
+                    (item_id, item_query, json.dumps(error_history))
+                )
         console.print("[bold blue]All queries processed.[/bold blue]")
 
     timestamp = dt.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -121,15 +162,27 @@ def run_bulk_test(csv_path: Path, num_workers: int = MAX_WORKERS) -> None:
 
     with out_path.open("w", newline="", encoding="utf-8") as csv_file:
         writer = csv.writer(csv_file)
-        writer.writerow(["id", "query", "response"])
+        writer.writerow(["id", "query", "conversation_history"])
         writer.writerows(results_data)
 
-    console.print(f"[bold green]Saved {len(results_data)} results to {str(out_path)}[/bold green]")
+    console.print(
+        f"[bold green]Saved {len(results_data)} results to {str(out_path)}[/bold green]"
+    )
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Bulk test the recipe chatbot")
-    parser.add_argument("--csv", type=Path, default=DEFAULT_CSV, help="Path to CSV file containing queries (column name: 'query').")
-    parser.add_argument("--workers", type=int, default=MAX_WORKERS, help=f"Number of worker threads (default: {MAX_WORKERS}).")
+    parser.add_argument(
+        "--csv",
+        type=Path,
+        default=DEFAULT_CSV,
+        help="Path to CSV file containing queries (column name: 'query').",
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=MAX_WORKERS,
+        help=f"Number of worker threads (default: {MAX_WORKERS}).",
+    )
     args = parser.parse_args()
     run_bulk_test(args.csv, args.workers)
