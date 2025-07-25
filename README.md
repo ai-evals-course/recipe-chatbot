@@ -113,6 +113,57 @@ python scripts/evaluate_retrieval.py
 - **Bulk Testing**: Use `python scripts/bulk_test.py` to test multiple queries
 - **Trace Analysis**: All conversations saved as JSON for analysis
 
+## Multi-Turn Bulk Evaluation
+
+Run bulk evaluations with multi-turn conversations and visualize results.
+
+### CSV Format
+
+Create a CSV with the following columns:
+```csv
+id,query,human_followup_1,human_followup_2,...
+1,"How do I make pasta?","Can you suggest a vegetarian sauce?","How long should I cook it?"
+2,"Show me breakfast recipes","I prefer something sweet",""
+```
+
+- `id`: Unique identifier for the conversation
+- `query`: Initial user query
+- `human_followup_N`: Sequential follow-up messages (optional)
+  - Add as many as needed (human_followup_1, human_followup_2, etc.)
+  - Empty values will be ignored
+
+### Running Bulk Evaluation
+
+```bash
+# Run evaluation on your CSV
+python scripts/bulk_test.py --csv path/to/your/queries.csv
+
+# Results are saved to results/results_YYYYMMDD_HHMMSS.csv
+```
+
+### Viewing Results
+
+```bash
+# Generate and open HTML viewer
+python scripts/view_conversations.py results/results_YYYYMMDD_HHMMSS.csv
+
+# Generate without opening browser
+python scripts/view_conversations.py results/results_YYYYMMDD_HHMMSS.csv --no-browser
+```
+
+### What to Expect
+
+1. **During Bulk Test:**
+   - Progress updates in terminal
+   - Each conversation displayed with full dialogue
+   - Results saved as CSV with conversation histories
+
+2. **In HTML Viewer:**
+   - Clean, paginated interface
+   - One conversation per page
+   - Full dialogue history with user/assistant messages
+   - Easy navigation between conversations
+
 ## Environment Variables
 
 Configure your `.env` file with:
