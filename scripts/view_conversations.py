@@ -5,20 +5,44 @@ import csv
 import json
 import webbrowser
 from pathlib import Path
+from typing import Optional
 
 from rich.console import Console
 
 RESULTS_DIR: Path = Path("results")
 
 
-def create_conversations_viewer(results_path: Path, open_browser: bool = True) -> None:
+def get_latest_results() -> Optional[Path]:
+    """Find the most recent results file in the results directory."""
+    if not RESULTS_DIR.exists():
+        return None
+        
+    # Find all CSV files that start with 'results_'
+    result_files = list(RESULTS_DIR.glob("results_*.csv"))
+    if not result_files:
+        return None
+        
+    # Sort by modification time, newest first
+    return max(result_files, key=lambda p: p.stat().st_mtime)
+
+
+def create_conversations_viewer(results_path: Optional[Path] = None, open_browser: bool = True) -> None:
     """Creates a paginated HTML viewer for conversations.
     
     Args:
-        results_path: Path to the CSV file containing conversation results
+        results_path: Path to the CSV file containing conversation results.
+                     If None, uses the most recent results file.
         open_browser: Whether to automatically open the viewer in browser
     """
-    if not results_path.exists():
+    if results_path is None:
+        results_path = get_latest_results()
+        if results_path is None:
+            raise FileNotFoundError(
+                "No results files found in the results directory. "
+                "Please run bulk_test.py first or specify a results file path."
+            )
+        Console().print(f"[blue]Using latest results file: {results_path}[/blue]")
+    elif not results_path.exists():
         raise FileNotFoundError(f"Results file not found at: {results_path}")
 
     with results_path.open("r", encoding="utf-8") as f:
@@ -155,7 +179,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "results_csv",
         type=Path,
-        help="Path to the results CSV file from a bulk test run.",
+        nargs="?",
+        default=None,
+        help="Path to the results CSV file from a bulk test run. If not specified, uses the most recent results file.",
     )
     parser.add_argument(
         "--no-browser",
