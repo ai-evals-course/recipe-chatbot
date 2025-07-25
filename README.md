@@ -144,11 +144,14 @@ python scripts/bulk_test.py --csv path/to/your/queries.csv
 ### Viewing Results
 
 ```bash
-# Generate and open HTML viewer
+# Generate and open HTML viewer (uses most recent results)
+python scripts/view_conversations.py
+
+# Generate and open HTML viewer for specific results
 python scripts/view_conversations.py results/results_YYYYMMDD_HHMMSS.csv
 
 # Generate without opening browser
-python scripts/view_conversations.py results/results_YYYYMMDD_HHMMSS.csv --no-browser
+python scripts/view_conversations.py --no-browser
 ```
 
 ### What to Expect
