@@ -53,6 +53,9 @@ def create_conversations_viewer(results_path: Optional[Path] = None, open_browse
         Console().print("[yellow]No conversations found in the results file.[/yellow]")
         return
 
+    # Sort conversations by ID (try numeric sort first, fallback to string sort)
+    conversations.sort(key=lambda x: try_int(x.get("id", "0")))
+
     html_template = """
 <!DOCTYPE html>
 <html lang="en">
@@ -172,6 +175,14 @@ def create_conversations_viewer(results_path: Optional[Path] = None, open_browse
     # Open the HTML file in the default browser if requested
     if open_browser:
         webbrowser.open(f"file://{viewer_path.resolve()}")
+
+
+def try_int(s: str) -> int:
+    """Try to convert a string to int, return 0 if failed."""
+    try:
+        return int(s)
+    except (ValueError, TypeError):
+        return 0
 
 
 if __name__ == "__main__":
