@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import webbrowser
 from pathlib import Path
 
 from rich.console import Console
@@ -10,8 +11,13 @@ from rich.console import Console
 RESULTS_DIR: Path = Path("results")
 
 
-def create_conversations_viewer(results_path: Path) -> None:
-    """Creates a paginated HTML viewer for conversations."""
+def create_conversations_viewer(results_path: Path, open_browser: bool = True) -> None:
+    """Creates a paginated HTML viewer for conversations.
+    
+    Args:
+        results_path: Path to the CSV file containing conversation results
+        open_browser: Whether to automatically open the viewer in browser
+    """
     if not results_path.exists():
         raise FileNotFoundError(f"Results file not found at: {results_path}")
 
@@ -138,6 +144,10 @@ def create_conversations_viewer(results_path: Path) -> None:
     Console().print(
         f"[bold green]Created conversation viewer at: {viewer_path}[/bold green]"
     )
+    
+    # Open the HTML file in the default browser if requested
+    if open_browser:
+        webbrowser.open(f"file://{viewer_path.resolve()}")
 
 
 if __name__ == "__main__":
@@ -147,5 +157,10 @@ if __name__ == "__main__":
         type=Path,
         help="Path to the results CSV file from a bulk test run.",
     )
+    parser.add_argument(
+        "--no-browser",
+        action="store_true",
+        help="Don't automatically open the viewer in browser",
+    )
     args = parser.parse_args()
-    create_conversations_viewer(args.results_csv) 
+    create_conversations_viewer(args.results_csv, not args.no_browser) 

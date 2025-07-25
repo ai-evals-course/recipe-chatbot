@@ -1,4 +1,4 @@
-id,query
-1,Suggest a quick vegan breakfast recipe
-2,I have chicken and rice. what can I cook?
-3,Give me a dessert recipe with chocolate 
+id,query,human_followup_1,human_followup_2
+1,Suggest a quick vegan breakfast recipe,I don't like any of the recipes you suggested. Could you suggest 3 more with different ingredients this time?,Let's go with recipe 1!
+2,I have chicken and rice. what can I cook?,Let's go with recipe 3!
+3,Give me dessert recipes with chocolate,Let's go with recipe 1!
