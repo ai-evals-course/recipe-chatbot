@@ -5,10 +5,11 @@ This script evaluates the finalized LLM judge on the test set to get
 unbiased estimates of TPR and TNR for use with judgy.
 """
 
+import os
 import pandas as pd
 import json
 from pathlib import Path
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Final
 from rich.console import Console
 from rich.progress import track
 import litellm
@@ -20,6 +21,9 @@ load_dotenv()
 MAX_WORKERS = 32
 
 console = Console()
+
+# Model used for the LLM judge
+MODEL_NAME_JUDGE: Final[str] = os.environ.get("MODEL_NAME_JUDGE", "gpt-4o-nano")
 
 def load_data_split(csv_path: str) -> List[Dict[str, Any]]:
     """Load a data split from CSV file."""
@@ -48,7 +52,7 @@ def evaluate_single_trace(args: tuple) -> Dict[str, Any]:
     try:
         # Get judge prediction
         completion = litellm.completion(
-            model="gpt-4.1-nano",  # Use the same model as in development
+            model=MODEL_NAME_JUDGE,  # Use the same model as in development
             messages=[{"role": "user", "content": formatted_prompt}],
         )
         

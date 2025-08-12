@@ -2,321 +2,361 @@
   {
     "trace_id": "49_29",
     "true_label": "PASS",
-    "predicted_label": "PASS",
+    "predicted_label": "ERROR",
     "query": "I'm flexitarian leaning vegan",
     "dietary_restriction": "vegan",
-    "success": true
-  },
-  {
-    "trace_id": "7_8",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "I want to make a birthday cake but I'm diabetic. Something that still tastes good?",
-    "dietary_restriction": "diabetic-friendly",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
     "trace_id": "42_37",
     "true_label": "FAIL",
-    "predicted_label": "FAIL",
+    "predicted_label": "ERROR",
     "query": "I want something light but filling",
     "dietary_restriction": "low-carb",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "48_27",
-    "true_label": "FAIL",
-    "predicted_label": "PASS",
-    "query": "Gluten-light recipe - I'm not celiac just sensitive",
-    "dietary_restriction": "gluten-free",
-    "success": true
-  },
-  {
-    "trace_id": "55_3",
+    "trace_id": "7_8",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "I'm pescatarian but shellfish makes me sick",
-    "dietary_restriction": "pescatarian",
-    "success": true
-  },
-  {
-    "trace_id": "48_34",
-    "true_label": "FAIL",
-    "predicted_label": "PASS",
-    "query": "Gluten-light recipe - I'm not celiac just sensitive",
-    "dietary_restriction": "gluten-free",
-    "success": true
-  },
-  {
-    "trace_id": "37_33",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Sugar-free dessert that doesn't taste like sadness",
-    "dietary_restriction": "sugar-free",
-    "success": true
-  },
-  {
-    "trace_id": "47_8",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Dairy-free but cheese is okay sometimes",
-    "dietary_restriction": "dairy-free",
-    "success": true
-  },
-  {
-    "trace_id": "30_15",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Keto meal that doesn't make me feel gross",
-    "dietary_restriction": "keto",
-    "success": true
-  },
-  {
-    "trace_id": "39_17",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Something not too carb-y for dinner",
-    "dietary_restriction": "low-carb",
-    "success": true
-  },
-  {
-    "trace_id": "38_36",
-    "true_label": "FAIL",
-    "predicted_label": "FAIL",
-    "query": "I don't like vegetables but I want to eat healthy",
-    "dietary_restriction": "vegetarian",
-    "success": true
-  },
-  {
-    "trace_id": "28_28",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Halal pasta recipe - is that even a thing?",
-    "dietary_restriction": "halal",
-    "success": true
-  },
-  {
-    "trace_id": "9_25",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Raw vegan salad that doesn't taste like grass",
-    "dietary_restriction": "raw vegan",
-    "success": true
-  },
-  {
-    "trace_id": "38_22",
-    "true_label": "FAIL",
-    "predicted_label": "FAIL",
-    "query": "I don't like vegetables but I want to eat healthy",
-    "dietary_restriction": "vegetarian",
-    "success": true
-  },
-  {
-    "trace_id": "22_7",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "I'm diabetic but I want to make a fruit cake for Christmas. My grandmother's recipe has tons of sugar and dried fruit but it's tradition and I can't just skip it this year. Is there any way to modify it so I can still participate in the family tradition without spiking my blood sugar?",
+    "predicted_label": "ERROR",
+    "query": "I want to make a birthday cake but I'm diabetic. Something that still tastes good?",
     "dietary_restriction": "diabetic-friendly",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
     "trace_id": "22_27",
     "true_label": "PASS",
-    "predicted_label": "PASS",
+    "predicted_label": "ERROR",
     "query": "I'm diabetic but I want to make a fruit cake for Christmas. My grandmother's recipe has tons of sugar and dried fruit but it's tradition and I can't just skip it this year. Is there any way to modify it so I can still participate in the family tradition without spiking my blood sugar?",
     "dietary_restriction": "diabetic-friendly",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "53_11",
+    "trace_id": "37_33",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Kosher dessert for Passover",
-    "dietary_restriction": "kosher",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "Sugar-free dessert that doesn't taste like sadness",
+    "dietary_restriction": "sugar-free",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "45_6",
+    "trace_id": "47_8",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Something keto-ish but not super strict",
-    "dietary_restriction": "keto",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "Dairy-free but cheese is okay sometimes",
+    "dietary_restriction": "dairy-free",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "15_12",
+    "trace_id": "55_3",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "I'm on keto but I'm craving something sweet. Help?",
-    "dietary_restriction": "keto",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "I'm pescatarian but shellfish makes me sick",
+    "dietary_restriction": "pescatarian",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "46_15",
+    "trace_id": "48_27",
     "true_label": "FAIL",
-    "predicted_label": "FAIL",
-    "query": "I avoid processed foods but I'm lazy",
-    "dietary_restriction": "paleo",
-    "success": true
-  },
-  {
-    "trace_id": "15_31",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "I'm on keto but I'm craving something sweet. Help?",
-    "dietary_restriction": "keto",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "Gluten-light recipe - I'm not celiac just sensitive",
+    "dietary_restriction": "gluten-free",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
     "trace_id": "16_19",
     "true_label": "PASS",
-    "predicted_label": "PASS",
+    "predicted_label": "ERROR",
     "query": "Vegetarian curry but I don't eat onions or garlic for religious reasons",
     "dietary_restriction": "vegetarian",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "42_1",
-    "true_label": "FAIL",
-    "predicted_label": "FAIL",
-    "query": "I want something light but filling",
-    "dietary_restriction": "low-carb",
-    "success": true
-  },
-  {
-    "trace_id": "16_36",
+    "trace_id": "45_6",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Vegetarian curry but I don't eat onions or garlic for religious reasons",
-    "dietary_restriction": "vegetarian",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "Something keto-ish but not super strict",
+    "dietary_restriction": "keto",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "34_6",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Vegetarian meal that has enough protein for my bodybuilder boyfriend",
-    "dietary_restriction": "vegetarian",
-    "success": true
-  },
-  {
-    "trace_id": "47_3",
-    "true_label": "PASS",
-    "predicted_label": "FAIL",
-    "query": "Dairy-free but cheese is okay sometimes",
-    "dietary_restriction": "dairy-free",
-    "success": true
-  },
-  {
-    "trace_id": "51_31",
+    "trace_id": "46_15",
     "true_label": "FAIL",
-    "predicted_label": "FAIL",
-    "query": "I eat pretty clean most of the time",
-    "dietary_restriction": "whole30",
-    "success": true
-  },
-  {
-    "trace_id": "46_3",
-    "true_label": "FAIL",
-    "predicted_label": "FAIL",
+    "predicted_label": "ERROR",
     "query": "I avoid processed foods but I'm lazy",
     "dietary_restriction": "paleo",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "53_31",
+    "trace_id": "22_7",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Kosher dessert for Passover",
-    "dietary_restriction": "kosher",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "I'm diabetic but I want to make a fruit cake for Christmas. My grandmother's recipe has tons of sugar and dried fruit but it's tradition and I can't just skip it this year. Is there any way to modify it so I can still participate in the family tradition without spiking my blood sugar?",
+    "dietary_restriction": "diabetic-friendly",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "39_40",
+    "trace_id": "39_17",
     "true_label": "PASS",
-    "predicted_label": "PASS",
+    "predicted_label": "ERROR",
     "query": "Something not too carb-y for dinner",
     "dietary_restriction": "low-carb",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "38_36",
+    "true_label": "FAIL",
+    "predicted_label": "ERROR",
+    "query": "I don't like vegetables but I want to eat healthy",
+    "dietary_restriction": "vegetarian",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "48_34",
+    "true_label": "FAIL",
+    "predicted_label": "ERROR",
+    "query": "Gluten-light recipe - I'm not celiac just sensitive",
+    "dietary_restriction": "gluten-free",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
     "trace_id": "48_22",
     "true_label": "FAIL",
-    "predicted_label": "PASS",
+    "predicted_label": "ERROR",
     "query": "Gluten-light recipe - I'm not celiac just sensitive",
     "dietary_restriction": "gluten-free",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "32_12",
+    "trace_id": "16_36",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Gluten-free birthday cake for my 5-year-old who has celiac but all her friends will be eating regular cake and I don't want her to feel left out",
-    "dietary_restriction": "gluten-free",
-    "success": true
-  },
-  {
-    "trace_id": "43_28",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Comfort food that won't make me feel guilty",
+    "predicted_label": "ERROR",
+    "query": "Vegetarian curry but I don't eat onions or garlic for religious reasons",
     "dietary_restriction": "vegetarian",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "19_3",
+    "trace_id": "30_15",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Vegan protein smoothie that doesn't taste chalky",
-    "dietary_restriction": "vegan",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "Keto meal that doesn't make me feel gross",
+    "dietary_restriction": "keto",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "32_33",
-    "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Gluten-free birthday cake for my 5-year-old who has celiac but all her friends will be eating regular cake and I don't want her to feel left out",
-    "dietary_restriction": "gluten-free",
-    "success": true
+    "trace_id": "51_31",
+    "true_label": "FAIL",
+    "predicted_label": "ERROR",
+    "query": "I eat pretty clean most of the time",
+    "dietary_restriction": "whole30",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "18_30",
+    "trace_id": "9_25",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "Low-sodium soup recipe - my doctor says I need to cut back",
-    "dietary_restriction": "low-sodium",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "Raw vegan salad that doesn't taste like grass",
+    "dietary_restriction": "raw vegan",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "8_8",
+    "trace_id": "15_31",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "My kid needs a nut-free cookie recipe for school but she's super picky and only likes chocolate",
-    "dietary_restriction": "nut-free",
-    "success": true
+    "predicted_label": "ERROR",
+    "query": "I'm on keto but I'm craving something sweet. Help?",
+    "dietary_restriction": "keto",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
-    "trace_id": "17_35",
+    "trace_id": "38_22",
+    "true_label": "FAIL",
+    "predicted_label": "ERROR",
+    "query": "I don't like vegetables but I want to eat healthy",
+    "dietary_restriction": "vegetarian",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "47_3",
     "true_label": "PASS",
-    "predicted_label": "PASS",
-    "query": "I want paleo bread but every recipe I've tried is terrible",
+    "predicted_label": "ERROR",
+    "query": "Dairy-free but cheese is okay sometimes",
+    "dietary_restriction": "dairy-free",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "53_11",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Kosher dessert for Passover",
+    "dietary_restriction": "kosher",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "46_3",
+    "true_label": "FAIL",
+    "predicted_label": "ERROR",
+    "query": "I avoid processed foods but I'm lazy",
     "dietary_restriction": "paleo",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "34_6",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Vegetarian meal that has enough protein for my bodybuilder boyfriend",
+    "dietary_restriction": "vegetarian",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "28_28",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Halal pasta recipe - is that even a thing?",
+    "dietary_restriction": "halal",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "53_31",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Kosher dessert for Passover",
+    "dietary_restriction": "kosher",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "39_40",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Something not too carb-y for dinner",
+    "dietary_restriction": "low-carb",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "15_12",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "I'm on keto but I'm craving something sweet. Help?",
+    "dietary_restriction": "keto",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "42_1",
+    "true_label": "FAIL",
+    "predicted_label": "ERROR",
+    "query": "I want something light but filling",
+    "dietary_restriction": "low-carb",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
     "trace_id": "10_9",
     "true_label": "PASS",
-    "predicted_label": "PASS",
+    "predicted_label": "ERROR",
     "query": "I'm pescatarian but I hate fish. Can you give me a seafood pasta recipe?",
     "dietary_restriction": "pescatarian",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "43_28",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Comfort food that won't make me feel guilty",
+    "dietary_restriction": "vegetarian",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "8_8",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "My kid needs a nut-free cookie recipe for school but she's super picky and only likes chocolate",
+    "dietary_restriction": "nut-free",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "32_33",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Gluten-free birthday cake for my 5-year-old who has celiac but all her friends will be eating regular cake and I don't want her to feel left out",
+    "dietary_restriction": "gluten-free",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "32_12",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Gluten-free birthday cake for my 5-year-old who has celiac but all her friends will be eating regular cake and I don't want her to feel left out",
+    "dietary_restriction": "gluten-free",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "17_35",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "I want paleo bread but every recipe I've tried is terrible",
+    "dietary_restriction": "paleo",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "19_3",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Vegan protein smoothie that doesn't taste chalky",
+    "dietary_restriction": "vegan",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
+  },
+  {
+    "trace_id": "18_30",
+    "true_label": "PASS",
+    "predicted_label": "ERROR",
+    "query": "Low-sodium soup recipe - my doctor says I need to cut back",
+    "dietary_restriction": "low-sodium",
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   },
   {
     "trace_id": "35_15",
     "true_label": "PASS",
-    "predicted_label": "PASS",
+    "predicted_label": "ERROR",
     "query": "Paleo breakfast that I can eat in the car on my commute",
     "dietary_restriction": "paleo",
-    "success": true
+    "success": false,
+    "error": "litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable"
   }
 ]

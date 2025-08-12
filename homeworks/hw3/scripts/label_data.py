@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """Label Recipe Bot traces for dietary adherence using GPT-4o.
 
-This script uses GPT-4o as a powerful labeler to create ground truth labels
-for whether Recipe Bot responses properly adhere to dietary restrictions.
+This script can be used as a powerful automatic labeler to create ground
+truth labels for whether Recipe Bot responses properly adhere to dietary restrictions.
+It uses GPT-4o as a powerful labeler and also comes with a well designed and tested 
+labeling prompt.
+
+Remember that automatic creation of ground truth labels should never be used without
+also looking extensively at the data. This script is intended as a fast way to give
+you "ground truth" for this homework assignment.
 """
 
 import pandas as pd

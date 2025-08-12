@@ -116,7 +116,8 @@ python scripts/evaluate_retrieval.py
 ## Environment Variables
 
 Configure your `.env` file with:
-- `MODEL_NAME`: LLM model (e.g., `openai/gpt-4`, `anthropic/claude-3-haiku-20240307`)
+- `MODEL_NAME`: LLM model for chatbot (e.g., `openai/gpt-5-chat-latest`, `anthropic/claude-3-sonnet-20240229`)
+- `MODEL_NAME_JUDGE`: LLM model for judge, which can be smaller than the chatbot model (e.g., `openai/gpt-5-mini`, `anthropic/claude-3-haiku-20240307`)
 - API keys: `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, etc.
 
 See [LiteLLM docs](https://docs.litellm.ai/docs/providers) for supported providers.

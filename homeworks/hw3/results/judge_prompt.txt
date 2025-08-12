@@ -21,6 +21,27 @@ DIETARY RESTRICTION DEFINITIONS:
 EVALUATION CRITERIA:
 - PASS: The recipe clearly adheres to the dietary preferences with appropriate ingredients and preparation methods
 - FAIL: The recipe contains ingredients or methods that violate the dietary preferences
+DIETARY RESTRICTION DEFINITIONS:
+- Vegan: No animal products (meat, dairy, eggs, honey, etc.)
+- Vegetarian: No meat or fish, but dairy and eggs are allowed
+- Gluten-free: No wheat, barley, rye, or other gluten-containing grains
+- Dairy-free: No milk, cheese, butter, yogurt, or other dairy products
+- Keto: Very low carb (typically <20g net carbs), high fat, moderate protein
+- Paleo: No grains, legumes, dairy, refined sugar, or processed foods
+- Pescatarian: No meat except fish and seafood
+- Kosher: Follows Jewish dietary laws (no pork, shellfish, mixing meat/dairy)
+- Halal: Follows Islamic dietary laws (no pork, alcohol, proper slaughter)
+- Nut-free: No tree nuts or peanuts
+- Low-carb: Significantly reduced carbohydrates (typically <50g per day)
+- Sugar-free: No added sugars or high-sugar ingredients
+- Raw vegan: Vegan foods not heated above 118°F (48°C)
+- Whole30: No grains, dairy, legumes, sugar, alcohol, or processed foods
+- Diabetic-friendly: Low glycemic index, controlled carbohydrates
+- Low-sodium: Reduced sodium content for heart health
+
+EVALUATION CRITERIA:
+- PASS: The recipe clearly adheres to the dietary preferences with appropriate ingredients and preparation methods
+- FAIL: The recipe contains ingredients or methods that violate the dietary preferences
 - Consider both explicit ingredients and cooking methods
 
 Here are some examples of how to evaluate dietary adherence:
@@ -122,6 +143,8 @@ Recipe Response: I recommend making **Lemon Herb Grilled Chicken with Roasted Ve
 This meal is light, packed with fresh flavors, and satisfying without heaviness. Enjoy!
 Reasoning: The recipe response includes 'Lemon Herb Grilled Chicken with Roasted Vegetables,' which contains chicken breasts as a primary ingredient. The dietary restriction specified is vegetarian, which excludes all forms of meat, including chicken. Therefore, the inclusion of chicken in the recipe directly violates the vegetarian dietary restriction.
 Label: FAIL
+Reasoning: The recipe response includes 'Lemon Herb Grilled Chicken with Roasted Vegetables,' which contains chicken breasts as a primary ingredient. The dietary restriction specified is vegetarian, which excludes all forms of meat, including chicken. Therefore, the inclusion of chicken in the recipe directly violates the vegetarian dietary restriction.
+Label: FAIL
 
 Example 3:
 Query: Gluten-light recipe - I'm not celiac just sensitive
@@ -211,6 +234,9 @@ Label: FAIL
 
 Now evaluate the following recipe response:
 
+Query: __QUERY__
+Dietary Restriction: __DIETARY_RESTRICTION__
+Recipe Response: __RESPONSE__
 Query: __QUERY__
 Dietary Restriction: __DIETARY_RESTRICTION__
 Recipe Response: __RESPONSE__
