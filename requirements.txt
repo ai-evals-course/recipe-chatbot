@@ -17,3 +17,5 @@ seaborn
 plotly
 python-fasthtml
 monsterui
+arize-otel
+openinference-instrumentation-litellm
