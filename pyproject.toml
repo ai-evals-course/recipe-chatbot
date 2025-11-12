@@ -1,0 +1,24 @@
+[project]
+name = "recipe-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.14",
+    "httpx>=0.28.1",
+    "judgy>=0.1.0",
+    "litellm>=1.74.0",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.1",
+    "pandas>=2.3.0",
+    "plotly>=6.2.0",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "rank-bm25>=0.2.2",
+    "rich>=14.0.0",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+    "typing-extensions>=4.14.1",
+    "uvicorn>=0.35.0",
+]
