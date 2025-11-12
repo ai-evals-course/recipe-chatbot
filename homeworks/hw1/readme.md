@@ -80,6 +80,10 @@ The purpose of homework 1 is to understand the basics of writing a system prompt
 uv run python scripts/bulk_test.py
 ```
 
- Make sure a new CSV has been written.
+Make sure a new JSON has been written to the `results` directory.  Feel free to vibe code a viewer with the following prompt:
+
+`Please review <filename such as results/results_20251112_104916.json> and create a self contained html file that lets me view the different queries and responses ergonomically.  Keep it simple, but effective`
+
+You can then open that html file using any browser you'd like.
     
 Good luck!
