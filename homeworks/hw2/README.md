@@ -1,52 +1,71 @@
 # Homework 2: Recipe Bot Error Analysis
 
-## 📝 Note
+## Note on Solutions
 
-**We have provided our solutions in this repository as reference material, but we strongly encourage you to work through the exercise on your own first.** Attempting the assignment independently will help you better understand the error analysis process and develop your own insights about chatbot failure modes.
+We've provided solutions in this repository, but try the assignment yourself first. You'll learn more by working through it independently.
 
-This assignment focuses on performing an error analysis for your Recipe Bot.
+## What You'll Do
 
-## Part 1: Define Dimensions & Generate Initial Queries
+Find and categorize the ways your Recipe Bot fails. You'll generate test queries, run your bot, and build a taxonomy of failure modes.
 
-1.  **Identify Key Dimensions:** (i.e., key aspects or variables of user inputs you'll use to generate diverse test queries, such as `cuisine_type`, `dietary_restriction`, or `meal_type` for your recipe bot)
-    *   Identify 3-4 key dimensions relevant to your Recipe Bot's functionality and potential user inputs.
-    *   For each dimension, list at least 3 example values.
+## Part 1: Generate Test Queries
 
-2.  **Generate Unique Combinations (Tuples):**
-    *   Write a prompt for a Large Language Model (LLM) to generate 15-20 unique combinations (tuples) of these dimension values.
+### Step 1: Pick Your Dimensions
 
-3.  **Generate Natural Language User Queries:**
-    *   Write a second prompt for an LLM to take 5-7 of the generated tuples and create a natural language user query for your Recipe Bot for each selected tuple.
-    *   Review these generated queries to ensure they are realistic and representative of how a user might interact with your bot.
+Choose 3-4 dimensions that matter for recipe queries. Examples:
+- Cuisine type (Italian, Thai, Mexican)
+- Dietary restrictions (vegan, gluten-free, keto)
+- Meal type (breakfast, dinner, snack)
 
-    **Alternative for Query Generation:** If you prefer to skip the LLM-based query generation (steps 2 and 3 above), you may use the pre-existing queries and bot responses found in `homeworks/hw2/results_20250518_215844.csv` as the basis for your error analysis in Part 2. You can then proceed directly to the "Open Coding" step using this data.
+List at least 3 values for each dimension.
 
-## Part 2: Initial Error Analysis (Ref Sec 3.2, 3.3, 3.4 of relevant course material)
+### Step 2: Create Combinations
 
-1.  **Run Bot on Synthetic Queries:**
-    *   Execute your Recipe Bot using the synthetic queries generated in Part 1.
-    *   Record the full interaction traces for each query.
+Write an LLM prompt to generate 15-20 unique combinations of your dimension values.
+Review combinations and remove any that are not realistic for a user to ask.
 
-2.  **Open Coding:** (an initial analysis step where you review interaction traces, assigning descriptive labels/notes to identify patterns and potential errors without preconceived categories, as detailed in Sec 3.2 of the provided chapter)
-    *   Review the recorded traces.
-    *   Perform open coding to identify initial themes, patterns, and potential errors or areas for improvement in the bot's responses.
+### Step 3: Turn Combinations into Queries
 
-3.  **Axial Coding & Taxonomy Definition:** (a follow-up step where you group the initial open codes into broader, structured categories or 'failure modes' to build an error taxonomy, as described in Sec 3.3 of the provided chapter)
-    *   Group the observations from open coding into broader categories or failure modes.
-    *   For each identified failure mode, create a clear and concise taxonomy. This should include:
-        *   **A clear Title** for the failure mode.
-        *   **A concise one-sentence Definition** explaining the failure mode.
-        *   **1-2 Illustrative Examples** taken directly from your bot's behavior during the tests. If a failure mode is plausible but not directly observed, you can provide a well-reasoned hypothetical example.
+Write another LLM prompt to convert 5-7 combinations into natural language queries that users might actually ask.
 
-4.  **[Optional] Spreadsheet for Analysis:**
-    *   Create a spreadsheet to systematically track your error analysis.
-    *   Include the following columns:
-        *   `Trace_ID` (a unique identifier for each interaction)
-        *   `User_Query` (the query given to the bot)
-        *   `Full_Bot_Trace_Summary` (a summary of the bot's full response and behavior)
-        *   `Open_Code_Notes` (your notes and observations from the open coding process)
-        *   A column for each of your 3-5 defined `Failure_Mode_Title`s (use 0 or 1 to indicate the presence or absence of that failure mode in the trace).
+Review the queries. Do they sound realistic?
 
----
+**Skip Steps 2-3?** Use the pre-existing queries in `homeworks/hw2/results_20250518_215844.csv` and jump to Part 2.
 
-**Note:** You have the flexibility to edit, create, or modify any files within the assignment structure as needed to fulfill the requirements of this homework. This includes, but is not limited to, the `failure_mode_taxonomy.md` file, scripts for running your bot, or any spreadsheets you create for analysis. 
+## Part 2: Find and Categorize Errors
+
+> Ref Sec 3.2, 3.3, 3.4 of relevant course material
+
+### Step 1: Run Your Bot
+
+Execute your Recipe Bot on your queries. Save the full conversation traces.
+
+### Step 2: Open Coding
+
+Read through the traces. Note patterns, errors, and anything unusual. Don't use categories yet—just observe and take notes.
+
+See Section 3.2 of the course material for details.
+
+Watch [Isaac & Hamel do open & axial coding](https://youtu.be/AKg27L4E0M8) : open & axial coding walkthrough
+
+### Step 3: Build Your Taxonomy
+
+Group your observations into failure modes. For each one, write:
+- **Title**: Clear name for the failure
+- **Definition**: One sentence explaining it
+- **Examples**: 1-2 real examples from your tests (or well-reasoned hypothetical examples if you didn't observe it)
+
+See Sections 3.3-3.4 of the course material.
+
+### Step 4: Track It (Optional)
+
+Create a spreadsheet with these columns:
+- `Trace_ID`: Unique identifier for each test
+- `User_Query`: What the user asked
+- `Full_Bot_Trace_Summary`: What the bot did
+- `Open_Code_Notes`: Your observations
+- One column per failure mode (mark 0 or 1)
+
+## Working in This Assignment
+
+Edit any files you need. Create new scripts. Modify `failure_mode_taxonomy.md`. The structure is flexible.
