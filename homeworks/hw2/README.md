@@ -30,7 +30,7 @@ Write another LLM prompt to convert 5-7 combinations into natural language queri
 
 Review the queries. Do they sound realistic?
 
-**Skip Steps 2-3?** Use the pre-existing queries in `homeworks/hw2/results_20250518_215844.csv` and jump to Part 2.
+**Skip Steps 2-3?** Use the pre-existing queries in `homeworks/hw2/reference_files/query_response.jsonl` and jump to Part 2, step 1.  You can use the viewer in that directory to first **look at your data**.
 
 ## Part 2: Find and Categorize Errors
 
@@ -55,6 +55,8 @@ Group your observations into failure modes. For each one, write:
 - **Definition**: One sentence explaining it
 - **Examples**: 1-2 real examples from your tests (or well-reasoned hypothetical examples if you didn't observe it)
 
+**Use the template**: Edit `failure_mode_taxonomy.md` to document your failure modes. This file provides a structured format with examples to help you organize your taxonomy.
+
 See Sections 3.3-3.4 of the course material.
 
 ### Step 4: Track It (Optional)
@@ -65,6 +67,8 @@ Create a spreadsheet with these columns:
 - `Full_Bot_Trace_Summary`: What the bot did
 - `Open_Code_Notes`: Your observations
 - One column per failure mode (mark 0 or 1)
+
+**Tool**: Use any tool you are comfortable with (csv, google sheets, excel, notebook, etc.)
 
 ## Working in This Assignment
 

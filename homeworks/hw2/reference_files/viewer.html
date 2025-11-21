@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Bot Query Response Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background: #f5f5f5;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .nav-buttons button {
+            padding: 8px 16px;
+            margin: 0 5px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .nav-buttons button:hover:not(:disabled) {
+            background: #0056b3;
+        }
+
+        .nav-buttons button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .counter {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .content {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .entry-id {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .query-section {
+            margin-bottom: 25px;
+        }
+
+        .query-section h2 {
+            font-size: 16px;
+            color: #007bff;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .query {
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+
+        .response-section h2 {
+            font-size: 16px;
+            color: #28a745;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .response {
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #28a745;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            font-size: 15px;
+        }
+
+        .error {
+            color: #dc3545;
+            padding: 20px;
+            background: #f8d7da;
+            border-radius: 4px;
+            border: 1px solid #f5c6cb;
+        }
+
+        .upload-section {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .upload-box h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .upload-box p {
+            margin-bottom: 20px;
+            color: #666;
+            font-size: 15px;
+        }
+
+        .upload-box code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            color: #007bff;
+            font-family: monospace;
+        }
+
+        #fileInput {
+            padding: 10px;
+            border: 2px dashed #007bff;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        #fileInput:hover {
+            border-color: #0056b3;
+            background: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recipe Bot Query/Response Viewer</h1>
+
+    <div class="upload-section" id="uploadSection">
+        <div class="upload-box">
+            <h2>Upload JSONL File</h2>
+            <p>Select your <code>query_response.jsonl</code> file to view the query/response pairs.</p>
+            <input type="file" id="fileInput" accept=".jsonl,.json" />
+        </div>
+    </div>
+
+    <div id="viewerSection" style="display: none;">
+        <div class="controls">
+            <div class="nav-buttons">
+                <button id="prevBtn" onclick="previousEntry()">← Previous</button>
+                <button id="nextBtn" onclick="nextEntry()">Next →</button>
+            </div>
+            <div class="counter">
+                <span id="currentIndex">0</span> / <span id="totalCount">0</span>
+            </div>
+        </div>
+
+        <div class="content" id="content">
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <script>
+        let entries = [];
+        let currentIndex = 0;
+
+        // Handle file upload
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const text = e.target.result;
+
+                    // Parse JSONL (one JSON object per line)
+                    entries = text.trim().split('\n')
+                        .filter(line => line.trim())
+                        .map(line => JSON.parse(line));
+
+                    if (entries.length > 0) {
+                        document.getElementById('uploadSection').style.display = 'none';
+                        document.getElementById('viewerSection').style.display = 'block';
+                        document.getElementById('totalCount').textContent = entries.length;
+                        displayEntry(0);
+                    } else {
+                        alert('No entries found in file');
+                    }
+                } catch (error) {
+                    alert('Error parsing file: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        function displayEntry(index) {
+            if (index < 0 || index >= entries.length) return;
+
+            currentIndex = index;
+            const entry = entries[index];
+
+            document.getElementById('content').innerHTML = `
+                <div class="entry-id">ID: ${entry.id}</div>
+
+                <div class="query-section">
+                    <h2>Query</h2>
+                    <div class="query">${escapeHtml(entry.query)}</div>
+                </div>
+
+                <div class="response-section">
+                    <h2>Response</h2>
+                    <div class="response">${escapeHtml(entry.response)}</div>
+                </div>
+            `;
+
+            document.getElementById('currentIndex').textContent = index + 1;
+
+            // Update button states
+            document.getElementById('prevBtn').disabled = index === 0;
+            document.getElementById('nextBtn').disabled = index === entries.length - 1;
+        }
+
+        function nextEntry() {
+            if (currentIndex < entries.length - 1) {
+                displayEntry(currentIndex + 1);
+            }
+        }
+
+        function previousEntry() {
+            if (currentIndex > 0) {
+                displayEntry(currentIndex - 1);
+            }
+        }
+
+        function showError(message) {
+            document.getElementById('content').innerHTML = `
+                <div class="error">${escapeHtml(message)}</div>
+            `;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') previousEntry();
+            if (e.key === 'ArrowRight') nextEntry();
+        });
+    </script>
+</body>
+</html>
