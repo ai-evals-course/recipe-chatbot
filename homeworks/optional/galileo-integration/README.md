@@ -2,6 +2,8 @@
 
 This guide shows you how to add [Galileo](https://galileo.ai) to the Recipe Chatbot for observability, monitoring, and evaluations. Galileo is an end to end evaluation engineering platform, providing evaluations, observability and monitoring, and real-time guardrails powered either by the LLM of your choice, or by [Luna](https://v2docs.galileo.ai/concepts/luna/luna), our low cost, low latency, evaluation SLM.
 
+> This is a third-party resource created and maintained by Galileo. For any questions or issues with this content, please reach out to support@galileo.ai.
+
 You can read more about Galileo in our [documentation](https://v2docs.galileo.ai/).
 
 You can do this at any point in the homework to get tracing for the chatbot, including the inputs and outputs to the LLM, but it is especially powerful after you have created your custom LLM-as-a-judge prompt, which you can add to Galileo to provide evaluations of every trace.
