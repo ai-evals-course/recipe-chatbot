@@ -34,13 +34,11 @@ Complete these steps to add Galileo to the Recipe Chatbot.
 
 To install Galileo, you will need to install the [Galileo Python package](https://pypi.org/project/galileo/).
 
-1. Add the following to the `requirements.txt` file:
+1. Run the following command to add the Galileo package to the `pyproject.toml`, and install the package into your virtual environment:
 
-    ```text
-    galileo
+    ```bash
+    uv add galileo
     ```
-
-1. Install the requirements file in your virtual environment.
 
 ### Add Galileo to the Recipe Chatbot code
 
@@ -107,9 +105,10 @@ The next step is to log the LLM calls to a span. To do this, add code to the `ut
 
 1. Open the `utils.py` file.
 
-1. Add the following import statement to the top this file to import Galileo:
+1. Add the following import statements to the top this file to import Galileo:
 
     ```python
+    from datetime import datetime
     from galileo import galileo_context
     ```
 
