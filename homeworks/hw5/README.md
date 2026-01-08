@@ -1,35 +1,35 @@
-# Homework 5 – Failure Transition Heat-Map
+# Homework 5: Failure Transition Heat-Map
 
-## Overview
-Your cooking-assistant agent sometimes drops the spatula.  Every
-conversation trace in this assignment contains **one failure**.  Your job is
-pure analysis: given pre-labeled traces, build a transition matrix that shows
-where the agent succeeds last and where it fails first, then visualize the
-result as a heat-map and explain the patterns you see.
+## Note on Solutions
 
-You do **not** need to call any LLMs or generate any additional data.  All
-classification work has already been done for you.
+We've provided a walkthrough notebook (`hw5_walkthrough.ipynb`) that you can run to see the complete solution. Try the assignment yourself first - you'll learn more by working through it independently.
 
----
-## Data provided
-`homeworks/hw5/data/labeled_traces.json` → list of 100 traces
+## What You'll Do
+
+Analyze where your cooking-assistant agent fails. Every conversation trace contains one failure. Build a transition matrix showing where the agent succeeds last and where it fails first, then visualize the result as a heat-map.
+
+You do not need to call any LLMs or generate any additional data. All classification work has already been done for you.
+
+## Data Provided
+
+`reference_files/labeled_traces.jsonl` contains 96 traces, one JSON object per line:
+
 ```json
 {
-  "conversation_id": "a1b2…",
-  "messages": [ {"role": "user", "content": "…"}, … ],
+  "conversation_id": "a1b2...",
+  "messages": [ {"role": "user", "content": "..."}, ... ],
   "last_success_state": "GetRecipes",
   "first_failure_state": "GetWebInfo"
 }
 ```
-The two state fields form a **directed edge** that you will count in the
-transition matrix.
 
-If you are curious how the data were produced, see
-`homeworks/hw5/generation/` (not part of the graded assignment).
+The two state fields form a directed edge that you will count in the transition matrix.
 
----
-## Pipeline state taxonomy
-The agent's internal pipeline is abstracted to **10 canonical states**:
+TIP: Use `reference_files/trace_viewer.html` to browse the traces. Open the HTML file in a browser and upload the JSONL file.
+
+## Pipeline State Taxonomy
+
+The agent's internal pipeline is abstracted to 10 canonical states:
 
 | # | State | Description |
 |---|--------------------|-------------------------------------------|
@@ -44,55 +44,60 @@ The agent's internal pipeline is abstracted to **10 canonical states**:
 | 9 | `ComposeResponse`  | LLM drafts the final answer               |
 |10 | `DeliverResponse`  | Agent sends the answer                    |
 
-Every trace succeeds through `last_success_state` and then fails at
-`first_failure_state`.
+Every trace succeeds through `last_success_state` and then fails at `first_failure_state`.
 
----
-## What you need to do
-1. **Inspect the data**  
-   Familiarize yourself with the JSON structure and the above state list.
+## Steps
 
-2. **Build the transition matrix**  
-   Count how many times each `(last_success → first_failure)` pair appears.
+### Step 1: Inspect the Data
 
-3. **Visualize**  
-   Render a heat-map where rows = last-success, columns = first-failure.
-   A starter script is provided:
-   ```bash
-   cd homeworks/hw5
-   python analysis/transition_heatmaps.py
-   ```
-   This writes `results/failure_transition_heatmap.png`.
+Familiarize yourself with the JSONL structure and the state list above.
 
-4. **Analyze**  
-   • Which states fail most often?  
-   • Do failures cluster around tool execution or argument generation?  
-   • Any surprising low-frequency transitions?
+### Step 2: Build the Transition Matrix
 
-5. **Deliverables**  
-   • Heat-map PNG (commit to `homeworks/hw5/results/`).  
-   • Short write-up (README or a separate markdown file) summarising your
-     findings.
+Count how many times each `(last_success → first_failure)` pair appears.
 
----
-## File structure (after you generate the heat-map)
+### Step 3: Visualize
+
+Render a heat-map where rows = last-success, columns = first-failure.
+
+A starter script is provided:
+```bash
+cd homeworks/hw5
+python analysis/transition_heatmaps.py
+```
+
+This writes `results/failure_transition_heatmap.png`.
+
+### Step 4: Analyze
+
+- Which states fail most often?
+- Do failures cluster around tool execution or argument generation?
+- Any surprising low-frequency transitions?
+
+### Step 5: Deliverables
+
+- Heat-map PNG (commit to `results/`)
+- Short write-up (README or a separate markdown file) summarizing your findings
+
+## File Structure
+
 ```
 homeworks/hw5/
+├── reference_files/
+│   ├── labeled_traces.jsonl     # 96 labeled traces
+│   ├── raw_traces.jsonl         # Raw conversations (for reference)
+│   └── trace_viewer.html        # Browser-based trace viewer
 ├── analysis/
-│   └── transition_heatmaps.py   # you may tweak but it already works
-├── data/
-│   ├── labeled_traces.json      # provided
-│   └── raw_traces.json          # provided for reference only
+│   └── transition_heatmaps.py   # Starter script (you may modify)
+├── hw5_walkthrough.ipynb        # Solution walkthrough (run to see expected outputs)
 ├── results/
-│   └── failure_transition_heatmap.png  # ← your output
-├── generation/  (ignore – instructor utilities)
-└── README.md  # this file
+│   └── failure_transition_heatmap.png  # Your output
+└── README.md
 ```
 
----
-## Advanced / optional
-Curious how the dataset was made?  Peek inside `generation/` – it uses GPT-4.1
-to pick failure states and author synthetic conversations.  Exploring or
-modifying those scripts will **not** affect your grade.
+## Setup
 
-Happy debugging 🛠️🍳
+1. Install: `uv pip install numpy matplotlib seaborn` (from project root)
+2. Run the analysis script to generate your heatmap.
+
+Good luck with your analysis.

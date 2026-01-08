@@ -1,5 +1,9 @@
 # Homework 3: LLM-as-Judge for Recipe Bot Evaluation
 
+## Note on Solutions
+
+We've provided a walkthrough notebook (`hw3_walkthrough.ipynb`) that you can run to see the complete solution. Try the assignment yourself first - you'll learn more by working through it independently.
+
 ## Your Task
 
 Measure how well your Recipe Bot follows dietary restrictions. Build an LLM judge, correct its biases, and report confidence intervals.
@@ -179,6 +183,19 @@ This suggests the Recipe Bot has strong dietary adherence (92.6% corrected succe
 
 1. Install: `uv pip install -r requirements.txt` (from project root)
 2. Configure LLM API keys in `.env`
-3. Choose your failure mode and begin labeling!
+3. Choose your starting option and begin!
 
-Good luck with your evaluation!
+## File Structure
+
+```
+homeworks/hw3/
+├── reference_files/
+│   ├── raw_traces.jsonl          # ~2400 traces (optional starting point)
+│   ├── labeled_traces.jsonl      # 101 labeled examples (optional starting point)
+│   ├── dietary_queries.csv       # 60 challenging edge cases
+│   └── trace_viewer.html         # Browser-based trace viewer
+├── hw3_walkthrough.ipynb         # Solution walkthrough (run to see expected outputs)
+└── README.md
+```
+
+TIP: Open `reference_files/trace_viewer.html` in your browser and upload a JSONL file to browse the traces interactively.

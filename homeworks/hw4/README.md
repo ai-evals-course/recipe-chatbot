@@ -1,295 +1,145 @@
 # Homework 4: Recipe Bot Retrieval Evaluation
 
-## Dataset
+## Note on Solutions
 
-This assignment uses recipe data from [Majumder et al. (2019)](https://aclanthology.org/D19-1613/) - "Generating Personalized Recipes from Historical User Preferences" (EMNLP-IJCNLP 2019). The dataset contains 180K+ recipes from Food.com with detailed ingredients, instructions, and user interactions.
+We've provided a walkthrough notebook (`hw4_walkthrough.ipynb`) that you can run to see the complete solution. Try the assignment yourself first - you'll learn more by working through it independently.
 
-**Data Options:**
+## What You'll Do
 
-1. **Quick Start**: Use our provided `data/processed_recipes.json` (200 longest recipes, pre-cleaned)
-2. **Full Dataset**: Download the complete dataset from [Kaggle](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions) and place `RAW_recipes.csv` in `homeworks/hw4/data/`
+Build and evaluate a RAG (Retrieval-Augmented Generation) component for Recipe Bot. You'll measure how well BM25 retrieval finds the right recipes for complex cooking queries.
 
-The processed sample focuses on the longest recipes by text content to provide richer evaluation scenarios for retrieval testing.
-
-## Your Task
-
-Extend Recipe Bot with a RAG (Retrieval-Augmented Generation) component for handling specific queries about cooking methods, appliance settings, and ingredient variations. You'll build a complete evaluation pipeline to measure BM25 retrieval performance on complex, realistic cooking queries.
-
-## Background
-
-Traditional Recipe Bot focused on generating recipes for broad requests like "What should I make for dinner?". This extension handles more specific queries like:
+**Example queries**:
 - "What air fryer settings for frozen chicken tenders?"
 - "How long to marinate beef for Korean bulgogi?"
 - "What's the exact temperature for crispy roasted vegetables?"
 
-## Assignment Parts
+## Dataset
 
-### Part 1: Create Your Retrieval Evaluation Dataset
+This assignment uses recipe data from [Majumder et al. (2019)](https://aclanthology.org/D19-1613/) - "Generating Personalized Recipes from Historical User Preferences" (EMNLP-IJCNLP 2019).
 
-**Goal**: Generate 100+ synthetic queries that test complex cooking scenarios.
+**Full dataset**: Download from [Kaggle](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions) (180K+ recipes).
 
-#### Step 1: Process Recipe Data
-Create `scripts/process_recipes.py`:
-- Load and clean the provided `RAW_recipes.csv` (~5,000 recipes)
-- Structure recipe data (ingredients, steps, tags, nutrition)
-- Select the ~200 longest recipes by text content for richer evaluation
-- Save as `data/processed_recipes.json`
+## Three Starting Points
 
-#### Step 2: Build BM25 Retrieval Engine  
-Create `backend/retrieval.py`:
-- Implement BM25-based recipe search using `rank_bm25`
-- Support index saving/loading for efficiency
-- Provide `retrieve_bm25(query, corpus, top_n=5)` interface
-- Handle recipe ranking and scoring
+Pick one based on how much you want to build:
 
-#### Step 3: Generate Synthetic Queries
-Create `scripts/generate_queries.py`:
-- Use LLM to generate realistic cooking queries
-- Focus on complex scenarios requiring specific recipe knowledge
-- Use ThreadPoolExecutor for parallel processing
-- Generate 100+ queries with salient facts
-- Save as `data/synthetic_queries.json`
+### Option 1: Full Implementation
 
-### Part 2: Evaluate the BM25 Retriever
+Generate everything yourself:
+- Download and process the Kaggle dataset
+- Generate synthetic evaluation queries
+- Build and evaluate the retriever
 
-#### Step 4: Implement Evaluation
-Create `scripts/evaluate_retrieval.py`:
-- Load synthetic queries and retrieval engine
-- For each query, run `retrieve_bm25()` and record results
-- Calculate standard IR metrics:
-  - **Recall@1**: Target recipe rank 1
-  - **Recall@3**: Target recipe in top 3  
-  - **Recall@5**: Target recipe in top 5
-  - **MRR**: Mean Reciprocal Rank
-- Save detailed results to `results/retrieval_evaluation.json`
+### Option 2: Start with Processed Recipes
 
-#### Step 5: Manual Review (Optional)
-Create `scripts/review_queries.py`:
-- Interactive interface to manually review generated queries
-- Refine queries for realism and challenge
-- Export refined dataset for evaluation
+Use `reference_files/processed_recipes.json` (200 recipes):
+- Skip data processing
+- Generate your own queries
+- Build and evaluate the retriever
 
-### **Part 3: [OPTIONAL ADVANCED] Improve Retrieval with Query Rewrite Agent**
-Implement an LLM-powered query rewrite agent to optimize queries before BM25 search and measure performance improvements.
+### Option 3: Start with Queries
 
-## Implementation Steps
+Use our `reference_files/synthetic_queries.jsonl` (200 queries):
+- Skip data processing and query generation
+- Focus on retrieval implementation and evaluation
 
-### Prerequisites
-```bash
-# Install dependencies
-pip install rank-bm25 tqdm litellm python-dotenv
+TIP: Use `reference_files/query_viewer.html` to browse the queries. Open the HTML file in a browser and upload the JSONL file.
 
-# Set up your LLM API key in .env file
-echo "OPENAI_API_KEY=your_key_here" >> .env
-```
+## Steps
 
-### Step-by-Step Execution of Reference Implementation
+### Step 1: Prepare Recipe Data (Options 1 & 2 start here)
 
-```bash
-cd homeworks/hw4
+Load and clean the recipe dataset:
+- Parse ingredients, steps, tags, and nutrition
+- Structure for retrieval (combine text fields for indexing)
+- Save as JSON
 
-# 1. Process recipe data (creates processed_recipes.json)
-python scripts/process_recipes.py
+**Option 2**: Use our `reference_files/processed_recipes.json`.
 
-# 2. Generate synthetic queries (creates synthetic_queries.json)
-python scripts/generate_queries.py
+### Step 2: Generate Evaluation Queries (Option 3 starts here)
 
-# 3. [Optional] Review and refine queries
-python scripts/review_queries.py
+Create queries that test retrieval on specific cooking knowledge:
+- Use an LLM to extract salient facts from recipes (temperatures, times, techniques)
+- Generate realistic user queries that require those facts
+- Save with the source recipe ID for evaluation
 
-# 4. Evaluate retrieval performance (creates retrieval_evaluation.json)
-python scripts/evaluate_retrieval.py
-```
+**Option 3**: Use our `reference_files/synthetic_queries.jsonl`.
 
-## File Structure You'll Create
+### Step 3: Build BM25 Retriever
 
-```
-homeworks/hw4/
-├── scripts/
-│   ├── process_recipes.py          # Recipe data processing
-│   ├── generate_queries.py         # Synthetic query generation  
-│   ├── review_queries.py           # Manual query review (optional)
-│   └── evaluate_retrieval.py       # Retrieval evaluation
-├── data/
-│   ├── RAW_recipes.csv             # Provided dataset
-│   ├── processed_recipes.json      # Your cleaned recipe data
-│   ├── synthetic_queries.json      # Your generated queries
-│   └── evaluation_dataset.json     # Refined queries (if reviewed)
-├── results/
-│   └── retrieval_evaluation.json   # Your evaluation metrics
-└── README.md                       # This file
-```
+Implement keyword-based retrieval:
+- Use `rank-bm25` library
+- Index recipe text (combine name, ingredients, steps)
+- Return top-k results with scores
 
-## Query Generation Strategy
+### Step 4: Evaluate Retrieval
 
-### Target Query Types
-Focus on queries that require specific recipe knowledge:
-1. **Appliance Settings**: "Air fryer temperature for crispy vegetables?"
-2. **Timing Specifics**: "How long to marinate chicken for teriyaki?"
-3. **Temperature Precision**: "What internal temp for medium-rare steak?"
-4. **Technique Details**: "How to get crispy skin on roasted chicken?"
+For each query:
+1. Run the retriever
+2. Check if the source recipe appears in results
+3. Calculate metrics
 
-### LLM Prompting Approach
-- **Step 1**: Extract salient facts from recipes (cooking methods, times, temperatures)
-- **Step 2**: Generate realistic user queries that require those specific facts
-- **Focus**: Complex, technical details that are hard to generate but easy to retrieve
+**Metrics**:
+- **Recall@1**: Target recipe at rank 1
+- **Recall@3**: Target recipe in top 3
+- **Recall@5**: Target recipe in top 5
+- **MRR**: Mean Reciprocal Rank
 
-## Evaluation Metrics
+### Step 5: Analyze Results
 
-### Standard Information Retrieval Metrics
-- **Recall@1**: Fraction of queries where target recipe is rank 1
-- **Recall@3**: Fraction of queries where target recipe is in top 3
-- **Recall@5**: Fraction of queries where target recipe is in top 5
-- **MRR**: Mean Reciprocal Rank across all queries
+Report:
+- Overall metrics
+- Which query types work well vs. poorly
+- Ideas for improving retrieval
 
-### Expected Results
-You should expect:
-- **Recall@5**: 60-80% for well-formed queries
-- **MRR**: 0.4-0.7 depending on query complexity
-- **Higher performance** on technique-specific queries vs. general cooking questions
+## Query Types to Test
+
+Focus on queries requiring specific recipe knowledge:
+- **Appliance settings**: "Air fryer temperature for crispy vegetables?"
+- **Timing specifics**: "How long to marinate chicken for teriyaki?"
+- **Temperature precision**: "What internal temp for medium-rare steak?"
+- **Technique details**: "How to get crispy skin on roasted chicken?"
+
+## Expected Results
+
+Typical BM25 performance on well-formed queries:
+- Recall@5: 60-80%
+- MRR: 0.4-0.7
+
+Performance varies by query complexity and specificity.
 
 ## Deliverables
 
-1. **Working scripts** for all 4 components
-2. **Evaluation results** with Recall@k and MRR metrics
-3. **Brief analysis** (1-2 paragraphs) of:
+1. Working retrieval implementation
+2. Evaluation results with Recall@k and MRR metrics
+3. Brief analysis (1-2 paragraphs):
    - What types of queries work well vs. poorly
-   - How you would build an agent around this retriever
    - Ideas for improving retrieval performance
 
-## Technical Requirements
+## Optional: Query Rewrite Agent
 
-### Dependencies
-- `rank-bm25`: Fast BM25 implementation
-- `litellm`: LLM integration for query generation
-- `tqdm`: Progress bars for long-running operations
-- `concurrent.futures`: Parallel processing support
+Improve retrieval with LLM-powered query optimization:
+- **Keywords extraction**: Extract key cooking terms
+- **Query rewriting**: Optimize for search effectiveness
+- **Query expansion**: Add synonyms and related terms
 
-### Performance Considerations
-- Use ThreadPoolExecutor for parallel LLM calls
-- Cache BM25 index for fast repeated searches
-- Handle CSV parsing edge cases gracefully
+Compare baseline BM25 with agent-enhanced retrieval and report improvements.
 
-## Part 3: [OPTIONAL ADVANCED] Query Rewrite Agent
+## Setup
 
-**🎯 Learning Goal**: Understand how LLM agents can improve retrieval systems through query optimization.
+1. Install: `uv pip install rank-bm25 tqdm litellm python-dotenv` (from project root)
+2. Configure LLM API keys in `.env`
+3. Choose your starting point and begin building.
 
-### Overview
-Natural language queries often don't match well with recipe text. For example:
-- User: "What air fryer settings for frozen chicken tenders?"
-- Better search: "air fryer frozen chicken tenders temperature time"
+## File Structure
 
-### Implementation Steps
-
-#### Step 1: Build Query Rewrite Agent (`backend/query_rewrite_agent.py`)
-Create an LLM-powered agent with three strategies:
-
-1. **Keywords Extraction**: Extract key cooking terms and ingredients
-2. **Query Rewriting**: Rewrite for better search effectiveness  
-3. **Query Expansion**: Add synonyms and related cooking terms
-
-**Performance Features:**
-- **Parallel Processing**: Uses ThreadPoolExecutor for fast batch processing
-- **Retry Logic**: Handles LLM API failures gracefully with exponential backoff
-- **Progress Tracking**: Shows progress bars for long-running operations
-- **Efficiency**: Processes 100+ queries with 3 strategies in seconds, not minutes
-
-```python
-class QueryRewriteAgent:
-    def __init__(self, model: str = "gpt-4o-mini", max_workers: int = 10)
-    def extract_search_keywords(self, query: str) -> str
-    def rewrite_for_search(self, query: str) -> str  
-    def expand_query_with_synonyms(self, query: str) -> str
-    def batch_process_queries(self, queries: List[str], strategy: str) -> List[Dict]
-    def batch_process_multiple_strategies(self, queries: List[str]) -> Dict[str, List[Dict]]
-```
-
-#### Step 2: Enhanced Evaluation (`scripts/evaluate_retrieval_with_agent.py`)
-Compare baseline BM25 with agent-enhanced retrieval:
-
-1. **Parallel Query Processing**: Pre-process all queries with all strategies simultaneously
-2. **Efficient Evaluation**: Use pre-processed queries to avoid redundant LLM calls
-3. **Performance Timing**: Track and report processing vs evaluation time
-4. **Strategy Comparison**: Find best performing approach with detailed metrics
-5. **Detailed Analysis**: Show where enhancement helps/hurts
-
-**Key Performance Optimizations:**
-- **Batch Processing**: Process all 100+ queries × 3 strategies in parallel
-- **Pre-computation**: Separate query processing from evaluation for efficiency  
-- **Progress Tracking**: Real-time progress bars and performance metrics
-- **Error Handling**: Graceful degradation for failed LLM calls
-
-#### Step 3: Performance Analysis
-Measure improvements in:
-- **Recall@5**: How often target recipe is found in top 5
-- **MRR**: Quality of ranking when target is found
-- **Query Rescue**: Failed queries that became successful
-- **Query Degradation**: Successful queries that failed
-- **Processing Speed**: Queries processed per second
-- **Total Time**: Query processing + evaluation time
-
-### Expected Results
-Good implementations typically see:
-- **5-15% improvement** in Recall@5 from query optimization
-- **Keywords strategy**: Works well for technical queries
-- **Rewrite strategy**: Best overall performance  
-- **Expand strategy**: Helps with sparse matches
-- **Processing Speed**: 50-100+ queries/second with parallel processing
-- **Total Time**: Complete evaluation in under 30 seconds for 100 queries
-
-
-## How to Run the Complete Pipeline
-
-### Basic Implementation (Parts 1-2)
-```bash
-# From homeworks/hw4 directory
-python scripts/process_recipes.py       # Process dataset
-python scripts/generate_queries.py      # Generate synthetic queries  
-python scripts/review_queries.py        # [Optional] Review and refine queries
-python scripts/evaluate_retrieval.py    # Evaluate BM25 performance
-```
-
-### Advanced Implementation (Part 3 Optional)
-```bash
-# After completing basic implementation
-python scripts/evaluate_retrieval_with_agent.py  # Compare with agent enhancement
-```
-
-The reference implementation provides all the above scripts as working examples.
-
-## Reference Implementation
-
-This repository contains a complete reference implementation showing one approach to this assignment. You can:
-- **Study the code structure** to understand the RAG pipeline
-- **Run the scripts yourself** to see expected behavior  
-- **Implement your own version** from scratch for full learning value
-
-The reference implementation includes both basic BM25 evaluation (Parts 1-2) and the optional query rewrite agent enhancement (Part 3).
-
-### Reference Implementation Structure
 ```
 homeworks/hw4/
-├── scripts/
-│   ├── process_recipes.py                  # Dataset processing
-│   ├── generate_queries.py                 # Synthetic query generation  
-│   ├── review_queries.py                   # Query review interface
-│   ├── evaluate_retrieval.py               # BM25 evaluation (Parts 1-2)
-│   └── evaluate_retrieval_with_agent.py    # Agent comparison (Part 3)
-├── backend/
-│   ├── retrieval.py                        # BM25 implementation
-│   ├── query_rewrite_agent.py              # LLM query optimization (Part 3)
-│   └── evaluation_utils.py                 # Reusable evaluation utilities
-├── data/
-│   ├── processed_recipes.json              # Processed recipe dataset
-│   ├── synthetic_queries.json              # Generated evaluation queries
-│   └── bm25_index.pkl                      # Saved BM25 index
-└── results/
-    ├── retrieval_evaluation.json           # Basic evaluation results
-    ├── retrieval_baseline.json             # Baseline results (Part 3)
-    ├── retrieval_enhanced.json             # Enhanced results (Part 3)
-    └── retrieval_comparison.json           # Comparison analysis (Part 3)
+├── reference_files/
+│   ├── processed_recipes.json    # 200 recipes (optional starting point)
+│   ├── synthetic_queries.jsonl   # 200 queries with source recipes
+│   └── query_viewer.html         # Browser-based query viewer
+├── hw4_walkthrough.ipynb         # Solution walkthrough (run to see expected outputs)
+├── results/                      # Your evaluation outputs
+└── README.md
 ```
-
----
-
-Good luck building your retrieval evaluation system! 🍳📊 

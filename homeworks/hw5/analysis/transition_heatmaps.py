@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """HW5 Failure Transition Heatmap Generator (Student-facing)
 
-Reads `labeled_traces.json`, tallies transitions (last_success_state →
+Reads `labeled_traces.jsonl`, tallies transitions (last_success_state →
 first_failure_state), and renders a heat-map PNG.
 
 Usage
@@ -46,16 +46,21 @@ STATE_INDEX: Dict[str, int] = {s: i for i, s in enumerate(PIPELINE_STATES)}
 # -----------------------------------------------------------------------------
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_FILE = ROOT / "data" / "labeled_traces.json"
+DATA_FILE = ROOT / "reference_files" / "labeled_traces.jsonl"
 OUTPUT_DIR = ROOT / "results"
 OUTPUT_PNG = OUTPUT_DIR / "failure_transition_heatmap.png"
 
 
 def load_labeled_traces() -> List[Dict]:
     if not DATA_FILE.exists():
-        raise FileNotFoundError(f"Expecting {DATA_FILE} – generate traces first.")
+        raise FileNotFoundError(f"Expecting {DATA_FILE} – see reference_files/.")
+    traces = []
     with open(DATA_FILE) as f:
-        return json.load(f)
+        for line in f:
+            line = line.strip()
+            if line:
+                traces.append(json.loads(line))
+    return traces
 
 
 def build_transition_matrix(traces: List[Dict]) -> np.ndarray:
