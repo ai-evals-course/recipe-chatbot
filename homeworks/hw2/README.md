@@ -2,7 +2,7 @@
 
 ## Note on Solutions
 
-We've provided solutions in this repository, but try the assignment yourself first. You'll learn more by working through it independently.
+We've provided a walkthrough notebook (`hw2_walkthrough.ipynb`) that you can run to see the complete solution. Try the assignment yourself first - you'll learn more by working through it independently.
 
 ## What You'll Do
 
@@ -73,3 +73,17 @@ Create a spreadsheet with these columns:
 ## Working in This Assignment
 
 Edit any files you need. Create new scripts. Modify `failure_mode_taxonomy.md`. The structure is flexible.
+
+## File Structure
+
+```
+homeworks/hw2/
+├── reference_files/
+│   ├── query_response.jsonl       # 250 query/response pairs (optional starting point)
+│   ├── failure_mode_taxonomy.md   # Template for documenting failure modes
+│   └── viewer.html                # Browser-based viewer for the JSONL file
+├── hw2_walkthrough.ipynb          # Solution walkthrough (run to see expected outputs)
+└── README.md
+```
+
+TIP: Open `reference_files/viewer.html` in your browser and upload the JSONL file to browse the data interactively.

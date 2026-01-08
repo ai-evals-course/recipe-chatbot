@@ -1,5 +1,6 @@
-
 # Homework Assignment 1: Write a Starting Prompt
+
+## Overview
 
 The purpose of homework 1 is to understand the basics of writing a system prompt and creating example data.
 
@@ -74,9 +75,10 @@ The purpose of homework 1 is to understand the basics of writing a system prompt
 
 ## Part 3: Run the Bulk Test & Evaluate
 
-**Assignment:**  Run the bulk test script:
+**Assignment:**  Run the bulk test script from the project root:
         
 ```bash
+# From the project root directory
 uv run python scripts/bulk_test.py
 ```
 
