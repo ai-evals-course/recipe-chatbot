@@ -26,6 +26,10 @@ This repository contains a complete AI evaluations course built around a Recipe 
 
 ## Course Overview
 
+**Bonus**: [Using AI Assisted Coding to Tackle Homework Problems](https://link.courses.maven.com/c/eJw80M2upCAQBeCngZ0Gil8XLGbja5gCymkTbAyoyX37id2Tu6rUl7OoOqm-ajuXLQeQk554qlfr9OxST8rxHHQWMhpOQTrrrFIgNacdt7Kkgr2H2CrmhP38r-fPQYHerZZCmdP7Xr5-XVsOR6t5hKSzIXKDB2MHnQwNHiQMWhIJQ-C9Q_4K3mmbY1zRC_LZw-Scw9XHKCe_Kot8CyDACimMdFIpNRpjwGaX_JogSeuZFt9_-rjjTe8x1Z1vfVlb3ZePhBlLJ17C6zyPztQfBjOD-TfNYD6wFXwnGgrGzmCmG8szQYAZFIO5_5SC8Xpsr_kq9El5J4ziLWwdMY1rwfPFtPj7VPE54w7wLwAA__8a93gB)
+
+![AI Assisted Coding Walkthrough Location](homeworks/imgs/AIHwWalkthrough.png)
+
 ### Homework Progression
 
 1. **HW1: Basic Prompt Engineering** (`homeworks/hw1/`)
@@ -35,9 +39,9 @@ This repository contains a complete AI evaluations course built around a Recipe 
 2. **HW2: Error Analysis & Failure Taxonomy** (`homeworks/hw2/`)
    - Systematic error analysis and failure mode identification
    - **Interactive Walkthrough**:
-      - Code: `homeworks/hw2/hw2_solution_walkthrough.ipynb`
-      - [video 1](https://youtu.be/h9oAAAYnGx4?si=fWxN3NtpSbdD55cW): walkthrough of code
-      - [video 2](https://youtu.be/AKg27L4E0M8) : open & axial coding walkthrough
+      - Code: `homeworks/hw2/hw2_walkthrough.ipynb`
+      - [video 1](https://youtu.be/h9oAAAYnGx4): walkthrough of code
+      - [video 2](https://youtu.be/AKg27L4E0M8): open & axial coding walkthrough
 
 3. **HW3: LLM-as-Judge Evaluation** (`homeworks/hw3/`)
    - Automated evaluation using the `judgy` library
@@ -47,15 +51,15 @@ This repository contains a complete AI evaluations course built around a Recipe 
 
 4. **HW4: RAG/Retrieval Evaluation** (`homeworks/hw4/`)
    - BM25 retrieval system with synthetic query generation
-   - **Interactive Walkthroughs**: 
-     - `homeworks/hw4/hw4_walkthrough.py` (Marimo)
+   - **Interactive Walkthrough**: 
+     - Code: `homeworks/hw4/hw4_walkthrough.ipynb`
      - [video](https://youtu.be/GMShL5iC8aY): walkthrough of solution
 
 5. **HW5: Agent Failure Analysis** (`homeworks/hw5/`)
    - Analyze conversation traces and failure patterns
-   - **Interactive Walkthroughs**:
-      - `homeworks/hw5/hw5_walkthrough.py` (Marimo)
-      - [video](https://youtu.be/z1oISsDUKLA) 
+   - **Interactive Walkthrough**:
+      - Code: `homeworks/hw5/hw5_walkthrough.ipynb`
+      - [video](https://youtu.be/z1oISsDUKLA): walkthrough of solution 
 
 ### Key Features
 
@@ -84,27 +88,19 @@ recipe-chatbot/
 └── results/               # Evaluation outputs
 ```
 
-## Running Homework Scripts
+## Running Homework Walkthroughs
 
-Each homework includes complete pipelines. For example:
+Each homework (HW2-HW5) includes a self-contained Jupyter notebook walkthrough:
 
-**HW3 Pipeline:**
 ```bash
-cd homeworks/hw3
-python scripts/generate_traces.py
-python scripts/label_data.py
-python scripts/develop_judge.py
-python scripts/evaluate_judge.py
+cd homeworks/hw2
+jupyter notebook hw2_walkthrough.ipynb
 ```
 
-**HW4 Pipeline:**
-```bash
-cd homeworks/hw4
-python scripts/process_recipes.py
-python scripts/generate_queries.py
-python scripts/evaluate_retrieval.py
-# Optional: python scripts/evaluate_retrieval_with_agent.py
-```
+The walkthroughs use data from `reference_files/` and can be run without any external scripts. Each notebook includes:
+- Data loading and exploration
+- Step-by-step solution code
+- Expected outputs and analysis
 
 ## Additional Resources
 
