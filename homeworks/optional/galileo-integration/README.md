@@ -211,7 +211,7 @@ Your LLM integration is now configured and ready to use with your LLM-as-a-judge
 1. Set the prompt to your LLM-as-a-judge prompt. When you set this prompt, you may need to make a few adjustments to what you did for the original homework:
 
     - The prompt needs to return true or false, not pass or fail. Make sure the rubric reflects this.
-    - You can refer to the original question as input, and the response as output. E.g. "Make sure the output adheres to any dietary restrictions provided in the input'. Galileo will add more context to this prompt to provide the input and output.
+    - You can refer to the original question as input, and the response as output. E.g. "Make sure the output adheres to any dietary restrictions provided in the input". Galileo will add more context to this prompt to provide the input and output.
     - There is no need to ask the LLM to provide any reasoning, Galileo will handle that for you. You can refer to the [LLM-as-a-judge prompt engineering guide in the Galileo documentation](https://v2docs.galileo.ai/concepts/metrics/custom-metrics/prompt-engineering) for more guidance on how to structure a good LLM-as-a-judge prompt.
 
 1. Select **Create Metric** to create the metric.
