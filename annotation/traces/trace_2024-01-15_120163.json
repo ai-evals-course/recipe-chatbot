@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "lookin for a fast chicken recipe w herbs lemon low sodium"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "lookin for a fast chicken recipe w herbs lemon low sodium"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and flavorful **Herb Lemon Chicken** that\u2019s low in sodium and perfect for a speedy meal. It combines fresh herbs and lemon for a bright, delicious taste.\n\n### Ingredients:\n- 2 boneless, skinless chicken breasts\n- 1 lemon (zest and juice)\n- 2 garlic cloves, minced\n- 2 tablespoons olive oil\n- 1 teaspoon dried thyme (or fresh herbs if available)\n- 1 teaspoon dried rosemary (or fresh if available)\n- Fresh parsley for garnish (optional)\n- Salt substitute or a pinch of black pepper\n\n### Instructions:\n\n1. **Prep the Chicken:**\n   - Pat the chicken breasts dry with paper towels.\n   - If the breasts are thick, use a sharp knife to slice them in half horizontally to create thinner cutlets for quicker cooking.\n\n2. **Marinate the Chicken:**\n   - In a small bowl, combine the lemon zest, lemon juice, minced garlic, olive oil, thyme, rosemary, and black pepper.\n   - Rub this mixture all over the chicken breasts. If you have time, let them marinate for 10-15 minutes\u2014this helps maximize flavor.\n\n3. **Cook the Chicken:**\n   - Heat a non-stick skillet over medium heat. You can add a little more olive oil if needed.\n   - Once hot, add the chicken breasts.\n   - Cook for about 4-5 minutes on each side, until the chicken is golden brown and cooked through (internal temperature should reach 165\u00b0F/74\u00b0C). Adjust the time if the breasts are thicker or thinner.\n\n4. **Finish and Serve:**\n   - Remove the chicken from the skillet and let it rest for a couple of minutes.\n   - Squeeze additional lemon juice over the top if desired.\n   - Garnish with chopped parsley for extra freshness.\n\n### Serving suggestion:\nServe with steamed veggies or a simple salad for a complete, low-sodium, herbaceous meal.\n\nWould you like a side dish recommendation to complement this?"
+      }
+    ]
+  },
+  "id": "SYN178",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

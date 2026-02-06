@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need nut-free dish using coconut milk and curry fast! \ud83d\ude0b"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need nut-free dish using coconut milk and curry fast! \ud83d\ude0b"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and delicious nut-free Coconut Curry with vegetables that you can prepare in about 20 minutes. It's rich, flavorful, and perfect for a speedy meal!\n\n**Quick Coconut Vegetable Curry**\n\n**Ingredients:**\n- 1 can (13.5 oz) coconut milk\n- 2 tablespoons vegetable oil\n- 1 onion, diced\n- 3 cloves garlic, minced\n- 1-inch piece of fresh ginger, grated\n- 2 carrots, sliced thin\n- 1 bell pepper (any color), sliced\n- 1 cup green beans, trimmed\n- 1 teaspoon ground turmeric\n- 1 teaspoon ground cumin\n- 1 teaspoon curry powder\n- Salt and pepper to taste\n- Optional: fresh cilantro for garnish\n- Cooked rice or naan for serving\n\n**Instructions:**\n\n1. **Prep your ingredients:** Dice the onion, mince the garlic, grate the ginger, slice the carrots and bell pepper, and trim the green beans. Having everything ready makes the cooking process smoother.\n\n2. **Heat the oil:** In a large skillet or wok, heat the vegetable oil over medium heat until shimmering.\n\n3. **Saut\u00e9 aromatics:** Add the diced onion to the skillet. Cook for about 3-4 minutes until it turns translucent. Add the minced garlic and grated ginger; saut\u00e9 for another 1 minute until fragrant.\n\n4. **Add spices:** Sprinkle the turmeric, cumin, and curry powder over the aromatics. Stir well and cook for 30 seconds to release their flavors.\n\n5. **Cook vegetables:** Add the sliced carrots, bell pepper, and green beans. Stir to coat them in the spices and cook for about 5-7 minutes, stirring occasionally, until they start to soften.\n\n6. **Pour in coconut milk:** Pour the entire can of coconut milk into the skillet. Stir well to combine everything. Bring to a gentle simmer.\n\n7. **Simmer:** Reduce the heat to low and let the curry simmer for about 5-7 minutes, allowing the flavors to meld and vegetables to become tender. Season with salt and pepper to taste.\n\n8. **Serve:** Spoon the hot curry over cooked rice or serve with naan bread. Garnish with chopped fresh cilantro if desired.\n\nEnjoy your vibrant, nut-free coconut curry packed with veggies and flavor! Would you like a side dish recommendation or a variation?"
+      }
+    ]
+  },
+  "id": "SYN040",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

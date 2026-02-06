@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need some ideas for a keto dinner nice and easy, no italian plz! \ud83c\udf7d\ufe0f"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need some ideas for a keto dinner nice and easy, no italian plz! \ud83c\udf7d\ufe0f"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! How about trying a **Keto Chicken Stir-Fry**? It's quick, flavorful, and keeps your carb intake low. Here's a simple recipe:\n\n### Keto Chicken Stir-Fry\n\n#### Ingredients:\n- 2 boneless, skinless chicken breasts, sliced into thin strips\n- 2 tablespoons olive oil or coconut oil\n- 1 red bell pepper, sliced\n- 1 green bell pepper, sliced\n- 1 small zucchini, sliced\n- 2 cloves garlic, minced\n- 1 tablespoon soy sauce (or coconut aminos for soy-free)\n- 1 teaspoon sesame oil (optional for flavor)\n- Salt and pepper to taste\n- Sesame seeds and chopped green onions for garnish (optional)\n\n#### Instructions:\n\n1. **Prepare the chicken:** Season the sliced chicken with a pinch of salt and pepper.\n\n2. **Heat the pan:** Place a large skillet or wok over medium-high heat. Add 1 tablespoon of olive oil and let it heat up.\n\n3. **Cook the chicken:** Add the chicken strips to the hot pan. Cook for 5-7 minutes, stirring occasionally until they are browned and cooked through. Remove from the pan and set aside.\n\n4. **Stir-fry the vegetables:** In the same pan, add the remaining tablespoon of olive oil. Toss in the minced garlic and cook for about 30 seconds until fragrant. Add the sliced bell peppers and zucchini. Stir-fry for 3-5 minutes until tender but still crisp.\n\n5. **Combine everything:** Return the cooked chicken to the pan. Pour in the soy sauce and sesame oil. Toss everything together until evenly coated and heated through, about 2 minutes.\n\n6. **Serve:** Plate the stir-fry hot. Garnish with sesame seeds and chopped green onions if desired.\n\nEnjoy your flavorful, low-carb chicken stir-fry! Would you like a vegetarian option next, or maybe something with seafood?"
+      }
+    ]
+  },
+  "id": "SYN055",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "easy quick glutenfree meal 30 mins!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "easy quick glutenfree meal 30 mins!"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and delicious Gluten-Free Chicken & Vegetable Stir-Fry that you can prepare in 30 minutes.\n\n**Gluten-Free Chicken & Vegetable Stir-Fry**\n\n**Ingredients:**\n- 2 boneless, skinless chicken breasts\n- 2 tablespoons vegetable oil (like coconut or canola)\n- 1 red bell pepper, sliced\n- 1 yellow bell pepper, sliced\n- 1 cup broccoli florets\n- 2 cloves garlic, minced\n- 1 teaspoon freshly grated ginger (optional)\n- 3 tablespoons gluten-free soy sauce (or coconut aminos)\n- 1 teaspoon honey or maple syrup\n- Salt and pepper to taste\n- Cooked rice or quinoa (for serving)\n\n**Steps:**\n\n1. **Prepare the Chicken:**  \n   - Slice the chicken breasts into thin strips, approximately 1/2 inch wide.  \n   - Season lightly with salt and pepper.\n\n2. **Cook the Chicken:**  \n   - Heat 1 tablespoon of the vegetable oil in a large skillet or wok over medium-high heat.  \n   - Add the chicken strips to the pan and cook for about 5-7 minutes, stirring frequently, until they are cooked through and lightly browned.  \n   - Remove the chicken from the skillet and set aside.\n\n3. **Cook the Vegetables:**  \n   - In the same skillet, add the remaining 1 tablespoon of oil.  \n   - Add the minced garlic and ginger, cook for about 30 seconds until fragrant.  \n   - Add the bell peppers and broccoli florets.  \n   - Stir-fry the vegetables for about 5-7 minutes until tender but still crisp.\n\n4. **Combine and Flavor:**  \n   - Return the cooked chicken to the skillet with the vegetables.  \n   - In a small bowl, whisk together the gluten-free soy sauce and honey.  \n   - Pour this sauce over the chicken and vegetables, toss well to coat everything evenly.  \n   - Cook for an additional 2-3 minutes to heat through.\n\n5. **Serve:**  \n   - Spoon the stir-fry over cooked rice or quinoa.  \n   - Garnish with sliced green onions or sesame seeds if desired.\n\n**Enjoy your quick, healthy, gluten-free meal!** Would you like another recipe or suggestions for variations?"
+      }
+    ]
+  },
+  "id": "SYN134",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

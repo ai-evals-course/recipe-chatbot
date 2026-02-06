@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you help me find an advanced halal indian recipe using what I have in my pantry?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Can you help me find an advanced halal indian recipe using what I have in my pantry?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Please let me know what ingredients you currently have in your pantry and any specific preferences or restrictions you have. This way, I can recommend an advanced halal Indian recipe tailored to your available ingredients."
+      }
+    ]
+  },
+  "id": "SYN126",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

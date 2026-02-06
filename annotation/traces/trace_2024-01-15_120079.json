@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i need a quick egg-free recipe using tofu bell peppers and soy sauce"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "i need a quick egg-free recipe using tofu bell peppers and soy sauce"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and delicious Egg-Free Tofu & Bell Pepper Stir-Fry with soy sauce:\n\n**Ingredients:**\n- 1 block (14 oz) firm tofu\n- 2 bell peppers (any color), sliced\n- 2 tablespoons soy sauce\n- 1 tablespoon vegetable oil\n- 2 garlic cloves, minced (optional)\n- 1 teaspoon sesame oil (optional)\n- Salt and pepper to taste\n- Sesame seeds for garnish (optional)\n- Green onions for garnish (optional)\n\n**Steps:**\n\n1. **Prepare the Tofu:**\n   - Drain the tofu and gently pat it dry with paper towels.\n   - Cut the tofu into small cubes, approximately 1-inch in size.\n   - To remove excess moisture and help it crisp up, heat 1 tablespoon of vegetable oil in a large skillet or wok over medium-high heat.\n   - Once hot, add the tofu cubes in a single layer. Let them cook undisturbed for about 3-4 minutes until they begin to turn golden brown.\n   - Carefully flip the tofu pieces and cook for another 3-4 minutes until evenly browned. Remove the tofu from the pan and set aside.\n\n2. **Cook the Bell Peppers:**\n   - In the same pan, add a little more oil if needed.\n   - Add the sliced bell peppers and cook for 3-4 minutes until they start to soften yet still have some crunch.\n   - If using garlic, add the minced garlic now and cook for 30 seconds until fragrant.\n\n3. **Combine & Flavor:**\n   - Return the browned tofu to the skillet with the peppers.\n   - Pour in the soy sauce and stir well to coat everything evenly.\n   - If you like, drizzle with sesame oil for added flavor.\n   - Cook for another 2 minutes, allowing the flavors to meld.\n   - Taste and add salt or pepper if needed.\n\n4. **Serve:**\n   - Garnish with sesame seeds and chopped green onions if desired.\n   - Serve hot, over rice or noodles for a complete meal.\n\nEnjoy your quick, flavorful egg-free tofu stir-fry! Would you like a different type of recipe or more ideas?"
+      }
+    ]
+  },
+  "id": "SYN086",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

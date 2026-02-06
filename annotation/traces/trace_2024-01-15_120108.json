@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a simple keto recipe quick! \ud83d\ude0b"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a simple keto recipe quick! \ud83d\ude0b"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and tasty Keto Egg Muffin Cups recipe that you can whip up in about 15 minutes. Perfect for a satisfying low-carb breakfast!\n\n**Keto Egg Muffin Cups**\n\n**Ingredients:**\n- 6 large eggs\n- 1/2 cup shredded cheese (cheddar, Swiss, or mozzarella)\n- 1/4 cup chopped spinach (fresh or frozen)\n- 2 slices cooked bacon, chopped (optional)\n- Salt and pepper to taste\n- Cooking spray or olive oil\n\n**Instructions:**\n\n1. **Preheat the Oven:**  \n   Set your oven to 375\u00b0F (190\u00b0C). Lightly spray a 6-cup muffin tin with cooking spray or grease with a little olive oil to prevent sticking.\n\n2. **Prepare the Egg Mixture:**  \n   Crack the eggs into a medium bowl. Whisk thoroughly until well combined. Add a pinch of salt and pepper for seasoning.\n\n3. **Add Fillings:**  \n   Stir in the shredded cheese, chopped spinach, and bacon pieces if using. Mix everything evenly.\n\n4. **Pour into Muffin Tin:**  \n   Divide the egg mixture evenly among the 6 muffin cups, filling each about 3/4 full.\n\n5. **Bake:**  \n   Place the muffin tin in the preheated oven. Bake for 12-15 minutes, or until the eggs are puffed and set in the middle.\n\n6. **Serve:**  \n   Allow to cool slightly for a minute or two, then use a fork or spoon to gently lift the muffins out. They\u2019re perfect for eating on the go or as a quick breakfast!\n\n**Tip:**  \nThese muffins can be stored in an airtight container in the fridge for up to 3 days. Reheat in the microwave for about 20-30 seconds for a quick keto snack or breakfast.\n\nEnjoy your nutritious, low-carb start to the day! Would you like a different type of recipe?"
+      }
+    ]
+  },
+  "id": "SYN122",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "keto dinner ideas low effort pls"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "keto dinner ideas low effort pls"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and delicious **Keto Chicken and Zucchini Stir-Fry** that requires minimal effort and is perfect for a low-carb dinner.\n\n### Keto Chicken and Zucchini Stir-Fry\n\n#### Ingredients:\n- 2 boneless, skinless chicken breasts\n- 2 medium zucchinis\n- 2 tablespoons olive oil or coconut oil\n- 2 cloves garlic, minced\n- 1 teaspoon soy sauce or coconut aminos (for a low-carb alternative)\n- 1 teaspoon sesame oil (optional)\n- Salt and pepper to taste\n- Red pepper flakes (optional for some heat)\n- Sesame seeds for garnish (optional)\n- Fresh green onions for garnish (optional)\n\n#### Instructions:\n1. **Prepare the Ingredients:**\n   - Slice the chicken breasts into thin strips or bite-sized pieces.\n   - Wash the zucchinis and cut off the ends. Slice them into half-moon shapes about \u00bc-inch thick.\n   - Mince the garlic.\n\n2. **Cook the Chicken:**\n   - Heat 1 tablespoon of olive oil in a large skillet or wok over medium-high heat.\n   - Add chicken pieces to the pan, season with salt and pepper.\n   - Cook for about 5-7 minutes, stirring occasionally until the chicken is browned and cooked through.\n   - Remove the chicken from the skillet and set aside.\n\n3. **Cook the Zucchini:**\n   - In the same skillet, add the remaining 1 tablespoon of olive oil.\n   - Add the minced garlic and cook for about 30 seconds until fragrant.\n   - Toss in the zucchini slices and cook for 3-4 minutes, stirring frequently, until slightly tender but still crisp.\n\n4. **Combine and Flavor:**\n   - Return the cooked chicken to the skillet with the zucchini.\n   - Add soy sauce or coconut aminos, sesame oil (if using), and red pepper flakes.\n   - Stir everything together and cook for another 2 minutes to meld the flavors.\n\n5. **Serve:**\n   - Transfer to plates, garnish with sesame seeds and chopped green onions if desired.\n   - Serve hot and enjoy your low-effort keto dinner!\n\nWould you like a vegetarian or seafood option next?"
+      }
+    ]
+  },
+  "id": "SYN124",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

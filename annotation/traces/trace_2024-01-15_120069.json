@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a vegan recipe that uses chickpeas avocados quinoa and is super quick"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a vegan recipe that uses chickpeas avocados quinoa and is super quick"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a delicious and super quick vegan chickpea, avocado, and quinoa salad that's perfect for a nutritious meal or snack.\n\n**Vegan Chickpea, Avocado, and Quinoa Salad**\n\n**Ingredients:**\n- 1 cup cooked quinoa (pre-cooked or cooked fresh in 15 minutes)\n- 1 can (15 oz) chickpeas, drained and rinsed\n- 1 ripe avocado\n- 1 tablespoon olive oil\n- Juice of 1 lemon or lime\n- Salt and pepper to taste\n- Optional: chopped fresh herbs (cilantro, parsley), cherry tomatoes, or cucumber for extra flavor\n\n**Steps:**\n\n1. **Cook Quinoa:** If you don\u2019t have pre-cooked quinoa, rinse \u00bd cup of dry quinoa under cold water. In a small pot, combine quinoa with 1 cup water and a pinch of salt. Bring to a boil, then reduce heat to low, cover, and simmer for about 12-15 minutes until water is absorbed. Fluff with a fork and let it cool slightly.\n\n2. **Prepare the Veggies:** While the quinoa cools, cut the avocado in half, remove the pit, and dice into bite-sized pieces.\n\n3. **Mix the Base:** In a large bowl, combine the cooked quinoa and chickpeas. Drizzle with a tablespoon of olive oil and the lemon or lime juice. Toss gently to combine.\n\n4. **Add Avocado:** Carefully fold in the diced avocado, being gentle to keep it from mashing.\n\n5. **Season & Garnish:** Add salt and pepper to taste. If you like, add chopped herbs or chopped vegetables like tomatoes or cucumber for extra freshness and flavor.\n\n6. **Serve:** Enjoy immediately for a fresh, filling, and nutrient-packed salad. You can also refrigerate for about 30 minutes for even more flavor.\n\nWould you like a hot or warm variation, or perhaps a different quick vegan recipe?"
+      }
+    ]
+  },
+  "id": "SYN081",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

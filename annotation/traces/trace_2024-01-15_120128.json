@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for gluten-free recipes with quinoa and lime\ud83e\udd51"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for gluten-free recipes with quinoa and lime\ud83e\udd51"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a vibrant and nutritious **Quinoa & Lime Salad with Avocado**\u2014a gluten-free dish perfect for a light lunch or side. It\u2019s easy to prepare and packed with fresh flavors.\n\n### Quinoa & Lime Salad with Avocado\n\n#### Ingredients:\n- 1 cup quinoa\n- 2 cups water or vegetable broth\n- 1 ripe avocado\n- 1 lime (for juice and zest)\n- 1 small red bell pepper (optional, for crunch and color)\n- 2 tablespoons olive oil\n- Salt and pepper to taste\n- Fresh herbs (like cilantro or parsley), chopped (optional)\n- 1 small cucumber (optional)\n\n#### Instructions:\n\n1. **Rinse and cook the quinoa:**\n   - Place the quinoa in a fine-mesh sieve and rinse thoroughly under cold water to remove any bitterness.\n   - In a medium saucepan, combine the rinsed quinoa and water or broth. Bring to a boil over medium-high heat.\n   - Once boiling, reduce heat to low, cover, and simmer for about 15 minutes, or until quinoa is tender and all liquid is absorbed.\n   - Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork and let it cool slightly.\n\n2. **Prepare the vegetables:**\n   - While the quinoa cools, dice the red bell pepper and cucumber, if using.\n   - Cut the avocado in half, remove the pit, and scoop the flesh into a bowl. Gently mash it with a fork until creamy but still slightly chunky.\n\n3. **Make the lime dressing:**\n   - Zest the lime and set aside.\n   - Juice the lime into a small bowl.\n   - Add 2 tablespoons of olive oil, a pinch of salt and pepper, and the lime zest. Whisk together until well combined.\n\n4. **Combine all ingredients:**\n   - In a large mixing bowl, combine the cooled quinoa, diced vegetables, and mashed avocado.\n   - Pour the lime dressing over the mixture and gently toss to coat everything evenly.\n\n5. **Adjust seasonings and serve:**\n   - Taste and adjust salt, pepper, or lime juice as needed.\n   - Garnish with chopped fresh herbs if desired.\n   - Serve immediately or chilled for a refreshing meal.\n\nEnjoy this light, gluten-free quinoa and lime salad with creamy avocado! Would you like another recipe or any tweaks to this one?"
+      }
+    ]
+  },
+  "id": "SYN135",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

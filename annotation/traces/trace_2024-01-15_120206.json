@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for a pescatarian recipe that includes salmon, broccoli, and quinoa in a japanese way, moderate effort and around 30-60 mins to cook"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for a pescatarian recipe that includes salmon, broccoli, and quinoa in a japanese way, moderate effort and around 30-60 mins to cook"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here\u2019s a flavorful Japanese-inspired Salmon with Broccoli and Quinoa bowl that you can prepare in about 40-50 minutes. It combines tender grilled salmon, crisp broccoli, and fluffy quinoa, all glazed with a savory soy-ginger sauce. It\u2019s healthy, satisfying, and perfect for a pescatarian meal.\n\n### Japanese Salmon with Broccoli and Quinoa Bowl\n\n#### Ingredients:\n- 2 salmon fillets (skin-on or skinless, about 6 oz each)\n- 1 cup quinoa\n- 2 cups broccoli florets\n- 2 tablespoons soy sauce (preferably low sodium)\n- 1 tablespoon hoisin sauce or mirin (optional for extra sweetness)\n- 1 teaspoon grated fresh ginger\n- 1 teaspoon garlic, minced\n- 1 tablespoon sesame oil or vegetable oil\n- 1 teaspoon rice vinegar\n- 1 teaspoon honey or maple syrup\n- Sesame seeds (for garnish)\n- Green onions, sliced (for garnish)\n- Salt and pepper to taste\n- Lemon wedges (for serving)\n\n#### Instructions:\n\n**1. Prepare the Quinoa (15 minutes):**\n- Rinse the quinoa under cold water using a fine sieve to remove any bitterness.\n- Bring 2 cups of water to a boil in a medium saucepan. Add the quinoa along with a pinch of salt.\n- Reduce heat to low, cover, and simmer for about 15 minutes, or until the water is absorbed and the quinoa is fluffy.\n- Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork.\n\n**2. Cook the Broccoli (5-7 minutes):**\n- While the quinoa cooks, steam or blanch the broccoli florets until bright green and tender, about 4-5 minutes.\n-Drain and set aside.\n\n**3. Prepare the Salmon (15-20 minutes):**\n- Preheat your grill or a grill pan over medium-high heat.\n- In a small bowl, mix soy sauce, honey, grated ginger, minced garlic, rice vinegar, and hoisin or mirin if using.\n- Pat the salmon fillets dry with paper towels. Season lightly with salt and pepper.\n- Brush or marinate the salmon with the sauce mixture (reserve some for drizzling later).\n- Grill the salmon for about 4-5 minutes per side, depending on thickness, until cooked through and grill marks appear. The salmon should flake easily.\n\n**4. Assemble the Bowl:**\n- Divide the cooked quinoa into two bowls.\n- Top each with broccoli florets.\n- Place a grilled salmon fillet on top of each bowl.\n- Drizzle with a bit of the remaining sauce.\n\n**5. Garnish & Serve:**\n- Sprinkle sesame seeds and sliced green onions over the top.\n- Serve each bowl with lemon wedges for squeezing over the salmon.\n\nEnjoy your Japanese-inspired salmon bowl! It\u2019s a perfect balance of flavors and textures with quick, moderate effort."
+      }
+    ]
+  },
+  "id": "SYN209",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

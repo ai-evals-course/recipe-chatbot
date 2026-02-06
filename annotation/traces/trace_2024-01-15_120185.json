@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "whats a tricky fodmap dish to make no time limit"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "whats a tricky fodmap dish to make no time limit"
+      },
+      {
+        "role": "assistant",
+        "content": "A delicious and somewhat tricky low FODMAP dish you can try making is **Low FODMAP Eggplant Parmesan**. While it\u2019s not as quick as some simple recipes, it\u2019s rewarding and flavorful. Here\u2019s how to make it step by step:\n\n### Ingredients:\n- 1 large eggplant\n- 1 cup (150g) crushed canned tomatoes (make sure they are unsweetened and free of garlic/onions)\n- 1 cup shredded mozzarella cheese (lactose-free if needed)\n- 1/4 cup grated Parmesan cheese (optional)\n- 1/4 cup rice flour or cornstarch\n- 2 large eggs\n- 1/4 cup olive oil\n- 1 tsp dried basil\n- 1 tsp dried oregano\n- Salt and pepper to taste\n- Fresh basil leaves for garnish (optional)\n\n### Instructions:\n\n1. **Prepare the Eggplant:**\n   - Wash the eggplant and slice it into 1/4 to 1/2 inch thick rounds.\n   - Lightly salt the slices and set them aside on paper towels for about 20 minutes to draw out excess moisture and bitterness. Pat them dry afterward.\n\n2. **Breading Setup:**\n   - In a shallow dish, place the rice flour or cornstarch.\n   - In another bowl, beat the eggs until well combined.\n\n3. **Bread the Eggplant:**\n   - Dip each eggplant slice into the beaten eggs, ensuring it's fully coated.\n   - Then, dredge in the rice flour or cornstarch, pressing lightly to adhere.\n\n4. **Fry the Eggplant:**\n   - Heat 2 tablespoons of olive oil in a large skillet over medium heat.\n   - Fry the breaded eggplant slices in batches for about 2-3 minutes per side until golden brown.\n   - Drain on paper towels to remove excess oil.\n\n5. **Prepare the Tomato Sauce:**\n   - In a saucepan, heat a tablespoon of olive oil over low-medium heat.\n   - Add crushed canned tomatoes, basil, oregano, salt, and pepper.\n   - Simmer gently for about 10-15 minutes to develop flavor.\n\n6. **Assemble the Eggplant Parmesan:**\n   - Preheat your oven to 375\u00b0F (190\u00b0C).\n   - Spread a thin layer of tomato sauce on the bottom of a baking dish.\n   - Layer fried eggplant slices over the sauce.\n   - Spoon some more sauce over the eggplant, then sprinkle with shredded mozzarella and grated Parmesan.\n   - Repeat layers until all ingredients are used, finishing with a top layer of cheese.\n\n7. **Bake:**\n   - Cover the dish with foil and bake for 20 minutes.\n   - Remove the foil and bake for an additional 10 minutes until cheese is bubbly and golden.\n\n8. **Serve:**\n   - Garnish with fresh basil leaves if desired.\n   - Serve hot, perhaps with a side of rice or low FODMAP salad.\n\nEnjoy your flavorful, cheesy Low FODMAP Eggplant Parmesan! Would you like suggestions for side dishes or dessert tailored to FODMAP considerations?"
+      }
+    ]
+  },
+  "id": "SYN169",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

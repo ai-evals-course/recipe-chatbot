@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "easy low carb meals with pantry stuff 30 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "easy low carb meals with pantry stuff 30 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Here's a simple and delicious low-carb meal you can make in about 30 minutes using pantry staples: **Garlic Tuna Stuffed Avocado**.\n\n### Ingredients:\n- 2 ripe avocados\n- 1 can (5 oz) tuna in olive oil or water, drained\n- 2 cloves garlic, minced (or 1 teaspoon garlic powder if fresh isn't available)\n- 1 tablespoon mayonnaise (optional but adds creaminess)\n- 1 teaspoon lemon juice or vinegar\n- Salt and pepper to taste\n- Red pepper flakes or paprika (optional for a bit of spice)\n- Olive oil (a few drops)\n\n### Steps:\n\n1. **Prepare the Avocados:**\n   - Cut the avocados in half lengthwise and remove the pits.\n   - Use a spoon to gently scoop out some of the flesh to create a larger cavity for the filling, but leave a border to maintain structure.\n   - Dice the scooped-out avocado flesh and set aside.\n\n2. **Make the Tuna Mixture:**\n   - In a bowl, combine the drained tuna, minced garlic, mayonnaise (if using), lemon juice, salt, pepper, and red pepper flakes or paprika.\n   - Mix well until all ingredients are evenly incorporated.\n   - Add the diced avocado flesh to the mixture and gently fold to combine, creating a creamy, chunky filling.\n\n3. **Assemble:**\n   - Spoon the tuna mixture into each avocado half, filling the hollowed-out area generously.\n   - Drizzle a little olive oil over the stuffed avocados for added richness and flavor.\n\n4. **Serve:**\n   - Place the stuffed avocados on a plate and optionally garnish with extra pepper or herbs if available.\n   - Serve immediately for the best freshness.\n\n### Tips:\n- You can add chopped pickles or olives from your pantry for extra flavor.\n- If you have hot sauce, a few dashes can elevate the taste.\n\nThis meal is high in healthy fats, satisfying, and ready in about 15\u201320 minutes! Would you like another low-carb recipe?"
+      }
+    ]
+  },
+  "id": "SYN205",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

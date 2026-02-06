@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a fast pescatarian meal that uses salmon and lemon \ud83c\udf4b"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a fast pescatarian meal that uses salmon and lemon \ud83c\udf4b"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and flavorful **Lemon Garlic Salmon** that you can prepare quickly and enjoy as a nutritious pescatarian meal.\n\n### Lemon Garlic Salmon\n\n**Ingredients:**\n- 2 salmon fillets\n- 1 lemon (for juice and zest)\n- 3 cloves garlic, minced\n- 2 tablespoons olive oil\n- Salt and freshly ground black pepper to taste\n- Fresh parsley or dill (optional, for garnish)\n- Lemon slices (for serving)\n\n**Instructions:**\n\n1. **Preheat your skillet:**  \n   Place a large non-stick or cast-iron skillet over medium heat. Let it warm up for about 2-3 minutes.\n\n2. **Prepare the salmon:**  \n   Pat the salmon fillets dry with paper towels. Rub both sides lightly with a pinch of salt and pepper. Set aside.\n\n3. **Make the lemon garlic marinade:**  \n   In a small bowl, combine the minced garlic, the juice of half the lemon, lemon zest, and olive oil. Mix well.\n\n4. **Cook the salmon:**  \n   Add a little olive oil to the skillet. Once hot, place the salmon fillets skin-side down if skin-on. Cook for about 4-5 minutes on the first side until golden and crispy.\n\n5. **Flip the salmon:**  \n   Carefully turn the fillets over using a spatula. Pour the lemon garlic mixture over the fillets. Cook for another 3-4 minutes, or until the salmon is cooked through and flakes easily with a fork.\n\n6. **Finish and serve:**  \n   Squeeze the remaining half lemon over the salmon. Garnish with chopped parsley or dill if desired. Serve immediately with lemon slices on the side.\n\n**Suggestion:**  \nPair this dish with steamed vegetables, a simple green salad, or some quick-cooked rice or quinoa for a complete meal.\n\nEnjoy your bright, zesty lemon garlic salmon! Would you like a different style or a vegetarian option next?"
+      }
+    ]
+  },
+  "id": "SYN016",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

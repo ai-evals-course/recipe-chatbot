@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Salmon + asparagus + lemon in a med recipe?! Need it soon! \ud83c\udf4b\ud83c\udf63"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Salmon + asparagus + lemon in a med recipe?! Need it soon! \ud83c\udf4b\ud83c\udf63"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a simple and delicious Lemon Salmon with Roasted Asparagus recipe that's perfect for a quick, flavorful meal.\n\n**Lemon Salmon with Roasted Asparagus**\n\n**Ingredients:**\n- 2 salmon fillets\n- 1 bunch asparagus (about 1 bunch or 8-10 stalks)\n- 1 lemon (for juice and zest)\n- 2 tablespoons olive oil\n- 2 garlic cloves (minced)\n- Salt and freshly ground black pepper\n- Optional: fresh herbs like dill or parsley for garnish\n\n**Steps:**\n\n1. **Preheat your oven:** Set it to 400\u00b0F (200\u00b0C). This will give the salmon and asparagus a nice roasting finish.\n\n2. **Prepare the asparagus:** Rinse the asparagus under cold water. Trim about 1 inch off the woody ends. Spread the asparagus on a baking sheet lined with parchment paper.\n\n3. **Season the asparagus:** Drizzle 1 tablespoon of olive oil over the asparagus. Mince 1 garlic clove and sprinkle over. Add a pinch of salt and pepper. Toss everything together using your hands or tongs to coat evenly.\n\n4. **Prepare the salmon:** Pat the salmon fillets dry with a paper towel. Place them on the baking sheet alongside the asparagus. Drizzle with 1 tablespoon of olive oil and squeeze half of the lemon over the fillets. Add a pinch of salt and pepper. Zest half of the lemon over the fish for extra brightness.\n\n5. **Bake:** Place the baking sheet in the preheated oven. Roast for about 12-15 minutes, or until the salmon flakes easily with a fork and the asparagus is tender and slightly charred.\n\n6. **Finish with lemon:** Once out of the oven, squeeze the remaining lemon juice over the salmon and asparagus. Garnish with chopped fresh herbs if desired.\n\n7. **Serve:** Plate the salmon alongside the roasted asparagus. Enjoy this bright, healthy, and speedy meal!\n\nWould you like a different recipe or some tips on customizing this dish?"
+      }
+    ]
+  },
+  "id": "SYN105",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "whats a good halal recipe from india that i can make in about 30 to 60 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "whats a good halal recipe from india that i can make in about 30 to 60 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "A fantastic and flavorful halal Indian dish you can prepare in about 30 to 60 minutes is **Chicken Tikka Masala**. It's a beloved classic with rich spices and a creamy tomato-based sauce, perfect for a satisfying meal. Here's a step-by-step guide:\n\n### Chicken Tikka Masala Recipe\n\n#### Ingredients:\n- 500g boneless chicken breasts or thighs, cut into bite-sized pieces\n- 1 cup plain yogurt\n- 2 tablespoons lemon juice\n- 2 teaspoons turmeric powder\n- 2 teaspoons cumin powder\n- 2 teaspoons garam masala\n- 1 teaspoon paprika (for color)\n- 1 teaspoon chili powder (adjust to spice preference)\n- Salt to taste\n- 2 tablespoons oil (vegetable or mustard oil)\n- 1 large onion, finely chopped\n- 3 cloves garlic, minced\n- 1 tablespoon ginger, grated\n- 2 large tomatoes, pureed or finely chopped\n- 1/2 cup heavy cream or coconut cream\n- Fresh cilantro for garnish\n\n---\n\n#### Marinade and Chicken Preparation:\n1. **Marinate the Chicken:** In a large bowl, combine yogurt, lemon juice, turmeric, cumin, garam masala, paprika, chili powder, and salt. Add the chicken pieces and coat thoroughly.\n2. **Marinate Time:** Cover and let it sit for at least 20-30 minutes. If you have more time, refrigerate for up to 2 hours for more flavor.\n\n---\n\n#### Cooking the Chicken:\n1. **Cook the Chicken:** Heat 1 tablespoon of oil in a large skillet or pan over medium-high heat.\n2. **Add Chicken:** Once hot, add the marinated chicken pieces. Cook until they are browned and cooked through, about 8-10 minutes. Remove and set aside.\n\n---\n\n#### Making the Sauce:\n1. **Saut\u00e9 Onions:** In the same skillet, add another tablespoon of oil if needed. Add chopped onions and cook until translucent, about 5 minutes.\n2. **Add Garlic and Ginger:** Stir in minced garlic and grated ginger; cook for 1-2 minutes until fragrant.\n3. **Add Tomato Puree:** Pour in the pureed tomatoes or chopped tomatoes. Cook for another 10-15 minutes, stirring occasionally, until the sauce thickens.\n4. **Season the Sauce:** Add salt and additional spices if desired. Let it simmer for 5 minutes to meld the flavors.\n5. **Finish the Dish:** Lower the heat and stir in the heavy cream or coconut cream. Return the cooked chicken to the sauce and simmer for 5 minutes to blend flavors together.\n\n---\n\n#### Serving:\n- Garnish with chopped fresh cilantro.\n- Serve hot with steamed basmati rice or warm naan bread.\n\nEnjoy your homemade Chicken Tikka Masala\u2014rich, flavorful, and perfect for a halal Indian meal! Would you like a vegetarian alternative or a different dish?"
+      }
+    ]
+  },
+  "id": "SYN129",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

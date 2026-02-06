@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need an easy meal idea with veggies and coconut milk in under 30 mins plz!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need an easy meal idea with veggies and coconut milk in under 30 mins plz!"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! How about making a quick and flavorful Coconut Vegetable Curry? It's hearty, nutritious, and comes together in just about 30 minutes.\n\n### Coconut Vegetable Curry\n\n#### Ingredients:\n- 2 tablespoons vegetable oil\n- 1 onion, finely chopped\n- 2 cloves garlic, minced\n- 1 teaspoon grated ginger (optional)\n- 2 carrots, sliced\n- 1 bell pepper (any color), sliced\n- 1 zucchini, sliced\n- 1 can (13.5 oz) coconut milk\n- 1 teaspoon curry powder\n- Salt and pepper to taste\n- Fresh cilantro for garnish (optional)\n- Cooked rice or noodles to serve\n\n#### Instructions:\n\n1. **Prepare the Base:**\n   - Heat the vegetable oil in a large pan or skillet over medium heat.\n   - Add the chopped onion and saut\u00e9 for about 3-4 minutes until translucent and fragrant.\n   - Stir in the minced garlic and grated ginger (if using), cook for another 1 minute until fragrant.\n\n2. **Cook the Vegetables:**\n   - Add the sliced carrots, bell pepper, and zucchini to the pan.\n   - Stir well and cook for about 5-7 minutes, stirring occasionally, until the vegetables start to soften but still hold some crunch.\n\n3. **Add the Coconut Milk & Spices:**\n   - Pour in the coconut milk and stir in the curry powder.\n   - Season with salt and pepper to taste.\n   - Bring to a gentle simmer, reduce the heat to low, and cook uncovered for another 5-7 minutes, letting the flavors meld and the sauce thicken slightly.\n\n4. **Finish and Serve:**\n   - Taste and adjust seasoning if needed.\n   - Garnish with freshly chopped cilantro if desired.\n   - Serve hot over cooked rice or noodles.\n\nThis dish is super versatile\u2014you can add any other veggies you have on hand or spice it up with chili flakes! Would you like a variation or another quick veggie recipe?"
+      }
+    ]
+  },
+  "id": "SYN237",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

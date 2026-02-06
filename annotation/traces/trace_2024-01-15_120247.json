@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a recipe for a super involved mexican keto meal that uses regular pantry stuff, got all day to cook!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a recipe for a super involved mexican keto meal that uses regular pantry stuff, got all day to cook!"
+      },
+      {
+        "role": "assistant",
+        "content": "Let's create an elaborate, flavorful Mexican Keto Feast: **Keto Mexican Chicken Enchiladas with Spiced Tomato Sauce and Cilantro-Lime Cauliflower Rice**. It\u2019s a true showstopper that combines rich flavors and intricate techniques, perfect for a full day of culinary adventure!\n\n---\n\n### **Keto Mexican Chicken Enchiladas with Cilantro-Lime Cauliflower Rice**\n\n#### **Ingredients:**\n\n**For the Chicken Filling:**\n- 2 lbs boneless, skinless chicken thighs (or breasts if preferred)\n- 2 tablespoons olive oil\n- 1 medium onion, diced\n- 4 garlic cloves, minced\n- 1 teaspoon cumin\n- 1 teaspoon smoked paprika\n- 1/2 teaspoon chili powder\n- Salt and pepper to taste\n- 1/4 cup chopped fresh cilantro\n- Juice of 1 lime\n\n**For the Tomato Sauce:**\n- 1 can (14 oz) diced tomatoes\n- 2 cloves garlic\n- 1 small onion\n- 1 teaspoon cumin\n- 1 teaspoon chili powder\n- 1/2 teaspoon smoked paprika\n- 1 tablespoon olive oil\n- Salt to taste\n- 1-2 fresh chili peppers (if you like spice), optional\n\n**For the Cornucopia of Components:**\n- Low-carb tortillas (or make your own almond flour tortillas if available)\n- 1 cup shredded cheese (cheddar, Monterey Jack, or Mexican blends)\n- 1 small bunch cilantro, chopped\n- 1 lime, cut into wedges\n\n**For the Cauliflower Rice:**\n- 1 large head cauliflower, grated or processed into rice-sized bits\n- 2 tablespoons olive oil\n- 3 garlic cloves, minced\n- Juice of 1 lime\n- 1/4 cup chopped fresh cilantro\n- Salt and pepper to taste\n\n---\n\n### **Preparation steps:**\n\n#### **1. Roast and shred the chicken:**\n- Preheat your oven to 375\u00b0F (190\u00b0C).\n- Rub the chicken thighs with a tablespoon of olive oil, salt, pepper, cumin, smoked paprika, and chili powder.\n- Place on a baking sheet and roast for about 25-30 minutes until cooked through.\n- Let cool slightly, then shred the chicken with two forks. Set aside.\n\n#### **2. Prepare the tomato sauce:**\n- In a blender, combine diced tomatoes, garlic, onion, cumin, chili powder, smoked paprika, and a pinch of salt. Blend until smooth.\n- Heat olive oil in a saucepan over medium heat.\n- Pour the blended mixture into the pan and simmer for 20\u201325 minutes, stirring occasionally, until thickened and flavorful. Add sliced chili peppers if using for extra heat.\n- Taste and adjust salt or spice as necessary.\n\n#### **3. Assemble the enchiladas:**\n- Warm the tortillas slightly to make them pliable.\n- Spread a spoonful of the tomato sauce on a plate.\n- Place a tortilla on the sauce, add some shredded chicken, a sprinkle of cheese, and a little chopped cilantro.\n- Roll the tortilla around the filling and place seam-side down in a baking dish.\n- Repeat with remaining tortillas, lining them up in the dish.\n- Pour some of the remaining tomato sauce over the top, sprinkle with more cheese and cilantro.\n- Cover with foil and bake at 375\u00b0F (190\u00b0C) for 20\u201325 minutes, until bubbly and cheese is melted.\n\n#### **4. Make the Cilantro-Lime Cauliflower Rice:**\n- While the enchiladas bake, heat olive oil in a large skillet over medium heat.\n- Add minced garlic and saut\u00e9 for 30 seconds until fragrant.\n- Add the processed cauliflower rice; cook, stirring frequently, for 5-7 minutes until tender.\n- Remove from heat, then stir in lime juice, chopped cilantro, salt, and pepper.\n- For extra flavor, you can sprinkle some additional cheese on top while still hot.\n\n---\n\n### **5. Finish and serve:**\n- Once the enchiladas are baked, garnish with fresh cilantro and lime wedges.\n- Serve hot with the flavorful cilantro-lime cauliflower rice on the side.\n\n---\n\nEnjoy your labor of love \u2014 this hearty, keto-friendly Mexican feast offers layers of flavor and satisfying textures, perfect for a full day of cooking and celebrating Mexican cuisine!"
+      }
+    ]
+  },
+  "id": "SYN249",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

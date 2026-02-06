@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's a fast Asian dish with tofu and green bell peppers that's also egg free?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "What's a fast Asian dish with tofu and green bell peppers that's also egg free?"
+      },
+      {
+        "role": "assistant",
+        "content": "A quick and tasty Asian-inspired stir-fry with tofu and green bell peppers that\u2019s egg-free is **Tofu and Green Bell Pepper Stir-Fry**. It\u2019s simple to prepare, flavorful, and perfect for a speedy meal.\n\n### Ingredients:\n- 1 block of firm tofu (about 14 oz), pressed and cubed\n- 2 green bell peppers, sliced into thin strips\n- 2 cloves garlic, minced\n- 1 tablespoon ginger, minced\n- 2 tablespoons soy sauce or tamari (for gluten-free)\n- 1 tablespoon sesame oil or vegetable oil\n- 1 teaspoon rice vinegar (optional for a tangy kick)\n- 1 teaspoon honey or maple syrup (optional for a touch of sweetness)\n- Red pepper flakes or chili sauce (optional for heat)\n- Sesame seeds for garnish (optional)\n- Green onions, sliced (optional)\n\n### Instructions:\n\n1. **Prepare the Tofu:**\n   - Drain and press the tofu to remove excess moisture. Wrap it in a clean kitchen towel or paper towels, and place a weight on top for about 10 minutes.\n   - Once pressed, cut the tofu into bite-sized cubes.\n\n2. **Cook the Tofu:**\n   - Heat 1 tablespoon of sesame or vegetable oil in a large skillet or wok over medium-high heat.\n   - Add the tofu cubes and cook for 4-6 minutes, turning occasionally until golden brown on all sides.\n   - Remove the tofu from the skillet and set aside.\n\n3. **Stir-Fry the Vegetables:**\n   - In the same skillet, add a bit more oil if needed.\n   - Add the minced garlic and ginger; saut\u00e9 for about 30 seconds until fragrant.\n   - Add the sliced green bell peppers and stir-fry for about 3-4 minutes until they are tender but still crisp.\n\n4. **Combine Everything:**\n   - Return the browned tofu to the skillet.\n   - In a small bowl, mix soy sauce, rice vinegar (if using), honey or maple syrup, and chili sauce or red pepper flakes.\n   - Pour this sauce over the tofu and peppers, tossing everything to coat evenly.\n   - Cook for another 2 minutes, allowing the flavors to meld.\n\n5. **Serve:**\n   - Garnish with sesame seeds and sliced green onions if desired.\n   - Serve hot over steamed rice or noodles.\n\nEnjoy your quick, flavorful, egg-free Asian Tofu and Green Bell Pepper Stir-Fry! Let me know if you'd like variations or additional tips."
+      }
+    ]
+  },
+  "id": "SYN087",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

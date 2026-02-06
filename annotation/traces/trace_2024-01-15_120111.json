@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for simple diabetic friendly dish under 30 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for simple diabetic friendly dish under 30 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a delicious and simple diabetic-friendly recipe you can prepare in under 30 minutes: **Grilled Chicken and Vegetable Stir-Fry**.\n\n### Ingredients:\n- 2 boneless, skinless chicken breasts\n- 1 tablespoon olive oil\n- 1 cup broccoli florets\n- 1 red bell pepper, sliced\n- 1 yellow squash, sliced\n- 2 cloves garlic, minced\n- 1 tablespoon low-sodium soy sauce or tamari\n- 1 teaspoon grated fresh ginger (optional)\n- Salt and pepper to taste\n- Lemon wedge (for serving)\n\n### Instructions:\n\n1. **Prepare the Chicken:**\n   - Start by rinsing the chicken breasts and patting them dry with paper towels.\n   - Slice the chicken into thin strips, about 1/2 inch thick.\n   - Season the chicken with a pinch of salt and pepper.\n\n2. **Cook the Chicken:**\n   - Heat 1/2 tablespoon of olive oil in a large skillet or wok over medium-high heat.\n   - Once hot, add the sliced chicken in a single layer.\n   - Cook for 4-5 minutes, stirring occasionally, until the chicken is browned and cooked through (internal temperature should reach 165\u00b0F).\n   - Remove the chicken from the skillet and set aside.\n\n3. **Cook the Vegetables:**\n   - In the same skillet, add the remaining 1/2 tablespoon of olive oil.\n   - Toss in the minced garlic and grated ginger, saut\u00e9 for about 30 seconds until fragrant.\n   - Add the broccoli, red bell pepper, and yellow squash.\n   - Stir-fry the vegetables for about 5-7 minutes until they are tender but still crisp.\n\n4. **Combine and Flavor:**\n   - Return the cooked chicken to the skillet with vegetables.\n   - Add the low-sodium soy sauce or tamari.\n   - Stir everything together well and cook for another 1-2 minutes to combine flavors.\n\n5. **Serve:**\n   - Transfer to plates, squeeze fresh lemon juice over the top, and enjoy your healthy, diabetic-friendly stir-fry!\n\n### Tips:\n- Feel free to customize with other non-starchy vegetables like zucchini or spinach.\n- Serve alongside a small portion of brown rice or cauliflower rice if desired.\n\nWould you like another recipe or more tips?"
+      }
+    ]
+  },
+  "id": "SYN118",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

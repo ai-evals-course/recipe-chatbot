@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you suggest a low effort diabetic meal that avoids high-sugar?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Can you suggest a low effort diabetic meal that avoids high-sugar?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and nutritious low-effort diabetic-friendly meal: **Grilled Chicken and Vegetable Salad**. It\u2019s quick to prepare, full of flavor, and avoids high-sugar ingredients.\n\n### Ingredients:\n- 2 boneless, skinless chicken breasts\n- 1 tablespoon olive oil\n- Salt and pepper to taste\n- 1 teaspoon paprika (optional)\n- 1 teaspoon garlic powder\n- Mixed salad greens (lettuce, spinach, arugula)\n- 1 cucumber, sliced\n- 1 bell pepper (any color), sliced\n- 1 small red onion, thinly sliced\n- 1 avocado, sliced (optional)\n- Lemon or vinegar (for dressing)\n- Fresh herbs (like parsley or cilantro), chopped (optional)\n\n### Instructions:\n\n1. **Prepare the Chicken:**\n   - Pat the chicken breasts dry with paper towels.\n   - Brush both sides with olive oil.\n   - Season evenly with salt, pepper, paprika, and garlic powder.\n   \n2. **Cook the Chicken:**\n   - Heat a grill pan or regular skillet over medium-high heat.\n   - Once hot, add the chicken breasts.\n   - Grill for 6-8 minutes on each side, or until the internal temperature reaches 165\u00b0F (75\u00b0C) and the chicken is no longer pink.\n   - Remove from the heat and let rest for a few minutes before slicing into strips.\n\n3. **Prepare the Salad:**\n   - While the chicken cooks, place the salad greens in a large bowl.\n   - Add sliced cucumber, bell pepper, red onion, and avocado if using.\n   \n4. **Assemble:**\n   - Top the salad with the sliced grilled chicken.\n   - Squeeze fresh lemon juice or drizzle a small amount of vinegar over the salad for a tangy dressing.\n   - Toss gently if desired, or serve as is.\n\n5. **Garnish:**\n   - Sprinkle with chopped fresh herbs for extra flavor.\n\n### Tips:\n- Keep dressings simple\u2014avoid sugary salad dressings.\n- Feel free to add nuts or seeds (like sunflower or pumpkin seeds) for crunch and healthy fats.\n\nThis meal is light, satisfying, and low in added sugars\u2014perfect for a diabetic-friendly diet with minimal effort! Would you like a different type of recipe?"
+      }
+    ]
+  },
+  "id": "SYN117",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

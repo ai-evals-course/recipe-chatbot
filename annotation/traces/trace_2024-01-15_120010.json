@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i\u2019m looking for an easy dish that doesn't have heavy sauces and is low FODMAP"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "i\u2019m looking for an easy dish that doesn't have heavy sauces and is low FODMAP"
+      },
+      {
+        "role": "assistant",
+        "content": "I recommend trying a simple Lemon Herb Grilled Chicken with a side of Roasted Zucchini. It's light, flavorful, and low FODMAP. Here's how to make it:\n\n**Ingredients:**\n- 2 boneless, skinless chicken breasts\n- 2 tablespoons olive oil\n- 1 tablespoon fresh lemon juice\n- 1 teaspoon lemon zest\n- 1 teaspoon dried thyme or rosemary (or fresh, if available)\n- Salt and pepper to taste\n- 2 zucchinis, sliced into rounds\n- Extra olive oil for roasting\n- Optional: chopped fresh parsley for garnish\n\n---\n\n### Step-by-step instructions:\n\n**1. Marinate the Chicken:**\n- In a small bowl, combine the olive oil, lemon juice, lemon zest, dried herbs, salt, and pepper.\n- Place the chicken breasts in a zipper bag or shallow dish and pour the marinade over them.\n- Seal or cover and refrigerate for at least 30 minutes to allow flavors to absorb.\n\n**2. Prepare the Zucchini:**\n- Preheat your oven to 400\u00b0F (200\u00b0C).\n- Toss the zucchini slices in a little olive oil, salt, and pepper.\n- Spread them out evenly on a baking sheet lined with parchment paper for easy cleanup.\n\n**3. Grill the Chicken:**\n- Preheat a grill or grill pan over medium-high heat.\n- Remove the chicken from the marinade, letting excess drip off.\n- Grill the chicken for about 6-7 minutes on each side or until fully cooked (internal temperature of 165\u00b0F/74\u00b0C).\n- Remove from the grill, cover loosely with foil, and let rest for a few minutes.\n\n**4. Roast the Zucchini:**\n- While the chicken is grilling, place the zucchini in the oven.\n- Roast for about 15-20 minutes, turning halfway through, until tender and slightly browned.\n\n**5. Serve:**\n- Slice the grilled chicken, arrange it on a plate alongside the roasted zucchini.\n- Garnish with chopped fresh parsley if desired.\n- Enjoy this light, flavorful, low FODMAP meal!\n\nWould you like a different type of dish or more detailed tips?"
+      }
+    ]
+  },
+  "id": "SYN007",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

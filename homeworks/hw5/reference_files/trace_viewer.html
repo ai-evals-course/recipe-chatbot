@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trace Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .upload-section {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .upload-section h1 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .upload-section p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .upload-btn {
+            background: #3498db;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .upload-btn:hover {
+            background: #2980b9;
+        }
+
+        .viewer-section {
+            display: none;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .navigation {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .nav-btn {
+            background: #34495e;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .nav-btn:hover:not(:disabled) {
+            background: #415b76;
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .record-info {
+            font-size: 14px;
+        }
+
+        .file-info {
+            font-size: 12px;
+            color: #ecf0f1;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .field {
+            margin-bottom: 20px;
+        }
+
+        .field-label {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .field-value {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 4px;
+            border-left: 3px solid #3498db;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-size: 14px;
+        }
+
+        .field-value.state-success {
+            border-left-color: #27ae60;
+            background: #eafaf1;
+        }
+
+        .field-value.state-failure {
+            border-left-color: #e74c3c;
+            background: #fadbd8;
+        }
+
+        .field-value.null {
+            color: #999;
+            font-style: italic;
+        }
+
+        .messages-container {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .message {
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+        }
+
+        .message-user {
+            background: #e8f4f8;
+            border-left: 3px solid #3498db;
+        }
+
+        .message-assistant {
+            background: #f0f0f0;
+            border-left: 3px solid #95a5a6;
+        }
+
+        .message-role {
+            font-weight: 600;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        .message-content {
+            font-size: 14px;
+        }
+
+        .stats {
+            background: #ecf0f1;
+            padding: 10px 20px;
+            font-size: 13px;
+            color: #555;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            display: flex;
+            gap: 5px;
+        }
+
+        .stat-label {
+            font-weight: 600;
+        }
+
+        .state-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .state-grid {
+                grid-template-columns: 1fr;
+            }
+            .navigation {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        .jump-controls {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .jump-input {
+            width: 80px;
+            padding: 6px;
+            border: 1px solid #555;
+            border-radius: 4px;
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+        }
+
+        .reset-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .reset-btn:hover {
+            background: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="upload-section" id="uploadSection">
+            <h1>Trace Viewer</h1>
+            <p>Upload a JSONL trace file to view and navigate through the records</p>
+            <p style="font-size: 14px; color: #888;">
+                Use with: <code>labeled_traces.jsonl</code> or <code>raw_traces.jsonl</code>
+            </p>
+            <label class="upload-btn">
+                Choose File
+                <input type="file" id="fileInput" accept=".jsonl,.json">
+            </label>
+        </div>
+
+        <div class="viewer-section" id="viewerSection">
+            <div class="navigation">
+                <div class="nav-controls">
+                    <button class="nav-btn" id="firstBtn" onclick="goToFirst()">First</button>
+                    <button class="nav-btn" id="prevBtn" onclick="goToPrev()">Previous</button>
+                    <button class="nav-btn" id="nextBtn" onclick="goToNext()">Next</button>
+                    <button class="nav-btn" id="lastBtn" onclick="goToLast()">Last</button>
+                    <div class="jump-controls">
+                        <input type="number" class="jump-input" id="jumpInput" min="1" placeholder="Go to">
+                        <button class="nav-btn" onclick="jumpToRecord()">Go</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="record-info" id="recordInfo"></div>
+                    <div class="file-info" id="fileInfo"></div>
+                </div>
+                <button class="reset-btn" onclick="resetViewer()">Load Different File</button>
+            </div>
+            <div class="stats" id="stats"></div>
+            <div class="content" id="content"></div>
+        </div>
+    </div>
+
+    <script>
+        let traces = [];
+        let currentIndex = 0;
+        let fileName = '';
+
+        document.getElementById('fileInput').addEventListener('change', handleFileUpload);
+
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            fileName = file.name;
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                const content = e.target.result;
+                try {
+                    traces = content.trim().split('\n').map(line => JSON.parse(line));
+                    currentIndex = 0;
+                    showViewer();
+                    displayRecord();
+                } catch (error) {
+                    alert('Error parsing JSONL file: ' + error.message);
+                }
+            };
+
+            reader.readAsText(file);
+        }
+
+        function showViewer() {
+            document.getElementById('uploadSection').style.display = 'none';
+            document.getElementById('viewerSection').style.display = 'block';
+        }
+
+        function resetViewer() {
+            document.getElementById('uploadSection').style.display = 'block';
+            document.getElementById('viewerSection').style.display = 'none';
+            document.getElementById('fileInput').value = '';
+            traces = [];
+            currentIndex = 0;
+        }
+
+        function displayRecord() {
+            if (traces.length === 0) return;
+
+            const record = traces[currentIndex];
+            const content = document.getElementById('content');
+
+            document.getElementById('recordInfo').textContent = `Trace ${currentIndex + 1} of ${traces.length}`;
+            document.getElementById('fileInfo').textContent = `File: ${fileName}`;
+            document.getElementById('jumpInput').max = traces.length;
+            document.getElementById('jumpInput').placeholder = `1-${traces.length}`;
+
+            document.getElementById('firstBtn').disabled = currentIndex === 0;
+            document.getElementById('prevBtn').disabled = currentIndex === 0;
+            document.getElementById('nextBtn').disabled = currentIndex === traces.length - 1;
+            document.getElementById('lastBtn').disabled = currentIndex === traces.length - 1;
+
+            displayStats();
+
+            let html = '';
+
+            // State fields (for labeled traces)
+            if (record.last_success_state || record.first_failure_state) {
+                html += '<div class="state-grid">';
+                if (record.last_success_state) {
+                    html += `
+                        <div class="field">
+                            <div class="field-label">Last Success State</div>
+                            <div class="field-value state-success">${escapeHtml(record.last_success_state)}</div>
+                        </div>
+                    `;
+                }
+                if (record.first_failure_state) {
+                    html += `
+                        <div class="field">
+                            <div class="field-label">First Failure State</div>
+                            <div class="field-value state-failure">${escapeHtml(record.first_failure_state)}</div>
+                        </div>
+                    `;
+                }
+                html += '</div>';
+            }
+
+            // Conversation ID
+            if (record.conversation_id) {
+                html += `
+                    <div class="field">
+                        <div class="field-label">Conversation ID</div>
+                        <div class="field-value">${escapeHtml(record.conversation_id)}</div>
+                    </div>
+                `;
+            }
+
+            // Messages
+            if (record.messages && Array.isArray(record.messages)) {
+                html += `
+                    <div class="field">
+                        <div class="field-label">Messages (${record.messages.length})</div>
+                        <div class="messages-container">
+                `;
+                record.messages.forEach(msg => {
+                    const roleClass = msg.role === 'user' ? 'message-user' : 'message-assistant';
+                    html += `
+                        <div class="message ${roleClass}">
+                            <div class="message-role">${escapeHtml(msg.role)}</div>
+                            <div class="message-content">${escapeHtml(msg.content)}</div>
+                        </div>
+                    `;
+                });
+                html += '</div></div>';
+            }
+
+            content.innerHTML = html;
+        }
+
+        function displayStats() {
+            const statsDiv = document.getElementById('stats');
+            let stats = [];
+
+            stats.push(`<div class="stat-item"><span class="stat-label">Total Traces:</span><span>${traces.length}</span></div>`);
+
+            // Count state transitions
+            const successStates = {};
+            const failureStates = {};
+            traces.forEach(t => {
+                if (t.last_success_state) {
+                    successStates[t.last_success_state] = (successStates[t.last_success_state] || 0) + 1;
+                }
+                if (t.first_failure_state) {
+                    failureStates[t.first_failure_state] = (failureStates[t.first_failure_state] || 0) + 1;
+                }
+            });
+
+            if (Object.keys(failureStates).length > 0) {
+                const topFailure = Object.entries(failureStates).sort((a, b) => b[1] - a[1])[0];
+                stats.push(`<div class="stat-item"><span class="stat-label">Most Common Failure:</span><span>${topFailure[0]} (${topFailure[1]})</span></div>`);
+            }
+
+            statsDiv.innerHTML = stats.join('');
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function goToFirst() { currentIndex = 0; displayRecord(); }
+        function goToPrev() { if (currentIndex > 0) { currentIndex--; displayRecord(); } }
+        function goToNext() { if (currentIndex < traces.length - 1) { currentIndex++; displayRecord(); } }
+        function goToLast() { currentIndex = traces.length - 1; displayRecord(); }
+
+        function jumpToRecord() {
+            const input = document.getElementById('jumpInput');
+            const num = parseInt(input.value);
+            if (num >= 1 && num <= traces.length) {
+                currentIndex = num - 1;
+                displayRecord();
+                input.value = '';
+            } else {
+                alert(`Please enter a number between 1 and ${traces.length}`);
+            }
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (traces.length === 0) return;
+            if (document.activeElement.id === 'jumpInput') {
+                if (e.key === 'Enter') jumpToRecord();
+                return;
+            }
+            switch(e.key) {
+                case 'ArrowLeft': goToPrev(); break;
+                case 'ArrowRight': goToNext(); break;
+                case 'Home': goToFirst(); break;
+                case 'End': goToLast(); break;
+            }
+        });
+    </script>
+</body>
+</html>

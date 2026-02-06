@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "quick recipe plz must use coconut milk and curry paste"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "quick recipe plz must use coconut milk and curry paste"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and delicious Coconut Curry Soup using coconut milk and curry paste:\n\n**Quick Coconut Curry Soup**\n\n**Ingredients:**\n- 1 can (13.5 oz) coconut milk\n- 2 tablespoons Thai red or green curry paste\n- 2 cups vegetable broth or water\n- 1 tablespoon oil (vegetable or coconut oil)\n- 1 small onion, chopped\n- 2 cloves garlic, minced\n- 1 cup mixed vegetables (e.g., bell peppers, carrots, snap peas)\n- Optional: protein like tofu, chicken, or shrimp (about \u00bd cup)\n- Salt and pepper to taste\n- Fresh lime or lemon juice (optional)\n- Fresh cilantro for garnish\n\n**Instructions:**\n\n1. **Prepare the Base:**  \n   In a large pot, heat 1 tablespoon of oil over medium heat. Add the chopped onion and saut\u00e9 for about 2-3 minutes until it becomes translucent and fragrant.\n\n2. **Add Aromatics:**  \n   Stir in the minced garlic and cook for another 30 seconds, stirring constantly to prevent burning.\n\n3. **Incorporate Curry Paste:**  \n   Add 2 tablespoons of your chosen curry paste to the pot. Stir well to coat the onions and garlic evenly. Cook for 1-2 minutes until the paste is fragrant.\n\n4. **Pour in Liquids:**  \n   Slowly pour in the coconut milk and vegetable broth (or water). Stir everything together to combine and dissolve the curry paste.\n\n5. **Add Vegetables & Protein:**  \n   Bring the mixture to a gentle simmer. Add your mixed vegetables and protein if using. Let it cook for about 5-7 minutes until the vegetables are tender and protein is cooked through.\n\n6. **Season & Finish:**  \n   Taste the soup and add salt and pepper as needed. For an extra zing, squeeze in a little fresh lime or lemon juice.\n\n7. **Serve:**  \n   Ladle the hot soup into bowls, garnish with fresh cilantro, and serve immediately. Enjoy your quick and flavorful Coconut Curry Soup!\n\nWould you like a vegetarian version or a different spice level?"
+      }
+    ]
+  },
+  "id": "SYN038",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

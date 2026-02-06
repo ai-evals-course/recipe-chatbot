@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for easy low-carb mexican recipes"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for easy low-carb mexican recipes"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! How about trying a **Chicken Lettuce Wraps with Mexican Flavors**? It's a delicious, low-carb, and easy-to-make dish that captures the vibrant tastes of Mexico. Here's how to prepare it:\n\n### Chicken Lettuce Wraps with Mexican Flavors\n\n**Ingredients:**\n- 1 lb ground chicken (or turkey)\n- 1 tablespoon olive oil\n- 1 small onion, finely chopped\n- 2 cloves garlic, minced\n- 1 teaspoon cumin\n- 1 teaspoon chili powder\n- \u00bd teaspoon smoked paprika\n- \u00bc teaspoon oregano\n- Salt and pepper to taste\n- 1 cup diced tomatoes (fresh or canned)\n- 1 jalape\u00f1o, finely chopped (optional, for heat)\n- \u00bd cup chopped fresh cilantro\n- Lettuce leaves (romaine or butter lettuce works best)\n- Lime wedges for serving\n- Shredded cheese (optional, for added flavor)\n- Sour cream or Greek yogurt (optional)\n\n---\n\n### Instructions:\n\n1. **Prepare the Lettuce Wraps:**\n   - Wash and dry the lettuce leaves carefully, removing any hard stems. Set aside.\n\n2. **Cook the Chicken Filling:**\n   - Heat the olive oil in a large skillet over medium heat.\n   - Add the chopped onion and cook for about 3-4 minutes, until translucent.\n   - Stir in the minced garlic and cook for another 30 seconds until fragrant.\n   - Add the ground chicken to the skillet. Break it apart with a spatula and cook until no longer pink, about 5-7 minutes.\n   - Mix in the cumin, chili powder, smoked paprika, oregano, salt, and pepper.\n   - Add the diced tomatoes and jalape\u00f1o (if using). Stir well, and cook for another 2-3 minutes until the mixture thickens slightly.\n\n3. **Finish and Serve:**\n   - Turn off the heat and stir in the chopped cilantro.\n   - Using a spoon, spoon the hot chicken mixture into the lettuce leaves.\n   - Optional: Add shredded cheese or a dollop of sour cream on top.\n   - Serve with lime wedges for a fresh kick.\n\n---\n\n### Tips:\n- You can prepare the filling ahead of time and reheat when ready to serve.\n- For extra flavor, sprinkle with chopped red onion or pickled jalape\u00f1os.\n\nWould you like a different type of low-carb Mexican recipe?"
+      }
+    ]
+  },
+  "id": "SYN057",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

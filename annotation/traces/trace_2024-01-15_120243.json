@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for a complex keto mexican recipe \ud83d\udd25 that i can whip up with just what's in my pantry"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for a complex keto mexican recipe \ud83d\udd25 that i can whip up with just what's in my pantry"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Let me suggest a flavorful **Keto Mexican Chicken Street Tacos** recipe that\u2019s both complex in flavor and simple to prepare with pantry staples. Since you mentioned basic ingredients, I\u2019ll include common keto-friendly items you might have\u2014think seasoned meats, some veggies, and condiments. Here\u2019s how to make it:\n\n---\n\n### Keto Mexican Chicken Street Tacos\n\n#### Ingredients:\n- 2 boneless, skinless chicken breasts or thighs (if available)\n- 2 tablespoons olive oil or avocado oil\n- 1 teaspoon garlic powder\n- 1 teaspoon onion powder\n- 1 teaspoon ground cumin\n- 1 teaspoon smoked paprika\n- \u00bd teaspoon chili powder\n- \u00bd teaspoon oregano\n- Salt and black pepper to taste\n- 1/2 cup chicken broth or water (for cooking)\n- 1 tablespoon lime juice (if you have fresh lime or bottled lime juice)\n- Lettuce leaves or low-carb tortillas (if available)\n- Optional toppings (if you have): chopped cilantro, diced onion, sliced jalape\u00f1os, shredded cheese (if keto and available), sour cream or sour cream substitute\n\n---\n\n### Instructions:\n\n1. **Prepare the Chicken:**\n   - Start by patting the chicken dry with paper towels.\n   - In a small bowl, mix garlic powder, onion powder, cumin, smoked paprika, chili powder, oregano, salt, and black pepper.\n   - Rub this spice mixture evenly over both sides of the chicken.\n\n2. **Cook the Chicken:**\n   - Heat the olive oil in a large skillet over medium-high heat.\n   - Once hot, add the chicken breasts or thighs.\n   - Sear for about 3-4 minutes on each side until nicely browned.\n   - Pour in the chicken broth or water, reduce heat to medium, cover, and simmer for 10-15 minutes (or until the chicken is cooked through and tender). If using thighs, they might require a slightly longer cooking time.\n   - During cooking, flip the chicken once or twice and spoon some of the broth over it to keep it moist and flavorful.\n\n3. **Shred the Chicken:**\n   - Once cooked, transfer the chicken to a plate and let it rest for a few minutes.\n   - Use two forks to shred the chicken into bite-sized pieces.\n   - Mix in lime juice for added brightness.\n\n4. **Assemble the Tacos:**\n   - If using low-carb tortillas, warm them briefly in a dry skillet or microwave.\n   - If using lettuce leaves, wash and dry them thoroughly.\n   - Fill each taco or lettuce leaf with shredded chicken.\n   - Add optional toppings like chopped cilantro, diced onion, sliced jalape\u00f1os, shredded cheese, or a dollop of sour cream, depending on what you have.\n\n---\n\n### Tip:\n- For extra flavor, sprinkle a pinch of crushed red pepper or hot sauce if you like heat.\n- You can serve these with some sliced avocado or guacamole if available.\n\n---\n\n**Enjoy your complex, flavorful keto Mexican street tacos made with simple pantry ingredients!** Would you like a vegetarian alternative or a different style?"
+      }
+    ]
+  },
+  "id": "SYN246",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

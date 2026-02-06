@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "low sodium chicken recipe with herbs lemon quick please"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "low sodium chicken recipe with herbs lemon quick please"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and flavorful Low Sodium Herb Lemon Chicken recipe that\u2019s healthy and easy to make.\n\n**Herb Lemon Chicken (Low Sodium)**\n\n**Ingredients:**\n- 2 boneless, skinless chicken breasts\n- 2 tablespoons olive oil\n- 2 cloves garlic, minced\n- 1 lemon (zest and juice)\n- 1 teaspoon dried oregano or thyme (or a mix)\n- 1 teaspoon dried rosemary (or fresh if available)\n- Freshly ground black pepper (to taste)\n- Salt substitute or a pinch of sea salt (optional)\n- Fresh parsley, chopped (for garnish)\n\n**Steps:**\n\n1. **Prepare the Chicken:**\n   - Pat the chicken breasts dry with paper towels.\n   - Using a sharp knife, cut chicken into thin cutlets for quicker cooking and more flavor infusion.\n\n2. **Marinate (Optional but recommended):**\n   - In a small bowl, combine lemon zest, half of the lemon juice, minced garlic, herbs, and 1 tablespoon olive oil.\n   - Rub this mixture evenly over the chicken pieces.\n   - Let it sit for 10-15 minutes while you prepare your pan; this helps tenderize and infuse flavor.\n\n3. **Cook the Chicken:**\n   - Heat a large skillet over medium heat and add the remaining 1 tablespoon olive oil.\n   - Once hot, add the chicken pieces.\n   - Cook for about 4-5 minutes on each side until golden brown and cooked through (internal temperature should be 165\u00b0F or 75\u00b0C).\n   - While cooking, frequently spoon some of the pan juices over the chicken to keep it moist.\n\n4. **Add Lemon & Herbs:**\n   - In the last minute of cooking, squeeze the remaining half of lemon juice over the chicken.\n   - Optionally, sprinkle additional herbs for extra flavor.\n\n5. **Serve:**\n   - Transfer to plates, garnish with chopped parsley.\n   - Serve with steamed vegetables or a light salad for a complete low-sodium meal.\n\n**Tip:** For added zest, sprinkle some lemon zest on top just before serving. Enjoy this zesty, herbaceous, low-sodium chicken that's quick and full of flavor!"
+      }
+    ]
+  },
+  "id": "SYN176",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

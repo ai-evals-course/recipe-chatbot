@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "im looking for a mid-level kosher recipe that i can whip up flexibly, without using dairy"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "im looking for a mid-level kosher recipe that i can whip up flexibly, without using dairy"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! How about making a **Spicy Chickpea and Vegetable Stir-Fry**? It\u2019s flavorful, nutritious, dairy-free, and flexible\u2014perfect for a mid-level cook. Plus, you can customize the vegetables based on what you have on hand.\n\n### Spicy Chickpea and Vegetable Stir-Fry\n\n#### Ingredients:\n- 2 tablespoons vegetable oil (olive or canola)\n- 1 can (15 oz) chickpeas, drained and rinsed\n- 1 bell pepper (any color), sliced\n- 1 zucchini, sliced\n- 1 carrot, julienned or sliced thin\n- 1 small onion, sliced\n- 3 cloves garlic, minced\n- 1 teaspoon grated fresh ginger (or \u00bd teaspoon ground ginger)\n- 2 tablespoons soy sauce or tamari (gluten-free if needed)\n- 1 teaspoon chili paste or hot sauce (adjust to taste)\n- 1 teaspoon paprika\n- \u00bd teaspoon cumin\n- Salt and pepper to taste\n- Fresh cilantro or green onions for garnish\n- Optional: a splash of lemon juice or vinegar for brightness\n\n#### Instructions:\n\n1. **Prepare the Vegetables:**  \n   Wash and slice the bell pepper, zucchini, carrot, and onion into thin strips or bite-sized pieces. Mince the garlic and grate the ginger.\n\n2. **Heat the Oil:**  \n   Place a large skillet or wok over medium-high heat. Once hot, add the vegetable oil to coat the bottom evenly.\n\n3. **Saut\u00e9 Aromatics:**  \n   Add the sliced onion, garlic, and ginger to the hot oil. Stir frequently for about 1-2 minutes until fragrant and the onions are translucent.\n\n4. **Cook the Vegetables:**  \n   Add the bell pepper, zucchini, and carrot to the skillet. Stir-fry for about 5-7 minutes until the vegetables are tender but still crisp. Keep stirring so they cook evenly.\n\n5. **Add Chickpeas and Seasonings:**  \n   Stir in the drained chickpeas. Sprinkle paprika, cumin, salt, and pepper over everything. Mix well.\n\n6. **Add Sauces and Spice:**  \n   Pour in soy sauce or tamari, and add chili paste or hot sauce for heat. Toss everything together and cook for another 2-3 minutes to allow flavors to meld.\n\n7. **Finish and Serve:**  \n   Taste and adjust the seasoning\u2014if desired, add a splash of lemon juice or vinegar for brightness. Garnish with chopped cilantro or green onions.\n\n8. **Serve:**  \n   This dish pairs well with rice, quinoa, or even couscous. It\u2019s perfect as a standalone meal or as part of a larger spread.\n\n---\n\nThis recipe is very flexible\u2014feel free to swap in other vegetables like broccoli, mushrooms, or snap peas depending on what you have. Enjoy your flavorful, dairy-free kosher stir-fry!"
+      }
+    ]
+  },
+  "id": "SYN213",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

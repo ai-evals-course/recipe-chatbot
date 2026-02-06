@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for a really complex Indian dish that i can make gluten free within an hour"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for a really complex Indian dish that i can make gluten free within an hour"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! I recommend trying **Chicken Chettinad**, a rich and aromatic South Indian dish known for its complex spices and bold flavors. It\u2019s naturally gluten-free and can be prepared within an hour if you have your spices ready.\n\n### Chicken Chettinad (Gluten-Free, Ready in Under 1 Hour)\n\n#### Ingredients:\n- 500g chicken, cut into pieces (preferably bone-in for flavor)\n- 2 tablespoons oil (vegetable or coconut oil)\n- 1 large onion, finely sliced\n- 2 tomatoes, chopped\n- 2 teaspoons ginger-garlic paste\n- 1 teaspoon turmeric powder\n- 2 teaspoons red chili powder (adjust to taste)\n- 1 teaspoon coriander powder\n- 1 teaspoon fennel seeds\n- 1 teaspoon black peppercorns\n- 1 teaspoon cumin seeds\n- 4-5 dried red chilies (soaked in warm water for 10 mins)\n- 1 small cinnamon stick\n- 2-3 cloves\n- 2-3 green cardamom pods\n- 1/2 teaspoon garam masala\n- Salt to taste\n- Fresh coriander leaves for garnish\n\n---\n\n### Instructions:\n\n**1. Prepare the Spice Paste:**\n- Drain the soaked dried red chilies and grind them together with fennel seeds, black peppercorns, cumin seeds, cloves, and green cardamom pods into a smooth paste. You may add a splash of water or oil if needed. This forms the flavorful Chettinad masala base.\n\n**2. Roast the Whole Spices:**\n- Heat 1 tablespoon of oil in a heavy-bottomed pan over medium heat.\n- Add the cinnamon stick and saut\u00e9 until fragrant, about 30 seconds.\n- Add the ground spice paste and cook, stirring continuously, for about 5-7 minutes until the oil starts to separate and the aroma is released.\n\n**3. Saut\u00e9 Onions and Tomatoes:**\n- Add the sliced onions to the pan and saut\u00e9 until golden brown, about 10 minutes.\n- Then add the ginger-garlic paste and cook for another 2 minutes.\n- Toss in the chopped tomatoes and cook until they soften and the oil begins to ooze out, about 5 minutes.\n\n**4. Add Ground Spices and Chicken:**\n- Mix in turmeric powder, coriander powder, red chili powder, and salt.\n- Cook for 2 minutes, ensuring well incorporated.\n- Add the chicken pieces and stir well, coating them with the spice mixture.\n- Cover and cook on medium heat for about 15-20 minutes, stirring occasionally, until the chicken is cooked through and tender.\n\n**5. Final Seasoning:**\n- Sprinkle garam masala over the dish and give it a final stir.\n- Adjust salt and spice levels to your preference.\n\n**6. Garnish and Serve:**\n- Garnish with chopped fresh coriander leaves.\n- Serve hot with steamed rice, millet, or gluten-free flatbread.\n\n---\n\n### Tips:\n- For an extra smoky flavor, char a few dried red chilies over an open flame before grinding.\n- Keep your spice paste ready to save time during cooking.\n- This dish is flavorful on its own, but a squeeze of lime or lemon juice adds freshness.\n\nWould you like a side dish recommendation to complement this recipe?"
+      }
+    ]
+  },
+  "id": "SYN067",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

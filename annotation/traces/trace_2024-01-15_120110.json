@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "easy keto meals 30 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "easy keto meals 30 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "Let's start with a delicious and easy keto meal that you can prepare in about 30 minutes: **Garlic Butter Shrimp with Zucchini Noodles**. It's flavorful, low in carbs, and perfect for a quick dinner!\n\n### Ingredients:\n- 1 pound (450g) large shrimp, peeled and deveined\n- 2 medium zucchinis\n- 3 tablespoons unsalted butter\n- 4 cloves garlic, minced\n- 1 teaspoon red pepper flakes (optional)\n- Salt and pepper to taste\n- Fresh parsley, chopped (for garnish)\n- Lemon wedges (optional, for serving)\n\n### Instructions:\n\n1. **Prepare the Zucchini Noodles:**\n   - Wash the zucchinis thoroughly.\n   - Using a spiralizer, julienne peeler, or vegetable peeler, cut the zucchinis into noodle-like strips.\n   - Set aside on a paper towel to absorb excess moisture.\n\n2. **Cook the Shrimp:**\n   - Pat the shrimp dry with paper towels and season with salt, pepper, and half of the minced garlic.\n   - In a large skillet over medium heat, melt 1 tablespoon of butter.\n   - Add the shrimp in a single layer. Cook for 2-3 minutes on each side until pink and opaque.\n   - Remove the shrimp from the skillet and set aside.\n\n3. **Make the Garlic Butter Sauce:**\n   - In the same skillet, add the remaining 2 tablespoons of butter.\n   - When melted, add the remaining garlic and red pepper flakes (if using). Saut\u00e9 for about 30 seconds until fragrant.\n\n4. **Cook the Zucchini Noodles:**\n   - Add the zucchini noodles into the skillet with the garlic butter.\n   - Toss gently to coat evenly.\n   - Cook for 2-3 minutes, just until tender but still slightly crunchy.\n   - Season with additional salt and pepper to taste.\n\n5. **Combine and Serve:**\n   - Return the cooked shrimp to the skillet and toss to combine with the zucchini noodles.\n   - Cook for another minute to heat through.\n   - Garnish with chopped parsley and serve with lemon wedges on the side.\n\nEnjoy your quick, flavorful, and keto-friendly Garlic Butter Shrimp with Zucchini Noodles! Would you like another recipe?"
+      }
+    ]
+  },
+  "id": "SYN121",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

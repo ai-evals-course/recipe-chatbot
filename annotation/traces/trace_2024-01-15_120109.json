@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Need ideas for a paleo meal that I can whip up with pantry staples. Not super easy, but not too complicated either \ud83d\ude05"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Need ideas for a paleo meal that I can whip up with pantry staples. Not super easy, but not too complicated either \ud83d\ude05"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! How about trying a **Paleo Chicken and Vegetable Stir-Fry**? It\u2019s flavorful, wholesome, and uses common pantry staples with fresh ingredients you might have on hand. Here\u2019s a step-by-step guide:\n\n### Ingredients:\n- 2 boneless, skinless chicken breasts (or thighs)\n- 1 tablespoon coconut oil or olive oil\n- 1 onion, sliced\n- 2 garlic cloves, minced\n- 1 bell pepper (any color), sliced\n- 1 zucchini, sliced\n- 1 carrot, julienned or sliced thin\n- 2 tablespoons coconut aminos (or substitute soy sauce if not paleo, but coconut aminos are best)\n- 1 teaspoon ground ginger or freshly grated ginger\n- Salt and pepper to taste\n- Optional: sesame seeds or chopped fresh coriander for garnish\n\n### Instructions:\n\n1. **Prep the Chicken:**  \nTrim any excess fat from the chicken breasts. Slice them into thin strips, about 1-inch long. This helps them cook quickly and evenly.\n\n2. **Cook the Chicken:**  \nHeat the coconut oil in a large skillet or wok over medium-high heat. Once hot, add the chicken strips. Season lightly with salt and pepper. Stir-fry for about 5-6 minutes, until the chicken is browned and cooked through. Remove from the pan and set aside.\n\n3. **Saut\u00e9 Aromatics:**  \nIn the same skillet, add a little more oil if needed. Add the sliced onion and minced garlic. Stir-fry for about 2 minutes until fragrant and slightly softened.\n\n4. **Add Vegetables:**  \nAdd the bell pepper, zucchini, and carrot to the skillet. Stir-fry for another 4-5 minutes until the vegetables are tender but still crisp. If necessary, add a splash of water or broth to help them cook and remain vibrant.\n\n5. **Combine and Flavor:**  \nReturn the cooked chicken to the skillet. Pour in the coconut aminos and sprinkle the ground ginger. Toss everything together to combine well. Cook for another 2-3 minutes so the flavors meld.\n\n6. **Serve:**  \nGarnish with sesame seeds or chopped cilantro if available. Serve hot, straight from the skillet\u2014perhaps alongside a cauliflower rice or leafy greens to keep it paleo.\n\n---\n\nThis stir-fry is adaptable\u2014you can swap in other vegetables you have or add a splash of lime juice for a fresh zing. It\u2019s a balanced, satisfying Paleo meal that\u2019s just the right level of involved without being complicated. Enjoy!"
+      }
+    ]
+  },
+  "id": "SYN115",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

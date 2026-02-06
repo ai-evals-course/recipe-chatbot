@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "gluten free dish with quinoa black beans lime plz"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "gluten free dish with quinoa black beans lime plz"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a delicious and nutritious Gluten-Free Quinoa & Black Bean Lime Salad. It's flavorful, easy to prepare, and perfect as a light meal or side dish.\n\n### Gluten-Free Quinoa & Black Bean Lime Salad\n\n#### Ingredients:\n- 1 cup quinoa\n- 1 can black beans (15 oz), drained and rinsed\n- 1-2 limes (for juice and zest)\n- 1 tablespoon olive oil\n- 1/2 teaspoon cumin powder (optional for added flavor)\n- 1/2 teaspoon chili powder (optional)\n- Salt and freshly ground black pepper to taste\n- 1 small red bell pepper, diced (optional for color and crunch)\n- 1/4 cup chopped fresh cilantro\n- 1/4 cup chopped red onion (optional)\n- Avocado slices for topping (optional)\n\n---\n\n### Instructions:\n\n1. **Rinse the Quinoa**  \n   Place the quinoa in a fine-mesh sieve and rinse thoroughly under cold running water. This removes the natural saponins that can make it taste bitter.\n\n2. **Cook the Quinoa**  \n   In a medium saucepan, add the rinsed quinoa and 2 cups of water. Bring to a boil over medium-high heat. Reduce the heat to low, cover with a lid, and simmer for about 15 minutes or until the water is absorbed and the quinoa is fluffy. Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork and let it cool slightly.\n\n3. **Prepare the Lime Dressing**  \n   In a small bowl, whisk together the juice of 1 lime, 1 tablespoon olive oil, cumin powder, chili powder, salt, and pepper. Adjust the seasonings to taste.\n\n4. **Combine Ingredients**  \n   In a large mixing bowl, add the cooked and slightly cooled quinoa, drained black beans, diced red bell pepper, chopped red onion, and cilantro.\n\n5. **Dress the Salad**  \n   Pour the lime dressing over the mixture and gently toss to combine everything evenly.\n\n6. **Serve**  \n   Transfer to individual bowls or a serving platter. Top with slices of avocado if desired. Garnish with additional cilantro or lime wedges for extra flavor.\n\n---\n\n### Tips:\n- For added protein, include grilled chicken or grilled shrimp.\n- This salad can be refrigerated for up to 2 days. Just add fresh avocado and cilantro before serving to keep it vibrant.\n\nEnjoy your fresh and zesty gluten-free Quinoa & Black Bean Lime Salad! Would you like a different recipe?"
+      }
+    ]
+  },
+  "id": "SYN132",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

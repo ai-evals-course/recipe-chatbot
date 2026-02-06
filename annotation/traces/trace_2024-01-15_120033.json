@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "recipe for salmon asparagus lemon quick pls"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "recipe for salmon asparagus lemon quick pls"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and delicious recipe for **Lemon Garlic Salmon with Asparagus**:\n\n### Ingredients:\n- 2 salmon fillets\n- 1 bunch asparagus (about 1 bunch)\n- 1 lemon\n- 3 cloves garlic\n- 2 tablespoons olive oil\n- Salt and pepper to taste\n- Optional: fresh herbs like dill or parsley for garnish\n\n### Instructions:\n\n1. **Preheat your oven** to 400\u00b0F (200\u00b0C). Line a baking sheet with parchment paper or lightly grease it.\n\n2. **Prepare the asparagus:** \n   - Rinse the asparagus and trim off the tough woody ends (about 1-2 inches).\n   - Place the asparagus on one side of the baking sheet.\n\n3. **Prepare the salmon:**\n   - Pat the salmon fillets dry with a paper towel.\n   - In a small bowl, mix 1 tablespoon olive oil, 2 minced garlic cloves, zest of half a lemon, juice of half a lemon, salt, and pepper.\n   - Rub this mixture onto the salmon fillets.\n\n4. **Assemble for baking:**\n   - Place the salmon fillets on the baking sheet near the asparagus.\n   - Drizzle a little olive oil over the asparagus, sprinkle with a pinch of salt and pepper.\n\n5. **Bake:** \n   - Put the sheet in the oven and bake for about 12-15 minutes, or until the salmon is opaque and flakes easily with a fork. The asparagus should be tender and slightly crispy.\n\n6. **Serve:**\n   - Plate the salmon and asparagus.\n   - Squeeze fresh lemon juice over everything.\n   - Garnish with chopped herbs if desired.\n\nEnjoy your quick and flavorful lemon garlic salmon with asparagus! Would you like a different recipe or more variations?"
+      }
+    ]
+  },
+  "id": "SYN046",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

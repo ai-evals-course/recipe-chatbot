@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i'm looking for a good high-protein meal that uses quinoa, black beans, and avocados, can you help me find something easy?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "i'm looking for a good high-protein meal that uses quinoa, black beans, and avocados, can you help me find something easy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! How about a delicious Quinoa and Black Bean Avocado Salad? It's high in protein, fresh, easy to prepare, and perfect for a nutritious meal. Here's how you can make it:\n\n**Ingredients:**\n- 1 cup quinoa\n- 1 can (15 oz) black beans, drained and rinsed\n- 1 ripe avocado\n- 1 lime (for juice)\n- 2 tablespoons olive oil\n- 1/2 teaspoon cumin powder\n- Salt and pepper to taste\n- Optional: chopped cilantro, diced tomatoes, or red onion for extra flavor\n\n**Steps:**\n\n1. **Cook the Quinoa:**\n   - Rinse the quinoa under cold water using a fine mesh sieve to remove any bitterness.\n   - In a medium pot, combine 1 cup of quinoa with 2 cups of water.\n   - Bring to a boil over high heat, then reduce the heat to low, cover, and simmer for about 15 minutes, or until the water is absorbed and the quinoa is fluffy.\n   - Remove from heat and let it sit, covered, for 5 minutes. Then fluff with a fork and allow to cool slightly.\n\n2. **Prepare the Black Beans:**\n   - While the quinoa cools, drain and rinse the black beans. Set aside.\n\n3. **Make the Dressing:**\n   - In a small bowl, whisk together the juice of one lime, 2 tablespoons of olive oil, cumin, salt, and pepper.\n\n4. **Prepare the Avocado:**\n   - Cut the avocado in half, remove the pit, and dice it into small cubes.\n\n5. **Assemble the Salad:**\n   - In a large bowl, combine the cooked quinoa, black beans, and avocado.\n   - Pour the dressing over the mixture and gently toss to combine, being careful not to mash the avocado.\n   \n6. **Add Optional Tips:**\n   - For extra flavor, sprinkle with chopped cilantro or diced tomatoes.\n   - Adjust salt and pepper to taste.\n\n7. **Serve:**\n   - You can serve this salad immediately or chill it in the refrigerator for 30 minutes to let the flavors meld.\n\nThis meal is rich in plant-based protein from quinoa and black beans, healthy fats from the avocado, and is very simple to prepare. Would you like a different style of high-protein recipe?"
+      }
+    ]
+  },
+  "id": "SYN034",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

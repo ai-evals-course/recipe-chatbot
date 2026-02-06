@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i need a paleo recipe using stuff i can find in my pantry, something intermediate but tasty"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "i need a paleo recipe using stuff i can find in my pantry, something intermediate but tasty"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choice! Here's a flavorful Paleo recipe using pantry staples\u2014**Garlic Herb Tuna Patties**. They're tasty, protein-packed, and perfect for an intermediate cooking level.\n\n### Garlic Herb Tuna Patties\n\n**Ingredients:**\n- 2 cans of tuna in water (drained)\n- 2 eggs\n- 1/4 cup almond flour (or coconut flour if almond isn't available)\n- 2 cloves garlic, minced\n- 1 teaspoon dried oregano or thyme\n- 1 teaspoon paprika (optional, for a smoky flavor)\n- Salt and black pepper to taste\n- 2 tablespoons olive oil or avocado oil\n- 1 tablespoon fresh lemon juice (if you have a lemon, or substitute with a splash of vinegar)\n\n**Instructions:**\n\n1. **Prepare the Mixture:**\n   - In a medium mixing bowl, add the drained tuna and break it apart with a fork until flaky.\n   - Add the eggs to the tuna, then stir in the almond flour, minced garlic, herbs, paprika, salt, and pepper.\n   - If you\u2019re using lemon juice, add it now for brightness.\n   - Mix everything thoroughly until well combined. The mixture should be cohesive; if it's too wet, add a little more almond flour.\n\n2. **Shape the Patties:**\n   - Divide the mixture into 4-6 portions depending on your preferred size.\n   - Shape each portion into a flat, round patty\u2014about 3/4 inch thick.\n\n3. **Cook the Patties:**\n   - Heat the olive or avocado oil in a large skillet over medium heat.\n   - Once hot (a drop of water sizzles), add the tuna patties carefully.\n   - Cook for about 3-4 minutes on each side until golden brown and crispy. Use a spatula to flip them gently.\n\n4. **Serve:**\n   - Remove from the skillet and place on a paper towel to drain excess oil.\n   - Serve warm, topped with a squeeze of fresh lemon or your favorite Paleo-friendly sauce or side.\n\n**Optional pantry additions:** If you have canned chopped tomatoes, olives, or dried herbs, add them to the mixture for extra flavor!\n\nEnjoy your flavorful, protein-rich Paleo tuna patties\u2014a perfect, intermediate-level dish! Would you like another recipe or a different flavor profile?"
+      }
+    ]
+  },
+  "id": "SYN111",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what's an easy low-effort recipe that's dairy free and doesn't involve indian spices? Need it in under an hour."
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "what's an easy low-effort recipe that's dairy free and doesn't involve indian spices? Need it in under an hour."
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a simple, flavorful, dairy-free recipe you can prepare in under an hour: **Lemon Herb Grilled Chicken with Roasted Vegetables**. It's fresh, healthy, and easy to make with basic ingredients.\n\n### Lemon Herb Grilled Chicken with Roasted Vegetables\n\n#### Ingredients:\n- 2 boneless, skinless chicken breasts\n- 2 tablespoons olive oil\n- 1 lemon (juice and zest)\n- 2 cloves garlic, minced\n- 1 teaspoon dried oregano or thyme\n- Salt and pepper to taste\n- Mixed vegetables (e.g., bell peppers, zucchini, carrots, or potatoes)\n- Additional olive oil for roasting\n- Optional: fresh herbs (parsley, cilantro) for garnish\n\n---\n\n#### Instructions:\n\n**1. Prepare the Marinade:**\n- In a small bowl, whisk together the juice and zest of the lemon, olive oil, minced garlic, dried herbs, salt, and pepper.\n- Place the chicken breasts in a resealable plastic bag or shallow dish, and pour the marinade over them.\n- Seal or cover, and refrigerate for at least 15 minutes \u2014 the longer, the better for flavor, but even 15 minutes is fine.\n\n**2. Preheat the Oven and Grill:**\n- Heat your grill or grill pan over medium-high heat.\n- While the grill warms up, preheat your oven to 400\u00b0F (200\u00b0C) for the vegetables.\n\n**3. Roast the Vegetables:**\n- While the chicken is marinating, chop your mixed vegetables into even-sized pieces.\n- Toss them in a bowl with olive oil, salt, pepper, and some additional herbs if desired.\n- Spread on a baking sheet lined with parchment paper.\n- Roast in the oven for about 20-25 minutes until tender and slightly caramelized, stirring halfway through.\n\n**4. Grill the Chicken:**\n- Remove the chicken from the marinade, allowing excess to drip off.\n- Place on the hot grill, cooking about 6-7 minutes per side, or until the internal temperature reaches 165\u00b0F (75\u00b0C) and the juices run clear.\n- Once cooked, transfer to a plate and let rest for 5 minutes.\n\n**5. Serve:**\n- Slice the grilled chicken and plate alongside the roasted vegetables.\n- Garnish with fresh herbs if desired and a squeeze of fresh lemon for added brightness.\n\n---\n\nThis dish is quick, low-effort, and packed with flavor! Would you like a vegetarian alternative or suggestions for side dishes?"
+      }
+    ]
+  },
+  "id": "SYN160",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

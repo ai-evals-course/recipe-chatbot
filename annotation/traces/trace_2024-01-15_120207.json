@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a japaneese dish with salmon and broccoli! wanna use quinoa too, not too difficult, time 30 to 60 mins \ud83d\udc1f\ud83e\udd66\ud83c\udf5a"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a japaneese dish with salmon and broccoli! wanna use quinoa too, not too difficult, time 30 to 60 mins \ud83d\udc1f\ud83e\udd66\ud83c\udf5a"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend making a **Salmon & Broccoli Quinoa Stir-Fry with a Japanese Twist**. It's flavorful, nutritious, and fits within your time frame. Let\u2019s get cooking!\n\n### Ingredients:\n- 2 salmon fillets (about 6 oz each)\n- 1 cup quinoa\n- 2 cups broccoli florets\n- 2 tablespoons soy sauce (or tamari for gluten-free)\n- 1 tablespoon sesame oil (or vegetable oil)\n- 1 tablespoon rice vinegar\n- 1 teaspoon grated fresh ginger (or \u00bd teaspoon ground ginger)\n- 1 clove garlic, minced\n- 1 green onion, sliced (for garnish)\n- 1 teaspoon sesame seeds (optional)\n- Salt and pepper to taste\n\n### Instructions:\n\n1. **Cook the Quinoa:**\n   - Rinse the quinoa under cold water using a fine mesh strainer.\n   - In a pot, bring 2 cups of water to a boil. Add the quinoa, reduce heat to low, cover, and simmer for about 15 minutes, or until the quinoa is tender and the water is absorbed.\n   - Fluff with a fork and set aside.\n\n2. **Prepare the Salmon:**\n   - While the quinoa cooks, season the salmon fillets with a pinch of salt and pepper.\n   - Heat a non-stick skillet over medium heat with 1 tablespoon of sesame oil.\n   - Place the salmon fillets skin-side down if they have skin. Cook for about 4-5 minutes per side, or until the salmon is cooked through (opaque and flakes easily).\n   - Remove and set aside. Once cooled slightly, flake the salmon into bite-sized pieces.\n\n3. **Steam or Blanch the Broccoli:**\n   - In the same skillet, add a splash of water or use a separate pot to steam the broccoli for about 3-4 minutes until tender but still vibrant green.\n   - Drain excess water and set aside.\n\n4. **Combine and Flavor:**\n   - In the same skillet, add a little more oil if needed. Saut\u00e9 the garlic and ginger for about 30 seconds until fragrant.\n   - Add the cooked quinoa, broccoli, and salmon pieces.\n   - Pour in the soy sauce, rice vinegar, and stir to combine well. Cook for 2-3 minutes to heat everything through and let flavors meld.\n\n5. **Finish and Serve:**\n   - Taste and adjust with more soy or a dash of salt if needed.\n   - Transfer to serving dishes, garnish with sliced green onion and sesame seeds if using.\n   - Serve hot, enjoying a tasty Japanese-inspired salmon and broccoli quinoa bowl!\n\nWould you like a vegetarian variation, or tips on adding some spice?"
+      }
+    ]
+  },
+  "id": "SYN210",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for a fast dish with coconut milk, curry paste and veggies that's dairy free"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for a fast dish with coconut milk, curry paste and veggies that's dairy free"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! How about a quick and flavorful **Coconut Vegetable Curry**? It's dairy-free, rich in coconut flavor, and packed with flavors from curry paste and fresh veggies. Here's how to make it:\n\n### Ingredients:\n- 1 can (13.5 oz) coconut milk\n- 2-3 tablespoons curry paste (choose your preferred type: red, green, or yellow)\n- 2 cups mixed vegetables (e.g., bell peppers, carrots, zucchini, snap peas)\n- 1 tablespoon oil (vegetable or coconut oil)\n- 1 onion, chopped\n- 2 cloves garlic, minced\n- Salt and pepper to taste\n- Optional: fresh cilantro for garnish\n\n### Instructions:\n\n1. **Prep the Veggies:** Wash and chop your vegetables into bite-sized pieces. Bell peppers and zucchini should be sliced, carrots thinly julienned, and snap peas left whole.\n\n2. **Cook the Aromatics:** \n   - Heat 1 tablespoon of oil in a large skillet or wok over medium heat.\n   - Add the chopped onion and saut\u00e9 for about 3-4 minutes until translucent.\n   - Add minced garlic and cook for another minute, stirring constantly to prevent burning.\n\n3. **Add the Curry Paste:** \n   - Stir in 2-3 tablespoons of curry paste.\n   - Cook for 1-2 minutes to release the aroma and enhance the flavor.\n\n4. **Pour in Coconut Milk:** \n   - Slowly add the coconut milk, stirring well to combine everything.\n   - Bring the mixture to a gentle simmer.\n\n5. **Cook the Vegetables:** \n   - Add your chopped vegetables to the skillet.\n   - Stir to coat them with the curry coconut sauce.\n   - Cover and let simmer for about 7-10 minutes, or until the vegetables are tender but still vibrant.\n\n6. **Season and Serve:** \n   - Taste and add salt and pepper as needed.\n   - Garnish with fresh cilantro if available.\n\n**Serving suggestion:** Serve this delicious curry over steamed rice or quinoa for a complete, satisfying meal.\n\nEnjoy your quick, dairy-free Coconut Vegetable Curry! Would you like another recipe or variations?"
+      }
+    ]
+  },
+  "id": "SYN072",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

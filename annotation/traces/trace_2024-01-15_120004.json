@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What\u2019s a quick and easy recipe I can make with pantry ingredients that follows low FODMAP diet?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "What\u2019s a quick and easy recipe I can make with pantry ingredients that follows low FODMAP diet?"
+      },
+      {
+        "role": "assistant",
+        "content": "A great quick and easy low FODMAP recipe using pantry staples is **Lemon Herb Quinoa**. It\u2019s light, flavorful, and can be prepared in under 20 minutes. Here's how to make it:\n\n### Ingredients:\n- 1 cup quinoa\n- 2 cups water or low FODMAP broth (for extra flavor)\n- 1 tablespoon olive oil\n- 1 tablespoon fresh lemon juice\n- 1 teaspoon grated lemon zest\n- 1 teaspoon dried oregano or thyme (check for FODMAP content)\n- Salt and freshly ground black pepper, to taste\n- Optional: chopped fresh chives or parsley for garnish\n\n### Instructions:\n\n1. **Rinse the Quinoa:**  \n   Place the quinoa in a fine mesh strainer and rinse under cold running water for about 30 seconds. This removes saponins, which can cause bitterness.\n\n2. **Cook the Quinoa:**  \n   In a medium saucepan, combine rinsed quinoa and water/broth. Bring to a boil over medium-high heat.  \n   Once boiling, reduce the heat to low, cover with a tight-fitting lid, and simmer for about 15 minutes until the liquid is absorbed and the quinoa is fluffy.\n\n3. **Fluff and Season:**  \n   Remove the saucepan from heat. Let it sit, covered, for 5 minutes. Then, fluff the quinoa with a fork.\n\n4. **Add Flavor:**  \n   Transfer the cooked quinoa to a mixing bowl. While still warm, stir in olive oil, lemon juice, lemon zest, dried herbs, salt, and pepper. Mix well to evenly distribute the flavors.\n\n5. **Garnish and Serve:**  \n   Top with chopped chives or parsley if available. Serve warm or at room temperature.\n\n### Tips:\n- You can add diced low FODMAP vegetables like carrots or cucumbers for extra crunch.\n- This dish pairs well with grilled chicken or fish for a complete meal.\n\nEnjoy your bright, zesty, and pantry-friendly low FODMAP dish! Would you like another recipe idea?"
+      }
+    ]
+  },
+  "id": "SYN008",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

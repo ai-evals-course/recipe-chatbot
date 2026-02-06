@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "quick low carb meal ideas plz"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "quick low carb meal ideas plz"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and tasty low-carb meal idea: **Garlic Butter Shrimp with Zucchini Noodles**.\n\n### Ingredients:\n- 1 pound shrimp (peeled and deveined)\n- 2 medium zucchinis\n- 3 cloves garlic (minced)\n- 3 tablespoons butter\n- 1 tablespoon olive oil\n- Salt and pepper to taste\n- Red pepper flakes (optional for a bit of heat)\n- Fresh parsley (chopped, for garnish)\n- Lemon wedges (optional, for serving)\n\n### Instructions:\n\n1. **Prepare the Zucchini Noodles:**\n   - Wash the zucchinis thoroughly.\n   - Use a spiralizer or a julienne peeler to create zucchini noodles (zoodles). Set aside.\n\n2. **Cook the Shrimp:**\n   - In a large skillet, heat the olive oil over medium heat.\n   - Add the shrimp in a single layer. Season with a pinch of salt and pepper.\n   - Cook for about 2-3 minutes per side, until the shrimp turns pink and opaque. Remove from the skillet and set aside.\n\n3. **Make the Garlic Butter Sauce:**\n   - In the same skillet, add the butter and melt over medium heat.\n   - Add the minced garlic and cook for about 30 seconds until fragrant. Be careful not to burn the garlic.\n   - (Optional) Add red pepper flakes for a spicy kick.\n\n4. **Cook the Zucchini Noodles:**\n   - Add the zucchini noodles to the skillet with the garlic butter.\n   - Toss everything together and cook for 2-3 minutes until slightly tender but still crisp.\n   - Season with additional salt and pepper if needed.\n\n5. **Combine & Serve:**\n   - Return the cooked shrimp to the skillet, tossing to coat with the sauce.\n   - Garnish with chopped parsley.\n   - Serve immediately with lemon wedges on the side for an extra zing.\n\nEnjoy your quick, flavorful low-carb garlic butter shrimp with zucchini noodles! Would you like another recipe?"
+      }
+    ]
+  },
+  "id": "SYN201",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

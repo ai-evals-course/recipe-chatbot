@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What\u2019s a beginner-friendly keto dish I can whip up without italian flavors?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "What\u2019s a beginner-friendly keto dish I can whip up without italian flavors?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! I recommend trying a **Garlic Butter Shrimp with Spinach**. It\u2019s simple, flavorful, and perfect for beginners on a keto diet, using basic ingredients you likely have at home. \n\n### Garlic Butter Shrimp with Spinach\n\n#### Ingredients:\n- 1 pound (450g) raw shrimp (peeled and deveined)\n- 3 cups fresh spinach\n- 3 tablespoons unsalted butter\n- 3 cloves garlic, minced\n- Salt and pepper to taste\n- Optional: a squeeze of lemon juice or lemon wedges for serving\n\n#### Instructions:\n\n1. **Prep the Shrimp:**\n   - Rinse the shrimp under cold water and pat dry with paper towels. Season lightly with salt and pepper.\n\n2. **Cook the Shrimp:**\n   - Heat a large skillet over medium heat. Add 1 tablespoon of butter and let it melt.\n   - Once melted and slightly bubbling, add the minced garlic. Saut\u00e9 for about 30 seconds until fragrant but not burnt.\n   - Add the shrimp in a single layer to the skillet. Cook for about 2 minutes on one side until they start to turn pink.\n   - Flip the shrimp to the other side and cook for another 2 minutes until opaque and cooked through.\n   - Remove the shrimp from the skillet and set aside on a plate.\n\n3. **Prepare the Spinach:**\n   - In the same skillet, add the remaining 2 tablespoons of butter.\n   - Once melted, add the spinach and cook, stirring occasionally, for about 2-3 minutes until wilted and tender.\n\n4. **Combine and Serve:**\n   - Return the cooked shrimp to the skillet with spinach. Toss gently to combine and heat everything through for another minute.\n   - Optional: Squeeze fresh lemon juice over the dish for added brightness.\n   - Serve immediately, perhaps with a side of cauliflower rice or simply on its own.\n\nEnjoy your quick and tasty keto-friendly meal! Would you like a different style or more recipes?"
+      }
+    ]
+  },
+  "id": "SYN052",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

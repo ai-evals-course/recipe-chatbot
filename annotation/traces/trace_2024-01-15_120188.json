@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i need a low-effort kosher recipe that\u2019s italian and can be ready in 30 to 60 minutes \ud83d\udd52"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "i need a low-effort kosher recipe that\u2019s italian and can be ready in 30 to 60 minutes \ud83d\udd52"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend making **Garlic Butter Shrimp Pasta** \u2014 a flavorful, low-effort Italian-inspired dish that's kosher and can be ready in about 30 minutes. It\u2019s perfect if you have basic pantry ingredients like pasta, garlic, and butter.\n\n### Ingredients:\n- 8 oz spaghetti or your favorite pasta\n- 3 tbsp unsalted butter\n- 4-5 garlic cloves, minced\n- 1 lb peeled and deveined shrimp (fresh or frozen, thawed)\n- Salt and pepper to taste\n- Optional: red pepper flakes for a bit of heat\n- Fresh parsley or basil (optional, for garnish)\n- Lemon wedges (optional)\n\n### Instructions:\n\n1. **Cook the Pasta:**\n   - Fill a large pot with water, add a generous pinch of salt, and bring to a boil.\n   - Add the pasta and cook according to package instructions until al dente (typically 8-10 minutes).\n   - Drain the pasta, saving about \u00bd cup of pasta water, and set aside.\n\n2. **Saut\u00e9 the Shrimp:**\n   - While the pasta is cooking, heat a large skillet over medium heat.\n   - Add 1 tablespoon of butter to the skillet.\n   - Once melted, add the minced garlic and saut\u00e9 for about 1-2 minutes until fragrant but not burnt.\n   - Add the shrimp to the skillet, season with salt, pepper, and optional red pepper flakes.\n   - Cook for 2-3 minutes per side until the shrimp turn pink and opaque.\n   - Remove the shrimp from the skillet and set aside.\n\n3. **Make the Garlic Butter Sauce:**\n   - In the same skillet, add the remaining 2 tablespoons of butter.\n   - Once melted, return the cooked shrimp to the skillet.\n   - Toss everything together for another minute to coat the shrimp in the garlic butter.\n\n4. **Combine and Serve:**\n   - Add the cooked pasta to the skillet, tossing to combine.\n   - If the sauce seems thick, add a splash of the reserved pasta water to loosen it.\n   - Adjust salt and pepper to taste.\n   - Optional: garnish with chopped parsley or basil and squeeze fresh lemon juice on top for brightness.\n\n### Serving:\nServe immediately \u2014 this dish pairs wonderfully with a simple green salad or steamed vegetables.\n\nEnjoy your quick, flavorful Italian kosher meal! Would you like a vegetarian variation or other ideas?"
+      }
+    ]
+  },
+  "id": "SYN188",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quick chicken w/herbs & lemon, no salt really fast"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Quick chicken w/herbs & lemon, no salt really fast"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and flavorful Chicken with Herbs & Lemon that\u2019s easy to prepare and requires minimal ingredients:\n\n### Lemon Herb Chicken (No Salt Version)\n\n#### Ingredients:\n- 2 boneless, skinless chicken breasts\n- 1 tablespoon olive oil\n- 1 lemon (zested and juiced)\n- 2-3 garlic cloves, minced\n- 1 teaspoon dried thyme or rosemary (or a mix)\n- Fresh herbs (like parsley or basil) for garnish\n- Pepper to taste\n\n#### Instructions:\n\n1. **Prepare the Chicken:**  \n   Pat the chicken breasts dry with paper towels. If they are thick, you can gently pound them to an even thickness for faster cooking.\n\n2. **Marinate & Season:**  \n   In a small bowl, combine the lemon zest, lemon juice, olive oil, minced garlic, dried herbs, and pepper. Mix well.  \n   Rub this mixture all over the chicken breasts, making sure to coat evenly. Let it sit while you prep your pan (about 5 minutes if you have time).\n\n3. **Cook the Chicken:**  \n   Heat a large skillet over medium heat until hot. Add a little olive oil if needed.  \n   Place the chicken breasts in the skillet and cook for about 5-7 minutes on each side, or until they are golden brown and cooked through (internal temperature should reach 165\u00b0F / 74\u00b0C). Flip once to ensure even cooking.\n\n4. **Finish with Lemon:**  \n   During the last minute of cooking, squeeze a little more lemon juice over the chicken for extra brightness.\n\n5. **Serve:**  \n   Transfer the chicken to plates. Garnish with chopped fresh herbs like parsley or basil if available. Serve immediately, perhaps with a simple side like steamed vegetables or rice.\n\nEnjoy your quick, fresh, and zesty chicken! Would you like a side dish suggestion as well?"
+      }
+    ]
+  },
+  "id": "SYN179",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

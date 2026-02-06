@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a simple keto recipe that doesn\u2019t involve italian cuisine"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a simple keto recipe that doesn\u2019t involve italian cuisine"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a delicious and simple keto recipe for **Garlic Butter Shrimp**\u2014it's quick, flavorful, and perfect for a low-carb diet.\n\n### Garlic Butter Shrimp\n\n#### Ingredients:\n- 1 pound (450g) large shrimp, peeled and deveined\n- 3 tablespoons unsalted butter\n- 4 cloves garlic, minced\n- 1 teaspoon paprika (optional for color)\n- Salt and freshly ground black pepper, to taste\n- Fresh parsley, chopped (for garnish)\n- Lemon wedges (optional, for serving)\n\n#### Instructions:\n\n1. **Prepare the Shrimp:**  \n   Rinse the shrimp under cold water and pat dry with paper towels. Season them lightly with salt, black pepper, and paprika if using.\n\n2. **Cook the Shrimp:**  \n   In a large skillet, melt the butter over medium heat. Once melted and bubbling, add the minced garlic. Saut\u00e9 the garlic for about 30 seconds until fragrant\u2014be careful not to burn it.\n\n3. **Add the Shrimp:**  \n   Place the seasoned shrimp in the skillet in a single layer. Cook for about 2 minutes on one side until they start to turn pink and opaque.\n\n4. **Flip and Finish Cooking:**  \n   Flip the shrimp and cook for another 2-3 minutes until fully pink and opaque throughout. Baste with the garlic butter in the pan for extra flavor.\n\n5. **Serve:**  \n   Remove from heat, sprinkle with chopped parsley, and serve immediately with lemon wedges if desired.\n\nThis dish pairs wonderfully with steamed vegetables or a light salad. It\u2019s quick to make, flavorful, and fits perfectly into a keto lifestyle!\n\nWould you like a different type of recipe or more ideas?"
+      }
+    ]
+  },
+  "id": "SYN053",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

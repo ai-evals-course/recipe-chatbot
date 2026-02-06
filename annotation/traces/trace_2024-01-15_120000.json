@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Whatcha got for a 30 min eggs and cheese dinner? \ud83e\udd14"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Whatcha got for a 30 min eggs and cheese dinner? \ud83e\udd14"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a quick and delicious Egg & Cheese Breakfast Sandwich that you can make in about 30 minutes! Perfect for a satisfying dinner or snack with simple ingredients.\n\n**Ingredients:**\n- 2 large eggs\n- 2 slices of cheese (cheddar, American, or whatever you have)\n- 2 slices of bread or a English muffin\n- 1 tablespoon butter or oil\n- Salt and pepper to taste\n- Optional: a slice of ham, bacon, or cooked sausage for extra flavor\n\n**Steps:**\n1. **Prepare your ingredients:** If you're adding meat, cook the ham, bacon, or sausage in a skillet over medium heat until browned and cooked through. Set aside.\n\n2. **Toast the bread:** While the meat cooks, toast your bread slices or English muffin in a toaster or on a skillet until golden brown. Keep warm.\n\n3. **Cook the eggs:** In the same skillet, melt the butter or heat some oil over medium heat. Crack the eggs into the skillet, being careful not to break the yolks. Season with a pinch of salt and pepper.\n\n4. **Cook the eggs sunny side up or over-easy:** Let the eggs cook until the whites are set but the yolks are still runny (about 2-3 minutes). If you prefer firmer yolks, flip the eggs carefully and cook for another minute.\n\n5. **Add the cheese:** Place a slice of cheese over each egg during the last minute of cooking so it melts slightly.\n\n6. **Assemble the sandwich:** Place the cooked egg(s) with melted cheese onto one slice of toasted bread. Add the cooked meat if using, then top with the second slice of bread.\n\n7. **Serve:** Slice the sandwich in half if desired, and enjoy your quick, cheesy egg dinner!\n\nWould you like a variation, maybe with some veggies or different toppings?"
+      }
+    ]
+  },
+  "id": "SYN025",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

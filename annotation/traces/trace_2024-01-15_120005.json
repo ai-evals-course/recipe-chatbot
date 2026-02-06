@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "can u give me a quick recipe that\u2019s easy to make low FODMAP and uses general pantry stuff ty! \ud83d\ude0a"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "can u give me a quick recipe that\u2019s easy to make low FODMAP and uses general pantry stuff ty! \ud83d\ude0a"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a simple and delicious Low FODMAP Spinach and Egg Breakfast Wrap that uses common pantry ingredients. It\u2019s quick, nutritious, and easy to make!\n\n### Ingredients:\n- 2 large eggs\n- 1 cup fresh spinach (or frozen if fresh isn't available)\n- 1 tbsp olive oil or butter\n- 1 small gluten-free or low FODMAP wrap/tortilla (optional, if you have)\n- Salt and pepper to taste\n- A sprinkle of grated hard cheese like Parmesan (optional)\n\n### Instructions:\n1. **Prepare the Spinach:**  \n   If using fresh spinach, give it a quick rinse and pat dry. If using frozen, thaw and drain excess moisture.\n\n2. **Scramble the Eggs:**  \n   Crack the eggs into a bowl, add a pinch of salt and pepper, and beat them lightly with a fork or whisk.\n\n3. **Cook the Spinach:**  \n   Heat the olive oil or butter in a non-stick skillet over medium heat.  \n   Add the spinach and saut\u00e9 for 1-2 minutes until wilted. If using frozen, cook for about 1 minute until heated through.\n\n4. **Add the Eggs:**  \n   Pour the beaten eggs over the spinach in the skillet. Let sit for a few seconds, then gently scramble with a spatula until cooked to your liking (about 2-3 minutes).\n\n5. **Assemble (Optional):**  \n   Warm the wrap if using. Spoon the scrambled eggs and spinach onto the center of the wrap, sprinkle with a little cheese if desired, then roll up.\n\n6. **Serve:**  \n   Slice in half if desired and enjoy warm! This meal is great on its own or with a side of fresh fruit.\n\nWould you like a variation, or do you have specific ingredients you want to include?"
+      }
+    ]
+  },
+  "id": "SYN010",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

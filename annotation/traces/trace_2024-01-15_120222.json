@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "easy shrimp rice meal with zucchini plz"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "easy shrimp rice meal with zucchini plz"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and flavorful Shrimp and Zucchini Rice Bowl that's easy to prepare:\n\n**Ingredients:**\n- 1 cup of long-grain rice (white or brown)\n- 8 oz (about 10-12) shrimp, peeled and deveined\n- 2 medium zucchinis, sliced into rounds\n- 2 cloves garlic, minced\n- 2 tablespoons olive oil\n- 1 teaspoon paprika (optional)\n- Salt and pepper to taste\n- Lemon wedges for serving\n- Fresh parsley or cilantro for garnish (optional)\n\n**Steps:**\n\n1. **Cook the Rice:**\n   - Rinse the rice under cold water until the water runs clear.\n   - In a medium pot, combine 1 cup of rice with 2 cups of water and a pinch of salt.\n   - Bring to a boil over medium-high heat. Once boiling, reduce heat to low, cover, and simmer for about 15 minutes (for white rice) or according to package instructions for brown rice.\n   - Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork.\n\n2. **Prepare the Shrimp:**\n   - While rice cooks, season the shrimp with a pinch of salt, pepper, and paprika if using.\n   - Heat 1 tablespoon of olive oil in a large skillet over medium-high heat.\n   - Add the shrimp in a single layer and cook for 2-3 minutes per side until pink and opaque.\n   - Remove from skillet and set aside.\n\n3. **Cook the Zucchini:**\n   - In the same skillet, add the remaining 1 tablespoon of olive oil.\n   - Add the sliced zucchini and cook for about 5-7 minutes, stirring occasionally, until tender and slightly golden.\n   - Add the minced garlic during the last minute of cooking, stirring well to release its aroma.\n   \n4. **Combine and Serve:**\n   - Add the cooked shrimp back to the skillet with zucchini to warm through, maybe for 1-2 minutes.\n   - Plate the fluffy rice first, then spoon the shrimp and zucchini mixture on top.\n   - Squeeze fresh lemon juice over the dish and garnish with chopped parsley or cilantro if desired.\n   \nEnjoy your quick and delicious Shrimp and Zucchini Rice Bowl! Would you like a variation or other recipe?"
+      }
+    ]
+  },
+  "id": "SYN228",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

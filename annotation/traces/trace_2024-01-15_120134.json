@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's a tasty dairy-free dish that includes chicken, coconut milk, and spinach? I have all afternoon, so I'm okay with some moderate effort!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "What's a tasty dairy-free dish that includes chicken, coconut milk, and spinach? I have all afternoon, so I'm okay with some moderate effort!"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! A delightful Chicken Coconut Curry with Spinach is perfect for a flavorful, dairy-free dish that highlights your ingredients. It\u2019s rich, aromatic, and perfect to enjoy leisurely. Here's how to make it:\n\n**Ingredients:**\n- 2 lbs (about 900g) chicken thighs or breasts (preferably boneless and skinless), cut into bite-sized pieces\n- 1 can (13.5 oz) coconut milk\n- 3 cups fresh spinach, roughly chopped if large leaves\n- 1 large onion, diced\n- 3 cloves garlic, minced\n- 1-inch piece of fresh ginger, grated\n- 2 tablespoons coconut oil (or any preferred cooking oil)\n- 1 teaspoon ground cumin\n- 1 teaspoon ground coriander\n- 1 teaspoon turmeric powder\n- 1/2 teaspoon chili powder or cayenne (adjust to heat preference)\n- 1 tablespoon tomato paste (optional but adds richness)\n- Salt and freshly ground black pepper to taste\n- Fresh cilantro for garnish (optional)\n- Lime wedges for serving (optional)\n\n---\n\n### Instructions:\n\n**1. Prepare the ingredients:**\n- Dice the chicken into bite-sized pieces.\n- Dice the onion, mince the garlic, and grate the ginger.\n- Chop the spinach if the leaves are large.\n\n**2. Sear the chicken:**\n- Heat 1 tablespoon of coconut oil in a large, deep skillet or Dutch oven over medium-high heat.\n- Add the chicken pieces, season with a pinch of salt and pepper, and cook until browned on all sides (about 5-7 minutes). Don\u2019t cook through completely; just sear to develop flavor.\n- Remove the chicken and set aside.\n\n**3. Saut\u00e9 the aromatics:**\n- In the same pan, add the remaining 1 tablespoon of coconut oil if needed.\n- Add the diced onion and saut\u00e9 until translucent and slightly golden, about 5 minutes.\n- Add the minced garlic and grated ginger, cook for another minute until fragrant.\n\n**4. Add spices and tomato paste:**\n- Stir in cumin, coriander, turmeric, chili powder, and tomato paste if using.\n- Cook the mixture for about 1-2 minutes, stirring constantly, to toast the spices and deepen their aroma.\n\n**5. Pour in coconut milk:**\n- Slowly add the coconut milk, stirring well to combine and loosen any browned bits from the pan (these add flavor).\n- Bring the mixture to a gentle simmer.\n\n**6. Return the chicken:**\n- Add the seared chicken back into the pan.\n- Reduce heat to low, cover, and let it simmer gently for about 20-25 minutes, or until the chicken is cooked through and tender.\n\n**7. Add the spinach:**\n- Uncover, then stir in the chopped spinach.\n- Cook for an additional 3-5 minutes until the spinach wilts and the flavors meld. Taste and adjust salt and pepper.\n\n**8. Serve:**\n- Garnish with fresh cilantro if desired.\n- Serve hot over steamed rice, quinoa, or your favorite grains.\n- Squeeze lime over to brighten the flavors.\n\n---\n\nThis Chicken Coconut Curry is hearty, full of flavor, and free from dairy. The coconut milk creates a creamy sauce that pairs beautifully with the spinach and tender chicken. Enjoy your afternoon cooking!"
+      }
+    ]
+  },
+  "id": "SYN138",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "quick egg spinach cheese recipe pls"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "quick egg spinach cheese recipe pls"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a delicious and quick Egg, Spinach, and Cheese Scramble that's perfect for a nutritious breakfast or a satisfying meal.\n\n**Creamy Egg, Spinach, and Cheese Scramble**\n\n**Ingredients:**\n- 2 large eggs\n- 1 cup fresh spinach, washed and roughly chopped\n- 1/4 cup shredded cheese (cheddar, mozzarella, or your favorite cheese)\n- 1 tablespoon butter or olive oil\n- Salt and pepper to taste\n- Optional: a pinch of garlic powder or red pepper flakes for extra flavor\n\n**Instructions:**\n\n1. **Prep the ingredients:** Crack the eggs into a bowl, add a pinch of salt and pepper, and beat them well with a fork until fully combined.\n\n2. **Cook the spinach:** Heat a non-stick skillet over medium heat and add the butter or olive oil. Once melted or heated, add the chopped spinach. Saut\u00e9 for about 1-2 minutes until wilted and tender. If using garlic powder or red pepper flakes, add them here for extra flavor.\n\n3. **Pour the eggs:** Reduce the heat to medium-low. Pour the beaten eggs over the spinach in the skillet, spreading them evenly.\n\n4. **Add cheese:** As the eggs start to set (after about 30 seconds), sprinkle the shredded cheese evenly on top.\n\n5. **Scramble and cook:** Gently stir with a spatula, folding the mixture so that the cheese melts into the eggs and the eggs are cooked through but still moist. This should take about 2-3 minutes.\n\n6. **Serve:** Once the eggs are fluffy and cooked through, remove from heat immediately. Serve hot, perhaps with toast or a side of fresh fruit.\n\nEnjoy your quick, nutritious Egg, Spinach, and Cheese Scramble! Would you like a different recipe or suggestions for variations?"
+      }
+    ]
+  },
+  "id": "SYN021",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

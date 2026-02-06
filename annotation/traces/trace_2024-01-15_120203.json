@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a kosher recipe that avoids dairy but uses pantry staples"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a kosher recipe that avoids dairy but uses pantry staples"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here\u2019s a tasty and simple Kosher, dairy-free recipe that uses pantry staples: **Chickpea and Tomato Stew**. It\u2019s hearty, flavorful, and perfect for a quick meal.\n\n### Chickpea and Tomato Stew\n\n**Ingredients:**\n- 2 cans (15 oz each) of chickpeas, drained and rinsed\n- 1 can (14.5 oz) of diced tomatoes\n- 1 large onion, chopped\n- 3 cloves garlic, minced\n- 2 tablespoons olive oil\n- 1 teaspoon smoked paprika (or regular paprika)\n- 1 teaspoon ground cumin\n- 1/2 teaspoon chili powder (adjust to taste)\n- Salt and pepper to taste\n- 1 cup vegetable broth or hot water\n- Optional: fresh parsley or cilantro for garnish\n\n---\n\n### Instructions:\n\n1. **Prepare your ingredients:** Drain and rinse the chickpeas, chop the onion, and mince the garlic.\n\n2. **Saut\u00e9 the aromatics:** In a large pot, heat the olive oil over medium heat. Add the chopped onion and cook, stirring occasionally, until translucent about 5 minutes.\n\n3. **Add garlic and spices:** Stir in the minced garlic, smoked paprika, cumin, and chili powder. Cook for about 1 minute until fragrant, being careful not to burn the garlic.\n\n4. **Cook the tomatoes:** Add the diced tomatoes (with their juice) to the pot. Stir well to combine all the ingredients, and simmer for about 10 minutes to let the flavors meld.\n\n5. **Add chickpeas and liquid:** Incorporate the drained chickpeas and pour in the vegetable broth or hot water. Stir everything together.\n\n6. **Simmer and season:** Bring to a gentle boil, then reduce the heat to low. Cover and let simmer for 15-20 minutes, stirring occasionally. Season with salt and pepper to taste.\n\n7. **Serve:** Ladle the stew into bowls. Garnish with chopped fresh parsley or cilantro if available.\n\n---\n\n### Serving suggestions:\nEnjoy this stew with crusty bread or over rice for a wholesome, filling meal.\n\nWould you like another recipe or tips on variations?"
+      }
+    ]
+  },
+  "id": "SYN211",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

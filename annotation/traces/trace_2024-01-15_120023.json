@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do you have any ideas for a salmon recipe with herbs that's ready in under 30 mins?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Do you have any ideas for a salmon recipe with herbs that's ready in under 30 mins?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a vibrant and flavorful **Herb-Crusted Salmon with Lemon Butter** that comes together in under 30 minutes. It\u2019s perfect if you want a healthy, delicious dish with fresh herbs and a zesty finish.\n\n### Ingredients:\n- 2 salmon fillets (about 6 oz each)\n- 2 tablespoons olive oil\n- 1 lemon (zested and juiced)\n- 2 cloves garlic, minced\n- 2 tablespoons fresh parsley, chopped\n- 1 tablespoon fresh dill, chopped (or substitute with thyme or basil if preferred)\n- 1 teaspoon dried oregano\n- Salt and freshly ground black pepper, to taste\n- 2 tablespoons unsalted butter\n\n---\n\n### Instructions:\n\n1. **Prep the Herb Mixture:**\n   - In a small bowl, combine the chopped parsley, dill, oregano, lemon zest, minced garlic, a pinch of salt, and black pepper.\n   - Drizzle 1 tablespoon of olive oil over the herbs and mix well until you get a fragrant herb paste.\n\n2. **Season the Salmon:**\n   - Pat the salmon fillets dry with paper towels.\n   - Rub the herb mixture evenly over the top of each fillet, pressing gently to adhere.\n\n3. **Cook the Salmon:**\n   - Heat 1 tablespoon of olive oil in a large non-stick skillet over medium-high heat until shimmering.\n   - Carefully place the salmon fillets skin-side down (if they have skin), or presentation side down.\n   - Cook for about 4-5 minutes, until the edges are golden and crispy.\n   - Gently flip the fillets and cook for another 3-4 minutes, or until the salmon is cooked through and flakes easily with a fork.\n\n4. **Make the Lemon Butter Sauce:**\n   - While the salmon finishes cooking, melt 2 tablespoons of butter in a small saucepan or in the microwave.\n   - Add the lemon juice and stir.\n   - Once the salmon is done, transfer to plates and drizzle with the lemon butter sauce.\n\n5. **Serve:**\n   - Garnish with extra fresh herbs if desired, and serve immediately with your choice of side\u2014steamed vegetables, rice, or a simple salad work beautifully.\n\n### Tips:\n- Keep an eye on the salmon to avoid overcooking\u2014 it'll stay moist and tender.\n- Feel free to add a dash of red pepper flakes for some heat, or capers for extra tang!\n\nWould you like a suggested side dish to go with this?"
+      }
+    ]
+  },
+  "id": "SYN017",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

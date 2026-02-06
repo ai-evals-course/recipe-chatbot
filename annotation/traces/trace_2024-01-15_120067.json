@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need an easy dairy-free recipe with coConut milk and curry paste that's under 30 mins!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need an easy dairy-free recipe with coConut milk and curry paste that's under 30 mins!"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! How about a simple and flavorful Coconut Curry Soup? It\u2019s quick, dairy-free, and perfect for a cozy meal under 30 minutes. Here\u2019s how to make it:\n\n**Coconut Curry Soup**\n\n**Ingredients:**\n- 1 tablespoon oil (vegetable or coconut oil)\n- 1 small onion, finely chopped\n- 2 cloves garlic, minced\n- 1 tablespoon curry paste (red or yellow, according to your preference)\n- 1 can (13.5 oz) coconut milk\n- 2 cups vegetable broth or water\n- 1 cup chopped vegetables (carrots, bell peppers, or spinach \u2013 whatever you have)\n- Salt and pepper to taste\n- Optional: fresh cilantro, lime wedges, or chili flakes for garnish\n\n**Instructions:**\n1. **Heat the Oil:** In a large pot, heat the oil over medium heat until shimmering.\n2. **Saut\u00e9 Aromatics:** Add the chopped onion and cook for about 3-4 minutes until softened and translucent. Add the minced garlic and cook for another 30 seconds until fragrant.\n3. **Cook the Curry Paste:** Stir in the curry paste, breaking it up with your spoon, and cook for 1-2 minutes to release its fragrant oils.\n4. **Add Liquids:** Pour in the coconut milk and vegetable broth. Stir well to combine everything smoothly.\n5. **Simmer with Vegetables:** Bring the soup to a gentle simmer. Add your chopped vegetables (like carrots or bell peppers). Cook for about 8-10 minutes until vegetables are tender.\n6. **Season to Taste:** Add salt and pepper as needed. If using spinach or other quick-cooking greens, stir in the last 2 minutes until wilted.\n7. **Serve:** Ladle the hot soup into bowls. Garnish with fresh cilantro, a squeeze of lime, or chili flakes if you like some heat.\n\nEnjoy this creamy, aromatic, and completely dairy-free Coconut Curry Soup! Would you like a different style or ingredient substitution?"
+      }
+    ]
+  },
+  "id": "SYN073",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

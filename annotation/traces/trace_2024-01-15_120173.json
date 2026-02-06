@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for an easy japanese fish dish, like a pescatarian recipe that only takes about 30-60 mins to prepare, thanks!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for an easy japanese fish dish, like a pescatarian recipe that only takes about 30-60 mins to prepare, thanks!"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend trying **Salmon Teriyaki**, a classic and delicious Japanese dish that's simple to prepare within 30-45 minutes. It\u2019s perfect for a pescatarian meal and showcases the beautiful umami flavors of soy and mirin. Here\u2019s how to make it:\n\n### Salmon Teriyaki\n\n**Ingredients:**\n- 2 salmon fillets (about 6 oz each)\n- Salt and pepper\n- 1 tablespoon vegetable oil\n- 3 tablespoons soy sauce\n- 2 tablespoons mirin (sweet rice wine)\n- 1 tablespoon sake (or dry sherry if unavailable)\n- 1 tablespoon sugar\n- 1 teaspoon grated fresh ginger (optional)\n- Sesame seeds (for garnish)\n- Sliced green onions (for garnish)\n\n**Instructions:**\n\n1. **Prepare the Salmon:**\n   - Pat the salmon fillets dry with paper towels.\n   - Lightly season both sides with salt and pepper.\n   - If you like, sprinkle a little bit of grated ginger on top for added flavor.\n\n2. **Cook the Salmon:**\n   - Heat the vegetable oil in a non-stick skillet over medium heat.\n   - Place the salmon fillets skin-side down (if any skin remains) and cook for about 4-5 minutes, until the skin is crispy and the fish is cooked halfway up.\n   - Carefully flip the fillets and cook for another 3-4 minutes, until the salmon is opaque and flakes easily with a fork.\n\n3. **Make the Teriyaki Sauce:**\n   - While the salmon is cooking, combine soy sauce, mirin, sake, sugar, and ginger in a small bowl. Stir until sugar dissolves.\n   \n4. **Glaze the Salmon:**\n   - Once the salmon is nearly cooked through, pour the teriyaki sauce into the skillet.\n   - Reduce the heat to low and gently spoon the sauce over the salmon, allowing it to simmer for 2-3 minutes until the sauce thickens slightly.\n   - If you prefer a glossy finish, you can increase the heat briefly to caramelize the sauce slightly, but watch carefully to prevent burning.\n\n5. **Serve:**\n   - Carefully transfer the salmon to serving plates.\n   - Spoon extra teriyaki sauce over the top.\n   - Garnish with a sprinkle of sesame seeds and sliced green onions.\n   \n**Serving suggestion:** Serve your Salmon Teriyaki with steamed rice and a side of lightly saut\u00e9ed vegetables like bok choy or snap peas.\n\nEnjoy your quick, flavorful Japanese fish dish! Would you like another recipe or tips on how to customize this?"
+      }
+    ]
+  },
+  "id": "SYN174",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

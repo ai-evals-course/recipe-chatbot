@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i'm looking for dairy free indian food under 1 hour"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "i'm looking for dairy free indian food under 1 hour"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend making a **Chana Masala (Spicy Chickpea Curry)**. It's a hearty, flavorful, dairy-free Indian dish that can be prepared in under an hour. Here's how to make it:\n\n### Ingredients:\n- 2 cups canned chickpeas (or 1 cup dried chickpeas soaked overnight)\n- 2 tbsp oil (vegetable, canola, or sunflower)\n- 1 large onion, finely chopped\n- 2 garlic cloves, minced\n- 1-inch piece of ginger, minced\n- 2 tomatoes, pureed or finely chopped\n- 2 green chilies, sliced (adjust to taste)\n- 1 tsp cumin seeds\n- 1 tsp coriander powder\n- 1 tsp cumin powder\n- 1/2 tsp turmeric powder\n- 1 tsp garam masala\n- 1 tsp paprika (for color)\n- Salt to taste\n- Fresh cilantro leaves for garnish\n- 1/2 cup water (or more as needed)\n\n### Instructions:\n\n1. **Prepare Chickpeas:**\n   - If using canned chickpeas, drain and rinse them thoroughly.\n   - If using dried chickpeas, soak overnight, then boil in water until tender (about 1 hour). To save time, canned chickpeas are preferable here.\n\n2. **Heat the Oil:**\n   - In a large pan or skillet over medium heat, add the oil.\n   - Once hot, add cumin seeds and let them sizzle for about 30 seconds until fragrant.\n\n3. **Cook Onions & Aromatics:**\n   - Add the chopped onions to the pan.\n   - Saut\u00e9 for 5-7 minutes until they turn golden brown.\n   - Add minced garlic and ginger, cook for another 1-2 minutes until fragrant.\n\n4. **Add Tomatoes & Spices:**\n   - Stir in the pureed or chopped tomatoes.\n   - Cook for about 5-7 minutes until the oil starts to separate from the tomato mixture.\n   - Add coriander powder, cumin powder, turmeric, paprika, and salt.\n   - Mix well and cook for 2-3 minutes to toast the spices.\n\n5. **Add Chickpeas & Water:**\n   - Add the chickpeas to the pan.\n   - Pour in 1/2 cup water and stir everything together.\n   - Cover and simmer on low heat for 10-15 minutes, allowing the flavors to meld.\n\n6. **Finish with Garam Masala & Cilantro:**\n   - Stir in garam masala and cook for another 2 minutes.\n   - Garnish with chopped cilantro leaves.\n\n7. **Serve:**\n   - Enjoy hot with steamed rice or warm naan bread.\n\nThis dish is rich in flavor, quick to prepare, and entirely dairy-free! Would you like a side dish suggestion or a different recipe?"
+      }
+    ]
+  },
+  "id": "SYN003",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

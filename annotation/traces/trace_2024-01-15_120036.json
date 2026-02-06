@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "any high protein meal ideas? i have quinoa, black beans, and avocados and want to make something quick and mexican-style"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "any high protein meal ideas? i have quinoa, black beans, and avocados and want to make something quick and mexican-style"
+      },
+      {
+        "role": "assistant",
+        "content": "Great ingredients! How about I suggest a **Quick Mexican Quinoa and Black Bean Bowl**? It\u2019s high in protein, flavorful, and easy to prepare. Let\u2019s get started:\n\n### Ingredients:\n- 1 cup quinoa\n- 1 can black beans (drained and rinsed)\n- 1 ripe avocado\n- 1-2 tablespoons olive oil\n- 1 teaspoon cumin\n- 1 teaspoon chili powder\n- 1/2 teaspoon smoked paprika (optional)\n- Salt and pepper to taste\n- Lime juice (from 1 lime)\n- Fresh cilantro (optional for garnish)\n- Optional: salsa or hot sauce for extra flavor\n\n### Instructions:\n\n1. **Cook the Quinoa:**\n   - Rinse the quinoa thoroughly under cold water using a fine sieve to remove its natural bitterness.\n   - In a medium pot, add 2 cups of water and a pinch of salt; bring to a boil.\n   - Add the rinsed quinoa, reduce heat to low, cover, and simmer for about 15 minutes, or until the quinoa absorbs all the water.\n   - Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork.\n\n2. **Prepare the Beans:**\n   - While the quinoa is cooking, heat 1 tablespoon of olive oil in a skillet over medium heat.\n   - Add the drained black beans, along with cumin, chili powder, smoked paprika, salt, and pepper.\n   - Stir gently to coat the beans with the spices and cook for about 5-7 minutes until heated through and slightly seasoned.\n\n3. **Assemble the Bowl:**\n   - Transfer the cooked quinoa into a large bowl.\n   - Top with the spiced black beans.\n   - Slice the avocado into thin slices or cubes and place on top.\n   - Squeeze fresh lime juice over the ingredients for brightness.\n   - Garnish with chopped cilantro if you like.\n\n4. **Serve and Enjoy:**\n   - You can add salsa or hot sauce for extra flavor.\n   - For more protein, consider adding some shredded cheese or a dollop of Greek yogurt.\n\nThis dish is quick, healthy, and packed with protein from the quinoa and black beans. Plus, it has that vibrant Mexican flavor you\u2019re craving! Would you like suggestions for side dishes or other variations?"
+      }
+    ]
+  },
+  "id": "SYN033",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a recipe for chicken with coconut milk and spinach that's dairy free plz. any cuisine is fine. i can spend some time cooking!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a recipe for chicken with coconut milk and spinach that's dairy free plz. any cuisine is fine. i can spend some time cooking!"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend making a **Creamy Coconut Chicken and Spinach Stir-Fry**\u2014a flavorful, dairy-free dish with a touch of tropical richness, inspired by Thai cuisine. It's hearty, easy to prepare, and packed with wholesome ingredients. Here\u2019s a step-by-step guide:\n\n### Ingredients:\n- 2 large boneless, skinless chicken breasts (or thighs)\n- 1 can (13.5 oz) coconut milk (full-fat for richness)\n- 3 cups fresh spinach, washed and chopped\n- 1 tablespoon olive oil or coconut oil\n- 3 cloves garlic, minced\n- 1 small onion, finely chopped\n- 1 tablespoon ginger, grated\n- 1 tablespoon soy sauce or coconut aminos\n- 1 teaspoon fish sauce (optional, for extra umami)\n- 1 teaspoon paprika (for color and flavor)\n- \u00bd teaspoon chili flakes or fresh chopped chili (adjust to taste)\n- Juice of half a lime\n- Salt and black pepper to taste\n- Fresh cilantro for garnish (optional)\n\n---\n\n### Instructions:\n\n1. **Prepare the Chicken:**\n   - Slice the chicken breasts into thin strips or bite-sized pieces. Season them lightly with salt, pepper, and paprika for added flavor.\n\n2. **Sear the Chicken:**\n   - Heat the olive or coconut oil in a large skillet over medium-high heat.\n   - Add the chicken pieces and cook for about 5-7 minutes, stirring occasionally, until they are golden brown and cooked through. Remove the chicken from the skillet and set aside.\n\n3. **Saut\u00e9 Aromatics:**\n   - In the same skillet, add the chopped onion. Saut\u00e9 for 2-3 minutes until translucent.\n   - Add the minced garlic and grated ginger; cook for another minute until fragrant.\n   - If you like a bit of heat, add chili flakes now.\n\n4. **Create the Coconut Sauce:**\n   - Pour in the coconut milk, stirring well to deglaze the pan and incorporate any browned bits.\n   - Add soy sauce or coconut aminos and fish sauce if using.\n   - Bring the mixture to a gentle simmer, allowing it to thicken slightly, about 5 minutes.\n\n5. **Add the Spinach and Chicken:**\n   - Stir in the chopped spinach, letting it wilt into the sauce.\n   - Return the cooked chicken to the skillet, tossing everything together so the chicken is coated with the coconut sauce.\n   - Simmer for another 2-3 minutes to let the flavors meld.\n\n6. **Finish and Serve:**\n   - Squeeze fresh lime juice over the dish.\n   - Taste and adjust seasoning with salt, pepper, or more lime if needed.\n   - Garnish with chopped cilantro if desired.\n\n---\n\n### Serving Suggestions:\nServe this dish over steamed jasmine rice, cauliflower rice, or even rice noodles for a complete, satisfying meal.\n\nEnjoy your tropical-inspired, dairy-free chicken and spinach stir-fry! Would you like a dessert recipe next?"
+      }
+    ]
+  },
+  "id": "SYN139",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

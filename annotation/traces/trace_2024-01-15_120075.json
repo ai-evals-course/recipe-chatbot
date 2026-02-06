@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need egg-free dinner ideas in under 30 mins with tofu pls"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need egg-free dinner ideas in under 30 mins with tofu pls"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and delicious Egg-Free Tofu Stir-Fry that you can make in under 30 minutes:\n\n**Tofu Vegetable Stir-Fry**\n\n**Ingredients:**\n- 1 block (14 oz) firm or extra-firm tofu\n- 2 tablespoons soy sauce\n- 1 tablespoon sesame oil or vegetable oil\n- 2 cloves garlic, minced\n- 1 teaspoon ginger, grated (optional)\n- 1 cup bell peppers, sliced (any color)\n- 1 cup broccoli florets\n- 1 large carrot, julienned or sliced thin\n- 1/2 cup snap peas or green beans\n- 2 tablespoons oyster sauce or hoisin sauce (for flavor)\n- 1 teaspoon cornstarch mixed with 2 tablespoons water (slurry)\n- Cooked rice or noodles, for serving\n- Optional: sesame seeds, chopped green onions for garnish\n\n**Steps:**\n\n1. **Prepare the Tofu:**  \n   Drain the tofu and press it gently to remove excess water. Cut the tofu into bite-sized cubes. In a non-stick skillet or wok, heat 1 tablespoon of oil over medium heat. Add tofu cubes and cook until golden brown on all sides, about 5-7 minutes. Remove from pan and set aside.\n\n2. **Make the Stir-Fry Sauce:**  \n   In a small bowl, mix soy sauce, oyster/hoisin sauce, and the cornstarch slurry. Stir well and set aside.\n\n3. **Cook the Vegetables:**  \n   In the same pan, add a bit more oil if needed. Add minced garlic and grated ginger; saut\u00e9 for about 30 seconds until fragrant. Add bell peppers, broccoli, carrots, and snap peas. Stir-fry for about 5-7 minutes until vegetables are tender but still crisp.\n\n4. **Combine & Finish:**  \n   Return the cooked tofu to the pan. Pour in the stir-fry sauce. Toss everything together and cook for another 2-3 minutes until the sauce thickens and coats the tofu and vegetables nicely.\n\n5. **Serve:**  \n   Serve the stir-fry hot over steamed rice or noodles. Garnish with sesame seeds and chopped green onions if desired.\n\nEnjoy your flavorful, egg-free tofu dinner! Would you like a different style or cuisine?"
+      }
+    ]
+  },
+  "id": "SYN088",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

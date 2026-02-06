@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Looking for a SIMPLE dairy-free dinner idea that doesn't take too long and no indian food plsss!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Looking for a SIMPLE dairy-free dinner idea that doesn't take too long and no indian food plsss!"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! How about a quick and tasty **Lemon Garlic Shrimp Stir-Fry**? It's dairy-free, takes around 20 minutes, and is bursting with flavor.\n\n### Ingredients:\n- 1 lb (450g) shrimp (peeled and deveined)\n- 2 tablespoons olive oil\n- 3 cloves garlic, minced\n- 1 red bell pepper, sliced\n- 1 yellow bell pepper, sliced\n- 1 zucchini, sliced\n- 1 lemon (juiced and zested)\n- Salt and pepper to taste\n- Fresh parsley for garnish (optional)\n\n### Instructions:\n\n1. **Prep the ingredients:**\n   - Peel and devein the shrimp if not already done.\n   - Slice the bell peppers and zucchini into thin strips.\n   - Mince the garlic.\n   - Zest the lemon and juice about half of it (keep the other half for serving).\n\n2. **Cook the shrimp:**\n   - Heat 1 tablespoon of olive oil in a large skillet or wok over medium-high heat.\n   - Once hot, add the shrimp in a single layer.\n   - Cook for about 2-3 minutes on each side until pink and opaque.\n   - Remove the shrimp from the skillet and set aside.\n\n3. **Stir-fry the vegetables:**\n   - In the same skillet, add the remaining 1 tablespoon of olive oil.\n   - Add the minced garlic and saut\u00e9 for about 30 seconds until fragrant.\n   - Toss in the sliced bell peppers and zucchini.\n   - Stir-fry for about 4-5 minutes until they are tender-crisp.\n\n4. **Combine and flavor:**\n   - Return the cooked shrimp to the skillet.\n   - Add lemon juice and lemon zest.\n   - Season with salt and pepper to taste.\n   - Toss everything gently to coat evenly and heat through for another minute.\n\n5. **Serve:**\n   - Garnish with chopped parsley if desired.\n   - Serve hot, optionally with steamed rice or quinoa.\n\nWould you like a different style or any modifications?"
+      }
+    ]
+  },
+  "id": "SYN157",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

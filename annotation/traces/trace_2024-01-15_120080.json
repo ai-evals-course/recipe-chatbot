@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What\u2019s a good kosher dish I can make in 30-60 mins?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "What\u2019s a good kosher dish I can make in 30-60 mins?"
+      },
+      {
+        "role": "assistant",
+        "content": "A fantastic kosher dish you can prepare within 30 to 60 minutes is **Vegetable Chicken Stir-Fry**. It's flavorful, healthy, and versatile, perfect for a quick weeknight dinner. Here's how to make it:\n\n### Ingredients:\n- 1 lb (450 g) boneless, skinless chicken breasts or thighs, cut into thin strips\n- 2 tablespoons vegetable or sesame oil\n- 3 cloves garlic, minced\n- 1 thumb-sized piece of ginger, grated (optional)\n- 2 cups mixed vegetables (bell peppers, broccoli florets, carrots, snap peas, or any veggie you have)\n- 3 tablespoons soy sauce (or tamari for gluten-free)\n- 1 tablespoon honey or maple syrup\n- 1 teaspoon cornstarch mixed with 2 teaspoons water (optional, for thickening)\n- Cooked rice or noodles, for serving\n- Sesame seeds and chopped green onions, for garnish\n\n### Instructions:\n\n1. **Prepare the Ingredients**:\n   - Slice the chicken into thin strips to ensure quick cooking.\n   - Wash and chop your vegetables into bite-sized pieces.\n   - Mince the garlic and grate the ginger if using.\n\n2. **Cook the Chicken**:\n   - Heat 1 tablespoon of vegetable or sesame oil in a large skillet or wok over medium-high heat.\n   - When hot, add the chicken strips in a single layer.\n   - Cook without stirring for about 2 minutes to allow one side to brown.\n   - Flip and cook for an additional 3-4 minutes until fully cooked and slightly browned.\n   - Remove the chicken from the skillet and set aside.\n\n3. **Stir-Fry the Vegetables**:\n   - In the same skillet, add the remaining 1 tablespoon of oil.\n   - Add minced garlic and ginger, saut\u00e9 for about 30 seconds until fragrant.\n   - Toss in your chopped vegetables and stir-fry for about 4-6 minutes until tender but still crisp.\n\n4. **Combine & Sauce**:\n   - Return the cooked chicken to the skillet with vegetables.\n   - In a small bowl, mix soy sauce and honey. Pour over the chicken and vegetables.\n   - Toss everything together to coat evenly.\n   - If you prefer a thicker sauce, stir in the cornstarch mixed with water and cook for another minute until the sauce thickens.\n\n5. **Serve**:\n   - Serve your stir-fry hot over cooked rice or noodles.\n   - Garnish with sesame seeds and chopped green onions for extra flavor.\n\n### Tips:\n- Feel free to switch up the vegetables based on what you have.\n- For added flavor, sprinkle with a squeeze of lemon or lime before serving.\n\nEnjoy this quick, kosher-friendly, and nutritious meal! Would you like a dessert or a different type of dish next?"
+      }
+    ]
+  },
+  "id": "SYN078",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

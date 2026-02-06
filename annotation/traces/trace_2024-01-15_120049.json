@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need kosher dinner ideas with what I have"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need kosher dinner ideas with what I have"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Please tell me what ingredients you have available, so I can suggest a delicious kosher dinner recipe tailored to what you have on hand."
+      }
+    ]
+  },
+  "id": "SYN079",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

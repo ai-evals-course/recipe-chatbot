@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Looking for a quick salmon dish with aspargus"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Looking for a quick salmon dish with aspargus"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and delicious quick lemon garlic salmon with asparagus recipe:\n\n**Lemon Garlic Salmon with Asparagus**\n\n**Ingredients:**\n- 2 salmon fillets\n- 1 bunch fresh asparagus (about 1 bunch or 1 cup trimmed)\n- 2 tablespoons olive oil\n- 3 garlic cloves, minced\n- 1 lemon (zested and juiced)\n- Salt and freshly ground black pepper to taste\n- Optional: red pepper flakes for a spicy touch\n\n**Instructions:**\n\n1. **Prepare the asparagus:**\n   - Rinse the asparagus under cold water.\n   - Trim the tough ends (about 1-2 inches from the bottom).\n   \n2. **Cook the asparagus:**\n   - Heat 1 tablespoon of olive oil in a large skillet over medium heat.\n   - Add the asparagus and saut\u00e9 for about 3-4 minutes, stirring occasionally.\n   - Add a pinch of salt and pepper.\n   - Remove from skillet and set aside.\n\n3. **Cook the salmon:**\n   - Season the salmon fillets generously with salt, black pepper, and lemon zest.\n   - In the same skillet, add the remaining 1 tablespoon of olive oil over medium-high heat.\n   - When hot, add the salmon fillets skin-side down (if skin-on).\n   - Cook for about 4-5 minutes without moving, until the skin crisps up.\n   - Flip the salmon and cook for another 3-4 minutes, until just opaque and flaky.\n\n4. **Make the lemon garlic sauce:**\n   - Lower the heat to medium.\n   - Add the minced garlic to the skillet with the salmon drippings.\n   - Saut\u00e9 for about 30 seconds until fragrant.\n   - Squeeze in the lemon juice and sprinkle with lemon zest.\n   - Stir briefly to combine, then spoon the sauce over the salmon.\n\n5. **Combine and serve:**\n   - Return the saut\u00e9ed asparagus to the skillet with the salmon, or serve side by side on a plate.\n   - Optionally, sprinkle with red pepper flakes for some heat.\n   - Serve immediately, maybe with a wedge of lemon for extra brightness.\n\nThis dish is quick (around 20 minutes), healthy, and bursting with fresh citrus flavor! Would you like suggestions for side dishes or how to customize it?"
+      }
+    ]
+  },
+  "id": "SYN047",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

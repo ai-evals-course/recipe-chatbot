@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you suggest a beginner friendly dairy free meal that I can whip up in 30-60 mins it's gotta be non-indian!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Can you suggest a beginner friendly dairy free meal that I can whip up in 30-60 mins it's gotta be non-indian!"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! How about a tasty and easy Lemon Garlic Chicken with Roasted Vegetables? It's dairy-free, flavorful, and perfect for beginners. Plus, it comes together in about 45 minutes. Here's how to make it:\n\n### Lemon Garlic Chicken with Roasted Vegetables\n\n#### Ingredients:\n- 4 boneless, skinless chicken breasts\n- 3 tablespoons olive oil\n- 4 cloves garlic, minced\n- 1 large lemon (zested and juiced)\n- Salt and freshly ground black pepper, to taste\n- 1 teaspoon dried thyme or rosemary (optional)\n- 4 medium carrots, sliced\n- 1 bell pepper, sliced (any color)\n- 1 zucchini, sliced\n- 1 red onion, sliced\n\n#### Instructions:\n\n1. **Preheat your oven** to 400\u00b0F (200\u00b0C). Line a baking sheet with parchment paper for easy cleanup.\n\n2. **Prepare the chicken:**  \n   - In a small bowl, mix 2 tablespoons of olive oil, minced garlic, lemon zest, lemon juice, salt, pepper, and herbs if using.  \n   - Rub this marinade all over the chicken breasts, ensuring they are well-coated. Let them sit for about 10 minutes while you prepare the vegetables.\n\n3. **Prepare the vegetables:**  \n   - In a large bowl, toss the sliced carrots, bell pepper, zucchini, and red onion with the remaining 1 tablespoon of olive oil, salt, and pepper. Spread them evenly on your prepared baking sheet.\n\n4. **Roast the vegetables:**  \n   - Place the vegetables in the oven and roast for approximately 15-20 minutes until they start to soften.\n\n5. **Cook the chicken:**  \n   - While the veggies are roasting, heat a large skillet over medium heat.\n   - Add a splash of olive oil, then place the marinated chicken breasts in the skillet.\n   - Cook each side for about 6-7 minutes until golden brown and cooked through (internal temperature should reach 165\u00b0F / 74\u00b0C). Alternatively, you can bake the chicken in the oven along with the vegetables for a one-pan meal: after initial searing, transfer the skillet to the oven and roast everything together for about 20 more minutes.\n\n6. **Serve:**  \n   - Plate the roasted vegetables and top with the cooked chicken breasts.  \n   - Drizzle with any remaining lemon juice or extra olive oil if desired.\n\n---\n\nThis dish is fresh, vibrant, and hearty without any dairy, making it perfect for a beginner cook. Would you like a side dish idea to go with it?"
+      }
+    ]
+  },
+  "id": "SYN158",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

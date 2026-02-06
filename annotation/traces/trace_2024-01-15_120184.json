@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Advanced FODMAP recipes any cuisine"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Advanced FODMAP recipes any cuisine"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's an **Advanced FODMAP Salmon and Quinoa Bowl** inspired by Mediterranean cuisine. It's flavorful, nutritious, and perfect for those who are more experienced with a low-FODMAP diet.\n\n### Ingredients:\n- 2 salmon fillets (about 150g each)\n- 1 cup quinoa\n- 2 tablespoons olive oil\n- 1 teaspoon smoked paprika\n- 1 teaspoon ground cumin\n- 1/2 teaspoon chili powder (optional for heat)\n- Salt and freshly ground pepper, to taste\n- 1 cup canned diced tomatoes (peel and seed if possible, or use fresh chopped tomatoes)\n- 1/2 cup chopped fennel bulb (use in small amounts, as it's moderate in FODMAPs)\n- 1/2 cup chopped fresh basil\n- 1 tablespoon lemon juice\n- 1 teaspoon lemon zest\n- 2 tablespoons chopped green parts of scallions (white parts are high in FODMAPs, so use sparingly)\n\n### Instructions:\n\n1. **Prepare the Quinoa:**\n   - Rinse the quinoa thoroughly under cold water using a fine-mesh sieve to remove bitterness.\n   - In a medium saucepan, bring 2 cups of water to a boil. Add the rinsed quinoa and a pinch of salt.\n   - Reduce heat to low, cover, and simmer for about 15 minutes, or until the water is absorbed and quinoa is fluffy.\n   - Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork and set aside.\n\n2. **Cook the Salmon:**\n   - Preheat your oven to 400\u00b0F (200\u00b0C).\n   - In a small bowl, mix olive oil, smoked paprika, cumin, chili powder (if using), salt, and pepper.\n   - Place the salmon fillets on a baking sheet lined with parchment paper.\n   - Brush the spice mixture evenly over the salmon.\n   - Bake in the oven for 12-15 minutes, or until the salmon easily flakes with a fork.\n   - Remove from oven and set aside.\n\n3. **Prepare the Vegetables and Tomatoes:**\n   - While the salmon is baking, heat a tablespoon of olive oil in a large skillet over medium heat.\n   - Add chopped fennel and saut\u00e9 for about 5 minutes until slightly tender.\n   - Add diced tomatoes and cook for another 3-4 minutes until heated through.\n   - Remove from heat and stir in half of the chopped basil, lemon juice, and lemon zest.\n\n4. **Assemble the Bowl:**\n   - Divide the cooked quinoa into two bowls.\n   - Top each bowl with the saut\u00e9ed fennel and tomato mixture.\n   - Place a salmon fillet on top of each bowl.\n   - Garnish with the remaining basil and green scallion parts.\n   - Optionally, drizzle with a little extra olive oil and a squeeze of lemon.\n\n### Tips:\n- You can customize this bowl with other FODMAP-friendly vegetables like spinach or zucchini.\n- For more flavor, add fresh herbs such as parsley or a sprinkle of feta cheese (if tolerated).\n- Keep portion sizes of fennel and scallions moderate to stay within FODMAP limits.\n\nEnjoy your flavorful, advanced FODMAP-friendly Mediterranean Salmon and Quinoa Bowl! Would you like another recipe?"
+      }
+    ]
+  },
+  "id": "SYN166",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "dinner in 30 mins: chicken lemon herbs low sodium"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "dinner in 30 mins: chicken lemon herbs low sodium"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a flavorful and healthy Lemon Herb Chicken that you can prepare in just 30 minutes, perfect for a low-sodium diet!\n\n**Lemon Herb Chicken**\n\n**Ingredients:**\n- 2 boneless, skinless chicken breasts\n- 1 tablespoon olive oil\n- Juice of 1 lemon\n- Zest of 1 lemon\n- 2 garlic cloves, minced\n- 1 teaspoon dried thyme\n- 1 teaspoon dried rosemary\n- 1 teaspoon dried parsley\n- Freshly ground black pepper to taste\n- Optional: a pinch of red pepper flakes for some heat\n\n**Steps:**\n\n1. **Prepare the marinade:**  \n   In a small bowl, combine the lemon juice, lemon zest, minced garlic, thyme, rosemary, parsley, and black pepper. Add the olive oil and whisk everything together until well mixed.\n\n2. **Marinate the chicken:**  \n   Place the chicken breasts in a shallow dish or resealable plastic bag. Pour the marinade over the chicken, making sure each piece is coated evenly. Let it marinate for at least 10 minutes while you prepare the cooking setup. If you have extra time, marinate for up to 20-30 minutes in the refrigerator for more flavor.\n\n3. **Cook the chicken:**  \n   Heat a large skillet over medium heat. Once hot, add a little olive oil if needed. Remove the chicken breasts from the marinade, allowing excess to drip off. Place them in the skillet.\n\n4. **Sear and cook:**  \n   Cook each side for about 6-7 minutes, depending on thickness, until golden brown and cooked through. You can cover the skillet with a lid to help retain moisture and ensure even cooking.\n\n5. **Finish and serve:**  \n   Once cooked, transfer the chicken to a plate. Let it rest for a couple of minutes. Serve with a squeeze of fresh lemon juice on top for an extra burst of flavor. Pair it with steamed vegetables or a simple salad for a complete meal.\n\nThis dish is light, bursting with citrus and herbs, and naturally low in sodium without sacrificing flavor. Enjoy your healthy, lemony chicken!"
+      }
+    ]
+  },
+  "id": "SYN180",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

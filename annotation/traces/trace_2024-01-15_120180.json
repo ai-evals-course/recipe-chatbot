@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for an easy kosher pasta dish i can make in an hour with ingredients i already have"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for an easy kosher pasta dish i can make in an hour with ingredients i already have"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and delicious Kosher **Garlic & Olive Oil Spaghetti (Aglio e Olio)** that you can make in under an hour with basic pantry ingredients.\n\n### Ingredients:\n- 12 oz (340 g) spaghetti or your preferred pasta\n- 3-4 garlic cloves, thinly sliced\n- 1/4 cup extra virgin olive oil\n- Red pepper flakes (optional, for a bit of heat)\n- Salt\n- Freshly ground black pepper\n- Fresh parsley or basil (if available), chopped, for garnish\n- Grated Parmesan or Pecorino cheese (if available and needs to be Kosher certified)\n\n### Instructions:\n\n1. **Cook the Pasta:**\n   - Bring a large pot of salted water to a boil. Use about 1-2 tablespoons of salt to flavor the pasta.\n   - Add the spaghetti and cook according to the package instructions until al dente (usually about 8-10 minutes).\n   - Reserve about 1 cup of pasta water, then drain the pasta and set aside.\n\n2. **Prepare the Garlic & Oil:**\n   - While the pasta cooks, heat the olive oil in a large skillet over medium heat.\n   - Add the sliced garlic to the oil. Cook gently, stirring frequently, until the garlic turns golden and fragrant \u2013 about 2-3 minutes. Be careful not to burn the garlic, as that can cause bitterness.\n   - If you like some heat, add a pinch of red pepper flakes at this point.\n\n3. **Toss the Pasta:**\n   - Add the drained pasta to the skillet with garlic and oil. Toss well to coat all the noodles.\n   - If needed, add a splash of the reserved pasta water to loosen the sauce and help it cling to the pasta.\n\n4. **Season & Garnish:**\n   - Season with salt and freshly ground black pepper to taste.\n   - If you have fresh herbs, sprinkle chopped parsley or basil over the top.\n   - Optionally, add a little grated cheese if available and certified Kosher.\n\n5. **Serve:**\n   - Serve immediately while hot. Optionally, sprinkle with more herbs or cheese before serving.\n\nThis dish is quick, flavorful, and relies on simple ingredients you likely already have! Would you like ideas for side dishes or variations?"
+      }
+    ]
+  },
+  "id": "SYN187",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

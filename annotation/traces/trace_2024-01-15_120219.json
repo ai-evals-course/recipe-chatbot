@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Need a fast recipe for shrimp and zuchinni under 30 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Need a fast recipe for shrimp and zuchinni under 30 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and flavorful Shrimp and Zucchini Stir-Fry that you can whip up in under 30 minutes:\n\n### Shrimp and Zucchini Stir-Fry\n\n#### Ingredients:\n- 1 pound (450g) shrimp (peeled and deveined)\n- 2 medium zucchinis\n- 3 cloves garlic (minced)\n- 2 tablespoons soy sauce\n- 1 tablespoon olive oil or vegetable oil\n- 1 teaspoon sesame oil (optional, for extra flavor)\n- Salt and pepper to taste\n- Red pepper flakes (optional, for a bit of heat)\n- Sesame seeds (for garnish)\n- Green onions (sliced, for garnish)\n\n#### Instructions:\n\n1. **Prepare the Ingredients:**\n   - Rinse the shrimp under cold water and pat dry with paper towels.\n   - Slice the zucchinis into thin rounds or half-moons for quicker cooking.\n   - Mince the garlic.\n\n2. **Cook the Shrimp:**\n   - Heat 1 tablespoon of olive oil in a large skillet or wok over medium-high heat.\n   - Once hot, add the shrimp in a single layer.\n   - Cook for about 2-3 minutes per side until they turn pink and are cooked through.\n   - Season lightly with salt and pepper.\n   - Remove shrimp from the skillet and set aside.\n\n3. **Saut\u00e9 the Zucchini:**\n   - In the same skillet, add the minced garlic and cook for about 30 seconds until fragrant.\n   - Add the sliced zucchini.\n   - Stir-fry for 4-5 minutes until zucchini is tender but still slightly crisp.\n   - Season with a pinch of salt, pepper, and red pepper flakes if using.\n\n4. **Combine and Finish:**\n   - Return the cooked shrimp to the skillet with zucchini.\n   - Pour in the soy sauce and sesame oil (if using).\n   - Toss everything together and cook for another 1-2 minutes, allowing flavors to meld.\n\n5. **Serve:**\n   - Garnish with sliced green onions and sesame seeds.\n   - Serve hot, perhaps with steamed rice or noodles if you have them.\n\nThis dish is light, flavorful, and ready in about 20 minutes. Enjoy your quick and healthy meal!"
+      }
+    ]
+  },
+  "id": "SYN227",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "can u suggest an easy indian recipe without dairy thx! \ud83c\udf5b"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "can u suggest an easy indian recipe without dairy thx! \ud83c\udf5b"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! How about trying **Chana Masala**? It's a flavorful and hearty Indian dish made with chickpeas, spices, and tomatoes \u2014 all without dairy. Plus, it\u2019s easy to prepare and perfect for a satisfying meal. Here's a detailed recipe:\n\n### Ingredients:\n- 1 cup dried chickpeas (or 2 cans cooked chickpeas, drained and rinsed)\n- 2 tablespoons cooking oil (vegetable or mustard oil)\n- 1 large onion, finely chopped\n- 3 cloves garlic, minced\n- 1-inch piece of ginger, grated\n- 2 medium tomatoes, finely chopped (or 1 cup canned chopped tomatoes)\n- 1 teaspoon cumin seeds\n- 1 teaspoon coriander powder\n- 1 teaspoon cumin powder\n- 1/2 teaspoon turmeric powder\n- 1 teaspoon garam masala\n- 1 teaspoon chili powder (adjust to taste)\n- Salt to taste\n- Fresh cilantro for garnish (optional)\n- Water as needed\n\n### Instructions:\n\n1. **Prepare the Chickpeas:**\n   - If using dried chickpeas, soak them overnight in plenty of water. Drain and rinse.\n   - In a large pot, add chickpeas and cover with fresh water. Bring to a boil, then reduce heat and simmer for about 1-1.5 hours until tender. Alternatively, use canned chickpeas for quicker preparation\u2014just drain and rinse.\n\n2. **Make the Base:**\n   - Heat the cooking oil in a large pan over medium heat.\n   - Once hot, add cumin seeds. When they start to crackle, add the chopped onions.\n   - Saut\u00e9 onions until golden brown, about 5-7 minutes.\n\n3. **Add Aromatics:**\n   - Add minced garlic and grated ginger. Cook for another 1-2 minutes until fragrant.\n\n4. **Cook Tomatoes and Spices:**\n   - Add chopped tomatoes to the pan. Cook for 8-10 minutes until tomatoes break down and oil begins to separate.\n   - Stir in coriander powder, cumin powder, turmeric, chili powder, and salt. Cook for another 2-3 minutes to toast the spices.\n\n5. **Combine Chickpeas:**\n   - Add the cooked chickpeas (or canned) to the pan.\n   - Mix well, allowing the chickpeas to absorb the flavors.\n   - Pour in about 1/2 to 1 cup of water to reach your desired consistency. Bring to a simmer.\n\n6. **Finish with Garam Masala:**\n   - Sprinkle garam masala over the curry. Stir well.\n   - Let it simmer for another 10-15 minutes to develop flavors, adding more water if necessary.\n\n7. **Serve:**\n   - Garnish with chopped cilantro if you like.\n   - Serve hot with steamed rice or flatbread like chapati or naan.\n\nEnjoy your flavorful, dairy-free Chana Masala! Would you like a different recipe or tips on customizing this dish?"
+      }
+    ]
+  },
+  "id": "SYN005",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

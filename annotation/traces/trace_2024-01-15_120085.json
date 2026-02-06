@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a fast plant based meal with quinoa pls"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a fast plant based meal with quinoa pls"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and tasty plant-based quinoa salad that you can prepare in about 20 minutes. It\u2019s fresh, nutritious, and perfect for a speedy meal.\n\n**Lemon Herb Quinoa Salad**\n\n### Ingredients:\n- 1 cup uncooked quinoa\n- 2 cups water or vegetable broth (for more flavor)\n- 1 cup cherry tomatoes, halved\n- 1 cucumber, diced\n- 1/4 cup red onion, finely chopped\n- 1/4 cup fresh parsley, chopped\n- 1/4 cup fresh mint, chopped (optional)\n- 1 lemon, juiced\n- 2 tablespoons olive oil\n- Salt and pepper to taste\n- (Optional) 1/4 cup chopped nuts or seeds for crunch, like almonds or sunflower seeds\n\n### Instructions:\n\n1. **Rinse the Quinoa:** Place the quinoa in a fine mesh strainer and rinse thoroughly under cold water. This removes any bitterness.\n\n2. **Cook the Quinoa:** In a medium saucepan, combine the rinsed quinoa and water or vegetable broth. Bring to a boil over high heat. Once boiling, reduce to low, cover, and simmer for about 15 minutes or until the quinoa has absorbed all the liquid and is fluffy.\n\n3. **Cool the Quinoa:** Remove from heat and let it sit, covered, for 5 minutes. Then, fluff with a fork and let it cool slightly for a few minutes.\n\n4. **Prepare the Veggies:** While the quinoa cooks, chop the cherry tomatoes, cucumber, red onion, parsley, and mint.\n\n5. **Combine Ingredients:** In a large bowl, add the slightly cooled quinoa. Mix in the chopped vegetables and herbs.\n\n6. **Make the Dressing:** In a small bowl, whisk together the lemon juice, olive oil, salt, and pepper.\n\n7. **Toss and Serve:** Pour the dressing over the salad and toss gently to combine. Add optional nuts or seeds for extra crunch.\n\n8. **Enjoy!** Serve immediately or chill in the fridge for 10-15 minutes for a cooler, more refreshing salad.\n\nThis salad is super versatile\u2014you can add other vegetables or plant-based proteins like chickpeas if you have them. It\u2019s perfect for a quick, nourishing meal!"
+      }
+    ]
+  },
+  "id": "SYN084",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

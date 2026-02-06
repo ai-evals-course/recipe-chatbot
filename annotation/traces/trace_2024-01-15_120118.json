@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "whats an easy keto dinner no high carb"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "whats an easy keto dinner no high carb"
+      },
+      {
+        "role": "assistant",
+        "content": "A delicious and easy keto dinner you can try is **Garlic Butter Shrimp with Zucchini Noodles**. It's quick to prepare, flavorful, and low in carbs. Here\u2019s how to make it:\n\n### Ingredients:\n- 1 lb (450g) shrimp, peeled and deveined\n- 2 medium zucchinis\n- 4 cups fresh spinach (optional)\n- 4 cloves garlic, minced\n- 3 tbsp unsalted butter\n- 2 tbsp olive oil\n- Salt and pepper, to taste\n- Red pepper flakes (optional, for a bit of heat)\n- Lemon wedge (for serving)\n- Fresh parsley, chopped (for garnish)\n\n### Instructions:\n\n1. **Prepare the Zucchini Noodles:**\n   - Wash the zucchinis thoroughly.\n   - Use a spiralizer to create Zucchini Noodles (zoodles). If you don\u2019t have a spiralizer, you can use a julienne peeler or a regular vegetable peeler to make thin strips.\n   - Place the zoodles on a paper towel to absorb excess moisture. Set aside.\n\n2. **Cook the Shrimp:**\n   - Heat 1 tablespoon of olive oil in a large skillet over medium heat.\n   - Season the shrimp with salt, pepper, and red pepper flakes if using.\n   - Add the shrimp to the skillet in a single layer.\n   - Cook for about 2-3 minutes on each side until they turn pink and are cooked through.\n   - Remove the shrimp from the skillet and set aside.\n\n3. **Make the Garlic Butter Sauce:**\n   - In the same skillet, add the butter and remaining 1 tablespoon of olive oil.\n   - Once melted, add the minced garlic.\n   - Saut\u00e9 the garlic for about 1 minute until fragrant, but not burned.\n   - If using spinach, add it now and saut\u00e9 until wilted, about 2 minutes.\n\n4. **Cook the Zucchini Noodles:**\n   - Add the zoodles to the skillet.\n   - Toss gently in the garlic butter sauce and cook for 2-3 minutes until just tender. Be careful not to overcook; zoodles can become watery if cooked too long.\n\n5. **Combine and Serve:**\n   - Return the cooked shrimp to the skillet, toss to combine everything evenly.\n   - Squeeze fresh lemon juice over the dish.\n   - Garnish with chopped parsley.\n   - Serve immediately, perhaps with a side salad or some avocado slices.\n\nEnjoy this flavorful, low-carb keto-friendly dinner that's full of savory garlic butter goodness and tender shrimp! Would you like another recipe?"
+      }
+    ]
+  },
+  "id": "SYN123",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

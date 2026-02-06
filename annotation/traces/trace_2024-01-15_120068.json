@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "pls give me a quick curry recipe with coconut milk and veggies thx! \ud83d\ude42"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "pls give me a quick curry recipe with coconut milk and veggies thx! \ud83d\ude42"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and delicious vegetable coconut curry that\u2019s perfect for a flavorful meal with minimal effort:\n\n### Quick Vegetable Coconut Curry\n\n**Ingredients:**\n- 1 tablespoon oil (vegetable or coconut oil)\n- 1 onion, chopped\n- 2 garlic cloves, minced\n- 1 teaspoon grated ginger (optional)\n- 2 cups mixed vegetables (e.g., carrots, bell peppers, broccoli, snap peas \u2014 use what you have)\n- 1 can (13.5 oz) coconut milk\n- 1 tablespoon curry powder\n- 1 teaspoon cumin (optional)\n- Salt and pepper to taste\n- Fresh cilantro for garnish (optional)\n- Cooked rice or bread for serving\n\n**Steps:**\n1. **Prepare your ingredients:** Chop the onion, garlic, and any vegetables you\u2019re using into bite-sized pieces.\n\n2. **Saut\u00e9 aromatics:** Heat the oil in a large skillet or wok over medium heat. Add the chopped onion and saut\u00e9 for about 3-4 minutes until translucent. Add the minced garlic and grated ginger, cooking for another 1 minute until fragrant.\n\n3. **Cook vegetables:** Add your mixed vegetables to the pan. Stir well and cook for about 5-7 minutes, allowing them to soften slightly but still retain some crunch.\n\n4. **Add spices:** Sprinkle the curry powder, cumin (if using), salt, and pepper over the vegetables. Stir to evenly coat everything with the spices.\n\n5. **Pour in coconut milk:** Pour the coconut milk into the skillet, stirring to combine. Bring the mixture to a gentle simmer.\n\n6. **Simmer:** Reduce the heat to low and let it simmer for another 5-10 minutes, until the vegetables are tender and the flavors meld together.\n\n7. **Taste and adjust:** Give it a taste and add more salt or spices if needed.\n\n8. **Serve:** Garnish with chopped fresh cilantro if you like. Serve hot over cooked rice or with bread.\n\nEnjoy your quick and cozy veggie coconut curry! Would you like a variation with proteins or different vegetables?"
+      }
+    ]
+  },
+  "id": "SYN075",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

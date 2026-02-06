@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pescatarian recipe salmon asparagus lemon med high effort"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Pescatarian recipe salmon asparagus lemon med high effort"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a flavorful recipe for **Lemon Garlic Salmon with Roasted Asparagus**\u2014a delicious med-high effort dish that combines tender, flaky salmon with perfectly roasted asparagus and a bright lemony sauce. Let\u2019s get started!\n\n### Lemon Garlic Salmon with Roasted Asparagus\n\n#### Ingredients:\n- 2 salmon fillets (about 6 oz each)\n- 1 bunch fresh asparagus (trimmed)\n- 2 cloves garlic (minced)\n- 1 lemon (zested and juiced)\n- 2 tablespoons olive oil\n- Salt and freshly ground black pepper\n- 1 teaspoon dried thyme or rosemary (optional)\n- Fresh parsley or dill for garnish (optional)\n\n#### Instructions:\n\n1. **Preheat the Oven:**\n   - Set your oven to 400\u00b0F (200\u00b0C). Line a baking sheet with parchment paper or lightly grease with olive oil.\n\n2. **Prepare the Asparagus:**\n   - Toss the trimmed asparagus spears with 1 tablespoon of olive oil, salt, pepper, and half of the minced garlic.\n   - Spread them evenly on one side of the prepared baking sheet.\n\n3. **Prepare the Salmon:**\n   - Pat the salmon fillets dry with paper towels.\n   - In a small bowl, mix the remaining garlic, lemon zest, lemon juice, 1 tablespoon of olive oil, salt, pepper, and herbs if using.\n   - Place the salmon fillets on the baking sheet, skin-side down if skin-on.\n   - Brush the fillets generously with the lemon garlic mixture, making sure to coat them evenly.\n\n4. **Roast:**\n   - Place the baking sheet in the preheated oven.\n   - Roast for about 12-15 minutes, or until the salmon is opaque and flakes easily with a fork. The asparagus should be tender and slightly caramelized around the edges.\n\n5. **Finish with Fresh Lemon and Herbs:**\n   - Once out of the oven, squeeze a little more fresh lemon juice over the salmon and asparagus.\n   - Garnish with chopped parsley or dill for a fresh herbaceous touch.\n\n6. **Serve:**\n   - Plate the salmon alongside the roasted asparagus.\n   - Optional: serve with a side of cooked rice or quinoa for a more complete meal.\n\nEnjoy your vibrant, lemony salmon with crisp, roasted asparagus\u2014a perfect pescatarian main dish! Would you like a side dish suggestion or a different recipe?"
+      }
+    ]
+  },
+  "id": "SYN101",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need an intricate dish without seafood lots of prep time"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need an intricate dish without seafood lots of prep time"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend trying **Beef Wellington**\u2014a classic and impressive dish that\u2019s perfect for special occasions. It\u2019s rich in flavor, involves multiple steps, and showcases your culinary skills. Here\u2019s a detailed recipe:\n\n### Beef Wellington\n\n#### Ingredients:\n- 2 lb (900 g) beef tenderloin (center-cut)\n- Salt and freshly ground black pepper\n- 2 tbsp olive oil\n- 2 tbsp Dijon mustard\n- 8 oz (225 g) mushrooms (cremini or button), finely chopped\n- 2 shallots, minced\n- 2 cloves garlic, minced\n- 4 oz (115 g) prosciutto slices\n- 1 sheet puff pastry (thawed if frozen)\n- 1 egg, beaten (for egg wash)\n- Fresh thyme sprigs\n\n#### Instructions:\n\n**Step 1: Prepare the Beef**\n1. Season the beef tenderloin generously with salt and pepper.\n2. Heat olive oil in a large skillet over high heat until shimmering.\n3. Sear the beef on all sides, about 2-3 minutes per side, until browned and caramelized.\n4. Remove from heat, let it cool slightly, then brush all over with Dijon mustard. Set aside.\n\n**Step 2: Make the Duxelles (Mushroom Paste)**\n1. In the same skillet, add a bit more oil if needed.\n2. Add the minced shallots and garlic; saut\u00e9 until fragrant, about 2 minutes.\n3. Add the finely chopped mushrooms and thyme leaves. Cook over medium heat, stirring frequently, until the mixture is dry and paste-like, about 10-15 minutes.\n4. Remove from heat and let it cool.\n\n**Step 3: Wrap the Beef**\n1. Lay out the prosciutto slices on plastic wrap, overlapping slightly to form a sheet large enough to wrap the beef.\n2. Spread the cooled mushroom duxelles evenly over the prosciutto.\n3. Place the beef in the center of the prosciutto and roll tightly using the plastic wrap, twisting the ends to secure. Chill in the refrigerator for at least 15 minutes to firm up.\n\n**Step 4: Assemble Puff Pastry**\n1. Roll out the puff pastry on a lightly floured surface into a rectangle large enough to enclose the beef.\n2. Unwrap the beef roll from the plastic wrap and place it in the center of the pastry.\n3. Fold the pastry over the beef, trimming excess if necessary. Seal the edges by pinching and pressing.\n4. Brush the pastry with beaten egg for a glossy finish.\n\n**Step 5: Bake**\n1. Preheat your oven to 400\u00b0F (200\u00b0C).\n2. Place the wrapped beef on a baking sheet lined with parchment paper.\n3. Optionally, decorate with pastry scraps or cutouts.\n4. Brush again with egg wash.\n5. Make a few small slits on top to allow steam to escape.\n6. Bake for 25-30 minutes or until the pastry is golden brown.\n\n**Step 6: Serve**\n1. Let the Beef Wellington rest for about 10 minutes before slicing.\n2. Slice into thick pieces, serve with your choice of vegetables or a red wine sauce.\n\n---\n\nThis dish requires multiple steps, but the results are truly spectacular and worth the effort. Enjoy impressing your guests with this intricate, flavorful masterpiece! Would you like a wine pairing or side dish suggestions?"
+      }
+    ]
+  },
+  "id": "SYN199",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

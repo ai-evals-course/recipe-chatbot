@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "can u help me find a simple egg-free stir fry recipe using tofu, bell peppers & soy sauce?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "can u help me find a simple egg-free stir fry recipe using tofu, bell peppers & soy sauce?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a delicious and simple egg-free tofu stir-fry with bell peppers and soy sauce:\n\n**Tofu and Bell Pepper Stir-Fry**\n\n**Ingredients:**\n- 14 oz (400g) firm tofu\n- 2 bell peppers (any color), sliced\n- 2 tablespoons soy sauce\n- 2 tablespoons vegetable oil (like canola or vegetable oil)\n- 3 cloves garlic, minced\n- 1 teaspoon ginger, grated (optional but adds flavor)\n- 1 teaspoon sesame oil (optional, for extra aroma)\n- 1 teaspoon cornstarch (optional, for a slightly crispy texture)\n- Salt and pepper to taste\n- Sesame seeds or chopped green onions for garnish (optional)\n\n**Steps:**\n\n1. **Prepare the Tofu:**\n   - Drain the tofu and press it to remove excess moisture. You can do this by wrapping it in a clean towel and placing a heavy object on top for about 10-15 minutes.\n   - Once pressed, cut the tofu into bite-sized cubes.\n\n2. **Optional for Crispy Tofu:**\n   - If you want a crispy texture, toss the tofu cubes gently in 1 teaspoon of cornstarch until evenly coated.\n\n3. **Cook the Tofu:**\n   - Heat 1 tablespoon of vegetable oil in a large skillet or wok over medium-high heat.\n   - Add the tofu cubes in a single layer and cook for 4-5 minutes on each side until golden and crispy.\n   - Remove the tofu from the skillet and set aside.\n\n4. **Cook the Vegetables:**\n   - In the same skillet, add the remaining 1 tablespoon of oil if needed.\n   - Add minced garlic and grated ginger; saut\u00e9 for about 30 seconds until fragrant.\n   - Add the sliced bell peppers and stir-fry for about 3-5 minutes until they are slightly tender but still crisp.\n\n5. **Combine and Season:**\n   - Return the cooked tofu to the skillet with the peppers.\n   - Pour in the soy sauce and sprinkle with a little salt and pepper if needed.\n   - Toss everything together gently to coat evenly. If using sesame oil, drizzle it in at this stage for added flavor.\n   \n6. **Serve:**\n   - Transfer to a serving dish.\n   - Garnish with sesame seeds or chopped green onions if desired.\n\n**Serve hot** over steamed rice or noodles for a complete meal.\n\nEnjoy your flavorful and healthy egg-free tofu stir-fry! Would you like a variation or more detailed tips?"
+      }
+    ]
+  },
+  "id": "SYN090",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

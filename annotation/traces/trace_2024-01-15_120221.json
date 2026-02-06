@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "can u give me a quick low FODMAP recipe with shrimp rice n zucchini"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "can u give me a quick low FODMAP recipe with shrimp rice n zucchini"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and delicious Low FODMAP Shrimp & Zucchini Rice Bowl recipe:\n\n**Ingredients:**\n- 1 cup uncooked white rice (or jasmine rice)\n- 1 lb (450g) large shrimp, peeled and deveined\n- 2 medium zucchinis, sliced into half-moons\n- 2 tablespoons garlic-infused olive oil (make sure it\u2019s garlic-infused for flavor without the FODMAPs)\n- 1 tablespoon fresh lemon juice\n- 1 teaspoon dried oregano or thyme\n- Salt and pepper to taste\n- Fresh parsley or chives for garnish (optional)\n\n**Instructions:**\n\n1. **Cook the Rice:**\n   - Rinse 1 cup of rice under cold water until the water runs clear.\n   - In a medium pot, bring 2 cups of water to a boil. Add a pinch of salt.\n   - Stir in the rice, reduce heat to low, cover, and simmer for about 15 minutes, or until the rice is tender and the water is absorbed.\n   - Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork.\n\n2. **Prepare the Shrimp:**\n   - While the rice cooks, heat 1 tablespoon of garlic-infused olive oil in a large skillet over medium heat.\n   - Add the shrimp, season with a pinch of salt, pepper, and dried oregano or thyme.\n   - Cook for about 2-3 minutes on each side, until they turn pink and opaque. Remove from skillet and set aside.\n\n3. **Saut\u00e9 the Zucchini:**\n   - In the same skillet, add the remaining 1 tablespoon of garlic-infused olive oil.\n   - Add sliced zucchini and saut\u00e9 for about 3-4 minutes until tender but still slightly crisp.\n   - Season with a little salt and pepper.\n\n4. **Combine and Finish:**\n   - Return the cooked shrimp to the skillet with zucchini, stir gently to combine.\n   - Add lemon juice and cook for another minute to meld the flavors.\n\n5. **Serve:**\n   - Spoon the cooked rice into bowls.\n   - Top with the shrimp and zucchini mixture.\n   - Garnish with chopped parsley or chives if desired.\n\nEnjoy your light, flavorful Low FODMAP Shrimp & Zucchini Rice Bowl! Would you like a different recipe or adjustments?"
+      }
+    ]
+  },
+  "id": "SYN226",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what's an easy low carb meal I can make with pantry stuff?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "what's an easy low carb meal I can make with pantry stuff?"
+      },
+      {
+        "role": "assistant",
+        "content": "A great easy low-carb meal you can make with basic pantry ingredients is **Garlic Butter Shrimp with Zucchini Noodles**. It\u2019s quick to prepare, flavorful, and very satisfying. Here's how to make it:\n\n### Ingredients:\n- 1 pound (about 450g) shrimp (frozen or fresh, peeled and deveined)\n- 2 medium zucchinis (or 1 large zucchini)\n- 3 tablespoons unsalted butter\n- 4 cloves garlic, minced\n- Salt and pepper to taste\n- Optional: red pepper flakes for a touch of heat\n- Optional: lemon juice or zest for brightness\n- Olive oil (if you prefer over butter or for initial cooking)\n\n### Instructions:\n\n1. **Prepare the Zucchini Noodles (Zoodles):**\n   - Wash the zucchinis thoroughly.\n   - Use a spiralizer to turn zucchinis into noodles. If you don't have a spiralizer, you can use a julienne peeler or even a vegetable peeler to make thin strips.\n   - Place the zoodles on a paper towel and gently pat dry to remove excess moisture. This helps prevent sogginess.\n\n2. **Cook the Shrimp:**\n   - In a large skillet, melt 1 tablespoon of butter over medium heat. Add a splash of olive oil if desired.\n   - Add the shrimp in a single layer. Season with salt, pepper, and red pepper flakes if using.\n   - Cook for about 2 minutes on one side until pink and opaque, then flip and cook another 2 minutes. Remove the shrimp from the skillet and set aside.\n\n3. **Make Garlic Butter Sauce:**\n   - In the same skillet, add the remaining 2 tablespoons of butter.\n   - Once melted, add the minced garlic. Saut\u00e9 for about 30 seconds until fragrant, being careful not to burn it.\n   - Optional: add a squeeze of lemon juice or lemon zest for extra flavor.\n\n4. **Cook the Zoodles:**\n   - Add the zucchini noodles to the skillet with the garlic butter.\n   - Toss gently to coat the zoodles in the sauce.\n   - Cook for 2-3 minutes, just until the zoodles are slightly tender but still bright and crisp.\n\n5. **Combine & Serve:**\n   - Return the cooked shrimp to the skillet, toss to combine and heat through for another minute.\n   - Taste and adjust seasoning if needed.\n   - Serve immediately, garnished with extra lemon or herbs if you have them.\n\nThis dish is low in carbs, rich in flavor, and uses pantry staples plus fresh zucchini\u2014you can customize it further with your preferred herbs or spices. Would you like a variation or different style?"
+      }
+    ]
+  },
+  "id": "SYN058",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

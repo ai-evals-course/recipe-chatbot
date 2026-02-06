@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what's a challenging keto-friendly mexican recipe that i can make using ingredients i already have? time isn't an issue!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "what's a challenging keto-friendly mexican recipe that i can make using ingredients i already have? time isn't an issue!"
+      },
+      {
+        "role": "assistant",
+        "content": "A fantastic challenging yet rewarding keto-friendly Mexican recipe you can try is *Keto Chicken Enchiladas in Mole Sauce*. This dish combines rich flavors and requires some effort, but it's definitely worth it! Let's get started with the recipe, assuming you have basic ingredients like chicken, cheese, spices, and maybe some vegetables or pantry staples.\n\n### Ingredients:\n- 2 large chicken breasts or thighs (boneless, skinless)\n- 1 cup shredded cheese (cheddar, Monterey Jack, or Mexican blend)\n- 8-10 low-carb tortillas (or make your own keto-friendly tortillas using almond flour or cheese)\n- 1 cup Mexican crema or sour cream\n- 1 small onion, finely chopped\n- 2 cloves garlic, minced\n- 2 cups chicken broth\n- 2 tbsp olive oil\n- 1 tsp cumin\n- 1 tsp smoked paprika\n- \u00bd tsp cinnamon (for mole flavor)\n- 2 tbsp cocoa powder (unsweetened)\n- 1 tbsp chili powder\n- 1 tbsp almond butter or peanut butter (unsweetened, for richness)\n- 1 oz dark chocolate (85% cacao or higher), grated\n- Salt and pepper to taste\n- Optional: chopped cilantro for garnish\n\n### Instructions:\n\n#### 1. Prepare the Chicken:\n- Season the chicken breasts with salt, pepper, cumin, and chili powder.\n- Heat 1 tbsp olive oil in a skillet over medium heat.\n- Cook the chicken until fully cooked, about 6-8 minutes per side.\n- Let it rest, then shred the chicken using two forks or your hands. Set aside.\n\n#### 2. Make the Mole Sauce:\n- In the same skillet, add chopped onion and garlic; saut\u00e9 until translucent and fragrant, about 3-4 minutes.\n- Add chicken broth, cocoa powder, almond butter, chili powder, cinnamon, smoked paprika, and grated dark chocolate.\n- Bring to a simmer, whisking constantly until smooth and flavorful, about 8-10 minutes.\n- Taste and adjust salt or spices as needed. If the sauce is too thick, add a splash more broth.\n\n#### 3. Prepare the Tortillas:\n- If you're making your own keto tortillas, combine almond flour, egg, cream cheese, and a pinch of salt; cook on a hot skillet until lightly browned.\n- Alternatively, use store-bought keto-friendly tortillas.\n\n#### 4. Assemble the Enchiladas:\n- Preheat your oven to 375\u00b0F (190\u00b0C).\n- Lightly grease a baking dish.\n- Warm the tortillas slightly to make them pliable.\n- Spread a spoonful of mole sauce inside each tortilla, then add shredded chicken and a sprinkle of shredded cheese.\n- Roll up each tortilla and place seam-side down in the baking dish.\n- Pour remaining mole sauce over the top and sprinkle with more cheese.\n\n#### 5. Bake:\n- Cover the dish with foil.\n- Bake for 20-25 minutes until bubbly and cheese is melted.\n- Remove from the oven, garnish with chopped cilantro if desired.\n\n#### 6. Serve:\n- Drizzle with a bit of Mexican crema or sour cream for creaminess.\n- Enjoy your challenging, flavorful keto Mexican enchiladas!\n\nLet me know if you'd like ideas for making your own tortillas or substitutions based on what you have!"
+      }
+    ]
+  },
+  "id": "SYN250",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

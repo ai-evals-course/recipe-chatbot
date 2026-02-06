@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what's a simple recipe using salmon lemon and fresh herbs that I can make quickly?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "what's a simple recipe using salmon lemon and fresh herbs that I can make quickly?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and quick recipe for Lemon Herb Salmon:\n\n**Lemon Herb Salmon Fillet**\n\n**Ingredients:**\n- 2 salmon fillets\n- 1 lemon (zested and juiced)\n- 2-3 tablespoons olive oil\n- 2 cloves garlic (minced)\n- A handful of fresh herbs (such as parsley, dill, or thyme), chopped\n- Salt and freshly ground black pepper to taste\n\n**Steps:**\n\n1. **Preheat your oven or skillet:**\n   - If baking, preheat your oven to 400\u00b0F (200\u00b0C). \n   - If pan-frying, heat a large skillet over medium-high heat with a tablespoon of olive oil.\n\n2. **Prepare the marinade:**\n   - In a small bowl, mix the olive oil, lemon juice, lemon zest, minced garlic, chopped herbs, salt, and pepper.\n   - Stir well to combine.\n\n3. **Marinate the salmon:**\n   - Place the salmon fillets on a plate or shallow dish.\n   - Spoon the lemon herb mixture evenly over the fillets, ensuring they're well coated.\n   - Let it sit for about 10-15 minutes if time allows; even a quick coating will impart good flavor.\n\n4. **Cook the salmon:**\n   - **For baking:** Place the fillets on a parchment-lined baking sheet. Bake for 12-15 minutes, or until the fish flakes easily with a fork.\n   - **For pan-frying:** Carefully place the fillets skin-side down if applicable. Cook for about 4-5 minutes per side, until golden brown and cooked through.\n\n5. **Serve:**\n   - Plate the salmon fillets, spoon any pan juices or extra lemon and herbs over the top.\n   - Garnish with additional fresh herbs if desired, and serve with a wedge of lemon.\n\nEnjoy your bright, flavorful Lemon Herb Salmon\u2014perfect with a side of steamed vegetables or rice!"
+      }
+    ]
+  },
+  "id": "SYN019",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

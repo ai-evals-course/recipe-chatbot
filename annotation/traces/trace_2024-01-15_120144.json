@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a easy dairy free recipe that i can make with stuff i have at home"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a easy dairy free recipe that i can make with stuff i have at home"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! How about a simple and delicious **Garlic Chickpea Stir-Fry**? It's dairy-free, quick to prepare, and requires basic ingredients. Here\u2019s a step-by-step guide:\n\n### Ingredients:\n- 1 can of chickpeas (or about 1.5 cups cooked chickpeas)\n- 2-3 cloves of garlic, minced\n- 1 tablespoon olive oil or any cooking oil you have\n- Salt and pepper to taste\n- Optional: a pinch of chili flakes or paprika for some heat\n- Optional: chopped vegetables (like spinach, bell peppers, or onions) if available\n\n### Instructions:\n\n1. **Prepare the Chickpeas:**\n   - If using canned chickpeas, drain and rinse them thoroughly under cold water. Set aside.\n\n2. **Heat the Pan:**\n   - Place a skillet or frying pan over medium heat. Add the olive oil and let it warm up for about a minute.\n\n3. **Saut\u00e9 the Garlic:**\n   - Add the minced garlic to the pan. Saut\u00e9 for about 30 seconds, stirring constantly, until fragrant. Be careful not to burn the garlic.\n\n4. **Add Chickpeas:**\n   - Toss in the chickpeas. Stir well to coat them with the garlic and oil. Cook for about 5-7 minutes, stirring occasionally, until they start to get a bit crispy on the outside.\n\n5. **Season:**\n   - Sprinkle with salt, pepper, and if you like some spice, add chili flakes or paprika. Mix well.\n\n6. **Optional Vegetables:**\n   - If you have any quick-cooking vegetables, add them now, and cook for another 3-5 minutes until tender.\n\n7. **Serve:**\n   - Transfer to a plate and enjoy! You can serve this with rice, quinoa, or even enjoy it on its own for a protein-packed snack.\n\nWould you like a different recipe or some ideas based on specific ingredients you have?"
+      }
+    ]
+  },
+  "id": "SYN156",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "whats a simple meal i can make using veggies and coconut milk"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "whats a simple meal i can make using veggies and coconut milk"
+      },
+      {
+        "role": "assistant",
+        "content": "A delicious and simple meal you can make with veggies and coconut milk is **Vegetable Coconut Curry**. It's flavorful, easy to prepare, and versatile.\n\n### Ingredients:\n- 1 can of coconut milk (about 13.5 oz)\n- Assorted vegetables (such as bell peppers, carrots, broccoli, zucchini, or spinach)\n- 1 onion (if available)\n- 2 cloves garlic\n- 1 tablespoon oil (vegetable or coconut oil)\n- 1 teaspoon curry powder or turmeric (optional for extra flavor)\n- Salt and pepper to taste\n- Optional: fresh herbs like cilantro or lime for garnish\n\n### Instructions:\n\n1. **Prepare the Vegetables:**\n   - Wash and chop your vegetables into bite-sized pieces. If you're using broccoli or carrots, peel and slice them thinly to cook quicker.\n\n2. **Saut\u00e9 Aromatics:**\n   - Heat a tablespoon of oil in a large pan over medium heat.\n   - Chop the onion and mince the garlic.\n   - Add the onion to the pan and cook for 2-3 minutes until translucent.\n   - Add the garlic and cook for another 30 seconds until fragrant.\n\n3. **Cook the Vegetables:**\n   - Add the harder vegetables like carrots and broccoli first.\n   - Stir well and cook for about 5 minutes, allowing them to start softening.\n   - Then add softer vegetables like bell peppers or zucchini.\n   - Stir and cook for another 3-4 minutes.\n\n4. **Add Coconut Milk and Spices:**\n   - Pour in the coconut milk, stirring to combine.\n   - If you have curry powder or turmeric, add 1 teaspoon to the mixture for extra flavor.\n   - Season with salt and pepper.\n\n5. **Simmer:**\n   - Reduce heat to low and let everything simmer for about 10 minutes, until vegetables are tender and flavors meld.\n   - If you want a thicker sauce, uncover and cook for a few more minutes to reduce.\n\n6. **Serve:**\n   - Taste and adjust seasoning if needed.\n   - Serve warm over rice or with crusty bread.\n   - Garnish with chopped herbs like cilantro or a squeeze of lime if available.\n\nEnjoy your cozy, nutritious Vegetable Coconut Curry! Would you like suggestions for variations or side dishes?"
+      }
+    ]
+  },
+  "id": "SYN039",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

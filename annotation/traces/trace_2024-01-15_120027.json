@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "dairy free indian recipe plz"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "dairy free indian recipe plz"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! How about trying a **Chana Masala**\u2014a hearty, flavorful, dairy-free Indian chickpea curry? It\u2019s packed with spices and perfect for a comforting meal. \n\n### Ingredients:\n- 1 cup dried chickpeas (or 2 cans of cooked chickpeas)\n- 2 tablespoons oil (vegetable or mustard oil)\n- 1 large onion, finely chopped\n- 2 garlic cloves, minced\n- 1-inch piece of ginger, grated\n- 2 tomatoes, pureed or finely chopped\n- 1 teaspoon cumin seeds\n- 1 teaspoon coriander powder\n- 1 teaspoon cumin powder\n- 1 teaspoon garam masala\n- \u00bd teaspoon turmeric powder\n- \u00bd teaspoon chili powder (adjust to taste)\n- Salt to taste\n- Fresh cilantro leaves for garnish\n- Water or vegetable broth\n\n### Instructions:\n\n1. **Prepare the Chickpeas**:\n   - If using dried chickpeas, soak them in plenty of water overnight. Drain and rinse.\n   - Cook the soaked chickpeas in a pot with enough water to cover them. Bring to a boil, then reduce to simmer for about 1 to 1.5 hours until tender. Drain and set aside.\n   - If using canned chickpeas, drain and rinse them thoroughly.\n\n2. **Saut\u00e9 the Aromatics**:\n   - Heat the oil in a large skillet or pan over medium heat.\n   - Add cumin seeds. Once they crackle, add the chopped onion.\n   - Cook the onion until it becomes translucent and slightly golden, about 8 minutes.\n   - Add the minced garlic and grated ginger. Saut\u00e9 for another 1-2 minutes until fragrant.\n\n3. **Add Spices**:\n   - Stir in coriander, cumin, turmeric, chili powder, and garam masala.\n   - Cook the spices with the onion mixture for about 1 minute to develop their flavor.\n\n4. **Incorporate Tomatoes**:\n   - Add the pureed or chopped tomatoes.\n   - Cook until the oil starts to separate from the tomato mixture, about 8-10 minutes, stirring occasionally.\n\n5. **Add Chickpeas and Simmer**:\n   - Add the cooked chickpeas to the spice mixture. Mix well to coat them evenly.\n   - Pour in enough water or vegetable broth to reach your desired consistency.\n   - Bring to a boil, then reduce heat to low. Cover and simmer for 15-20 minutes to meld flavors. Stir occasionally.\n\n6. **Final Touches**:\n   - Taste and adjust salt and spice levels as needed.\n   - Garnish with chopped fresh cilantro leaves.\n\n### Serving:\n- Serve hot with steamed basmati rice or gluten-free naan. It\u2019s a nutritious, dairy-free dish full of bold flavors!\n\nWould you like a different type of dairy-free Indian recipe?"
+      }
+    ]
+  },
+  "id": "SYN004",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

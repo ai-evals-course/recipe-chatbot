@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i need a tasty japanese recipe for dinner that uses salmon broccoli and quinoa, should be moderately easy and take about 30 to 60 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "i need a tasty japanese recipe for dinner that uses salmon broccoli and quinoa, should be moderately easy and take about 30 to 60 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend making a **Salmon and Broccoli Quinoa Bowl with a Soy-Ginger Glaze**. It's a flavorful, healthy Japanese-inspired dish that combines tender baked salmon, crisp broccoli, and fluffy quinoa, all finished with a savory soy-ginger sauce. The total cooking time is around 40 minutes, making it a perfect, moderately easy dinner.\n\n---\n\n### Salmon and Broccoli Quinoa Bowl with Soy-Ginger Glaze\n\n#### Ingredients:\n- 2 salmon fillets (about 6 oz each)\n- 1 cup quinoa\n- 2 cups broccoli florets\n- 2 tablespoons soy sauce (low-sodium preferred)\n- 1 tablespoon honey or maple syrup\n- 1 teaspoon freshly grated ginger\n- 1 clove garlic, minced\n- 1 teaspoon sesame oil (optional)\n- 1 tablespoon rice vinegar (optional)\n- 1 tablespoon vegetable oil (for cooking)\n- Sesame seeds and sliced green onions for garnish\n- Salt and pepper to taste\n\n---\n\n### Instructions:\n\n#### 1. Prepare the Quinoa:\n- Rinse the quinoa under cold water using a fine sieve to remove bitter saponins.\n- In a medium pot, combine 1 cup quinoa with 2 cups water and a pinch of salt.\n- Bring to a boil over high heat, then reduce the heat to low, cover, and simmer for about 15 minutes, or until the water is absorbed.\n- Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork.\n\n#### 2. Roast the Salmon:\n- Preheat your oven to 400\u00b0F (200\u00b0C).\n- Season the salmon fillets with salt and pepper.\n- Place the fillets on a baking sheet lined with parchment paper or a lightly greased baking dish.\n- Bake for about 12-15 minutes, or until the salmon flakes easily with a fork.\n\n#### 3. Prepare the Broccoli:\n- While the salmon is baking, heat a tablespoon of vegetable oil in a large skillet over medium heat.\n- Add the broccoli florets and saut\u00e9 for 5-7 minutes until they are tender but still crisp.\n- Alternatively, you can steam the broccoli for 3-4 minutes if preferred.\n\n#### 4. Make the Soy-Ginger Glaze:\n- In a small bowl, whisk together soy sauce, honey, grated ginger, minced garlic, and rice vinegar if using.\n- In the same skillet used for broccoli, create a space and pour in the sauce mixture.\n- Bring to a gentle simmer and cook for 2-3 minutes until slightly thickened.\n- Remove from heat; if desired, stir in a few drops of sesame oil for extra flavor.\n\n#### 5. Assemble the Bowls:\n- Divide the cooked quinoa among serving bowls.\n- Top with saut\u00e9ed broccoli.\n- Place a baked salmon fillet on each bowl.\n- Spoon the soy-ginger glaze over the salmon and broccoli.\n- Garnish with sesame seeds and sliced green onions.\n\n---\n\n### Tips:\n- Feel free to add sliced radishes or carrots for extra crunch.\n- You can substitute the salmon with other fish or tofu if preferred.\n- For a spicy kick, add a squirt of sriracha to the sauce.\n\nEnjoy your delicious Japanese-inspired salmon and broccoli quinoa bowls! Would you like a different variation or another recipe?"
+      }
+    ]
+  },
+  "id": "SYN206",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

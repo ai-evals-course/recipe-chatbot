@@ -1,5 +1,13 @@
 # Homework 3: LLM-as-Judge for Recipe Bot Evaluation
 
+## Note on Solutions
+
+We've provided a walkthrough notebook (`hw3_walkthrough.ipynb`) that you can run to see the complete solution. Try the assignment yourself first - you'll learn more by working through it independently.
+
+Video walkthrough: https://youtu.be/1d5aNfslwHg
+
+**Bonus**: [Using AI Assisted Coding to Tackle Homework Problems](https://link.courses.maven.com/c/eJw80M2upCAQBeCngZ0Gil8XLGbja5gCymkTbAyoyX37id2Tu6rUl7OoOqm-ajuXLQeQk554qlfr9OxST8rxHHQWMhpOQTrrrFIgNacdt7Kkgr2H2CrmhP38r-fPQYHerZZCmdP7Xr5-XVsOR6t5hKSzIXKDB2MHnQwNHiQMWhIJQ-C9Q_4K3mmbY1zRC_LZw-Scw9XHKCe_Kot8CyDACimMdFIpNRpjwGaX_JogSeuZFt9_-rjjTe8x1Z1vfVlb3ZePhBlLJ17C6zyPztQfBjOD-TfNYD6wFXwnGgrGzmCmG8szQYAZFIO5_5SC8Xpsr_kq9El5J4ziLWwdMY1rwfPFtPj7VPE54w7wLwAA__8a93gB) - How to use AI coding agents (find in Maven course under Bonus)
+
 ## Your Task
 
 Measure how well your Recipe Bot follows dietary restrictions. Build an LLM judge, correct its biases, and report confidence intervals.
@@ -179,6 +187,19 @@ This suggests the Recipe Bot has strong dietary adherence (92.6% corrected succe
 
 1. Install: `uv pip install -r requirements.txt` (from project root)
 2. Configure LLM API keys in `.env`
-3. Choose your failure mode and begin labeling!
+3. Choose your starting option and begin!
 
-Good luck with your evaluation!
+## File Structure
+
+```
+homeworks/hw3/
+├── reference_files/
+│   ├── raw_traces.jsonl          # ~2400 traces (optional starting point)
+│   ├── labeled_traces.jsonl      # 101 labeled examples (optional starting point)
+│   ├── dietary_queries.csv       # 60 challenging edge cases
+│   └── trace_viewer.html         # Browser-based trace viewer
+├── hw3_walkthrough.ipynb         # Solution walkthrough (run to see expected outputs)
+└── README.md
+```
+
+TIP: Open `reference_files/trace_viewer.html` in your browser and upload a JSONL file to browse the traces interactively.

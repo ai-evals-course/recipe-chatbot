@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "can u help me find a kosher dish that doesn't have dairy and uses what i have at home? \ud83e\udd14"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "can u help me find a kosher dish that doesn't have dairy and uses what i have at home? \ud83e\udd14"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Let's start with a simple and delicious kosher, dairy-free dish that you can make with basic ingredients: **Shakshuka** \u2014 a flavorful Middle Eastern tomato and egg skillet. It's perfect for breakfast, lunch, or dinner and doesn't require any dairy.\n\n### Shakshuka (Kosher & Dairy-Free)\n\n#### Ingredients:\n- 2 tablespoons olive oil\n- 1 onion, chopped\n- 2 garlic cloves, minced\n- 1 red bell pepper (if available), chopped\n- 1 can (14 oz) diced tomatoes or fresh tomatoes if you have them\n- 1 teaspoon ground cumin\n- 1 teaspoon paprika\n- Salt and pepper to taste\n- 4-6 eggs\n- Fresh parsley or cilantro for garnish (optional)\n\n#### Instructions:\n\n1. **Heat the Pan:**  \nPlace a large skillet or frying pan over medium heat and add the olive oil. Let it warm up for about 1 minute.\n\n2. **Cook the Aromatics:**  \nAdd the chopped onion and cook for about 5 minutes until it becomes translucent and soft. If you have red bell pepper, add it now and cook for another 3-4 minutes until tender.\n\n3. **Add Garlic and Spices:**  \nStir in the minced garlic, cumin, paprika, salt, and pepper. Cook for 1 minute more until fragrant.\n\n4. **Add Tomatoes:**  \nPour in the diced tomatoes including their juice. Stir everything together, bring to a simmer, and let it cook uncovered for about 10 minutes until the mixture thickens slightly.\n\n5. **Make Little Wells for the Eggs:**  \nUsing a spoon, create small wells in the tomato sauce. Carefully crack an egg into each well, taking care not to break the yolk.\n\n6. **Cook the Eggs:**  \nCover the skillet and cook on low heat for about 5-7 minutes until the eggs are set to your desired doneness. For runny yolks, check at around 5 minutes; for fully cooked yolks, give it another couple of minutes.\n\n7. **Garnish and Serve:**  \nSprinkle with chopped parsley or cilantro if available. Serve hot, ideally with crusty bread or pita for dipping.\n\nThis dish is naturally kosher, dairy-free, nutritious, and totally customizable based on what you have at home. Would you like another recipe or suggestions for variations?"
+      }
+    ]
+  },
+  "id": "SYN214",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a fast nut free recipe with chickpeas carrots bell peppers"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a fast nut free recipe with chickpeas carrots bell peppers"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and delicious Nut-Free Chickpea and Vegetable Stir-Fry that uses your ingredients: chickpeas, carrots, and bell peppers. It's healthy, flavorful, and ready in about 20 minutes.\n\n### Chickpea & Vegetable Stir-Fry\n\n**Ingredients:**\n- 1 can (15 oz) chickpeas, drained and rinsed\n- 2 large carrots, sliced thinly into matchsticks\n- 1-2 bell peppers (any color), sliced into strips\n- 2 tablespoons olive oil or vegetable oil\n- 2 cloves garlic, minced\n- 1 teaspoon ground cumin (optional, for extra flavor)\n- 1 teaspoon smoked paprika (optional)\n- Salt and black pepper to taste\n- 1 tablespoon soy sauce or tamari (for added umami, optional)\n- Lemon juice or vinegar (a squeeze, for brightness)\n\n---\n\n**Instructions:**\n\n1. **Prep Your Veggies:**  \n   Wash and peel the carrots. Cut them into thin matchstick-sized strips for quick cooking. Slice the bell peppers into thin strips as well. Mince the garlic cloves finely.\n\n2. **Heat the Pan:**  \n   Place a large skillet or wok over medium-high heat. Once hot, add the olive oil.\n\n3. **Cook the Aromatics:**  \n   Add the minced garlic to the pan. Stir quickly and saut\u00e9 for about 30 seconds to 1 minute until fragrant. Be careful not to burn the garlic.\n\n4. **Add the Carrots:**  \n   Toss in the sliced carrots. Stir-fry for about 3-4 minutes until they start to soften but retain some crunch.\n\n5. **Add the Bell Peppers:**  \n   Add the bell peppers to the pan. Continue stir-frying for another 2-3 minutes until they are tender yet still slightly crisp.\n\n6. **Add Chickpeas and Seasonings:**  \n   Stir in the drained chickpeas. If using, sprinkle the cumin and smoked paprika for flavor. Season with salt and pepper to taste. Stir everything well to combine and cook for another 2-3 minutes until heated through.\n\n7. **Finish with Flavor Boosters:**  \n   If desired, drizzle the soy sauce or tamari for a savory note. Squeeze a little lemon juice or splash vinegar to brighten the flavors.\n\n8. **Serve:**  \n   Transfer to a plate and enjoy immediately. This dish pairs well with rice, quinoa, or can be eaten on its own.\n\n---\n\n**Tips:**  \n- Feel free to add other veggies you have on hand, like zucchini or broccoli.  \n- For a bit of spice, sprinkle red chili flakes during cooking.\n\nWould you like a warm grain-based side or a quick sauce to go with this?"
+      }
+    ]
+  },
+  "id": "SYN216",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

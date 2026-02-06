@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for an advanced keto recipe using pantry staples can you give me some options"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for an advanced keto recipe using pantry staples can you give me some options"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's an advanced keto recipe using pantry staples: **Keto Spinach and Bacon Stuffed Chicken Breast**. It\u2019s rich, flavorful, and perfect for a satisfying meal. Let me guide you through the steps:\n\n### Ingredients:\n- 4 boneless, skinless chicken breasts\n- 6 slices of bacon\n- 1 cup canned spinach (drained well)\n- \u00bd cup shredded cheese (cheddar, mozzarella, or Parmesan)\n- 2 cloves garlic (minced)\n- 2 tbsp olive oil\n- 1 tsp paprika\n- 1 tsp dried thyme or Italian seasoning\n- Salt and pepper to taste\n- Toothpicks or kitchen twine\n\n### Instructions:\n\n1. **Prepare the Chicken:**\n   - Pat the chicken breasts dry with paper towels. Using a sharp knife, carefully cut a horizontal pocket into the side of each breast, being careful not to cut all the way through. You want a cavity to stuff.\n\n2. **Cook the Bacon:**\n   - In a skillet over medium heat, cook the bacon until crispy, about 7-8 minutes. Remove and place on paper towels to drain. Once cooled, chop into small pieces.\n\n3. **Make the Filling:**\n   - In a bowl, combine drained spinach, shredded cheese, minced garlic, chopped bacon, and a pinch of salt and pepper. Mix well.\n\n4. **Stuff the Chicken:**\n   - Spoon the spinach mixture into each chicken pocket, dividing evenly. Use toothpicks or small pieces of kitchen twine to seal the opening if needed.\n\n5. **Season and Sear:**\n   - Rub each chicken breast with olive oil, then season with paprika, thyme, salt, and pepper on both sides.\n   - Heat a large ovenproof skillet over medium-high heat. Sear the stuffed chicken breasts for about 3-4 minutes per side until golden brown.\n\n6. **Bake:**\n   - Transfer the skillet to a preheated oven at 375\u00b0F (190\u00b0C). Bake for 20-25 minutes, or until the chicken reaches an internal temperature of 165\u00b0F (74\u00b0C).\n\n7. **Serve:**\n   - Remove toothpicks or twine, let rest for 5 minutes, then slice and serve. Pair with a simple green salad or keto-friendly roasted vegetables.\n\nWould you like a different type of advanced keto recipe using pantry staples?"
+      }
+    ]
+  },
+  "id": "SYN011",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

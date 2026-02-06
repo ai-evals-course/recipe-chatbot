@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need simple low carb dinner recipe ASAP! \ud83c\udf7d\ufe0f"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need simple low carb dinner recipe ASAP! \ud83c\udf7d\ufe0f"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and delicious Low-Carb Garlic Butter Shrimp Skillet that you can prepare in about 15 minutes.\n\n**Ingredients:**\n- 1 pound (450g) large shrimp, peeled and deveined\n- 3 tablespoons unsalted butter\n- 4 garlic cloves, minced\n- 1 teaspoon smoked paprika (optional)\n- Salt and black pepper to taste\n- Fresh parsley, chopped (for garnish)\n- Lemon wedges (optional but adds a nice flavor)\n\n**Instructions:**\n\n1. **Prepare the Shrimp:**\n   - Rinse the shrimp under cold water and pat dry with paper towels.\n   - Season the shrimp with a pinch of salt, pepper, and smoked paprika if using.\n\n2. **Cook the Shrimp:**\n   - In a large skillet, melt the butter over medium heat.\n   - Once melted, add the minced garlic and saut\u00e9 for about 30 seconds to 1 minute until fragrant. Be careful not to burn the garlic.\n   \n3. **Add Shrimp to the Pan:**\n   - Place the seasoned shrimp into the skillet in a single layer.\n   - Cook for about 2-3 minutes on one side until they start to turn pink.\n   - Flip the shrimp and cook for an additional 2-3 minutes until fully opaque and cooked through.\n\n4. **Finish & Serve:**\n   - Remove the skillet from heat.\n   - Garnish with chopped fresh parsley.\n   - Serve immediately with lemon wedges for a zesty touch.\n\n**Tips:**\n- Pair this with a side of steamed vegetables or a fresh green salad for a complete low-carb dinner.\n- You can also drizzle a little extra lemon juice over the shrimp for added flavor.\n\nEnjoy your quick, flavorful low-carb dinner! Would you like a different type of recipe or other ideas?"
+      }
+    ]
+  },
+  "id": "SYN203",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

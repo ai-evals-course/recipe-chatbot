@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Need a low-carb dish with eggplant & ground turkey, something i can make fast like in 30 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Need a low-carb dish with eggplant & ground turkey, something i can make fast like in 30 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a delicious and quick Low-Carb Eggplant and Ground Turkey Stir-Fry you can whip up in about 30 minutes:\n\n### Ingredients:\n- 1 large eggplant\n- 1 pound ground turkey\n- 2 cloves garlic\n- 1 small onion (optional, for more flavor)\n- 2 tablespoons soy sauce or coconut aminos\n- 1 tablespoon olive oil or coconut oil\n- Salt and pepper to taste\n- Red pepper flakes (optional, for some heat)\n- Chopped green onions or fresh herbs (for garnish)\n\n### Instructions:\n\n1. **Prepare the Eggplant:**\n   - Wash the eggplant thoroughly.\n   - Cut off the stem and ends, then slice the eggplant into 1/2-inch thick rounds.\n   - Cut the rounds into small cubes or strips, depending on your preference.\n\n2. **Cook the Eggplant:**\n   - Heat 1 tablespoon of oil in a large skillet over medium-high heat.\n   - Add the eggplant pieces and cook for about 8-10 minutes, stirring occasionally, until they are golden brown and tender.\n   - Once cooked, remove the eggplant from the skillet and set aside.\n\n3. **Cook the Ground Turkey:**\n   - In the same skillet, add a bit more oil if needed.\n   - Add the chopped onion (if using) and minced garlic; saut\u00e9 for about 1-2 minutes until fragrant.\n   - Add the ground turkey, breaking it apart with a spatula.\n   - Cook for 7-8 minutes until browned and cooked through.\n   - Season with salt, pepper, and red pepper flakes if desired.\n\n4. **Combine & Finish:**\n   - Return the cooked eggplant to the skillet with the turkey.\n   - Add soy sauce or coconut aminos and stir well to combine.\n   - Cook for another 2-3 minutes so flavors meld together.\n   \n5. **Serve:**\n   - Garnish with chopped green onions or your favorite herbs.\n   - Serve hot \u2014 this dish pairs nicely with cauliflower rice if you want extra carbs without breaking low-carb.\n\nEnjoy a flavorful, nutrient-rich meal in just about 30 minutes! Would you like a vegetarian or a different flavor profile next?"
+      }
+    ]
+  },
+  "id": "SYN193",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

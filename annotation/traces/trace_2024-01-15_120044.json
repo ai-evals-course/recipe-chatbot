@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need easy salmon and asparagus recipe under 30 min"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need easy salmon and asparagus recipe under 30 min"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and delicious **Lemon Garlic Salmon with Asparagus** recipe that you can prepare in under 30 minutes:\n\n### Ingredients:\n- 2 salmon fillets\n- 1 bunch asparagus (about 1 bunch or 1 bunch of your choice)\n- 2 tablespoons olive oil\n- 3 cloves garlic, minced\n- 1 lemon (zest and juice)\n- Salt and black pepper to taste\n- Optional: fresh parsley or dill for garnish\n\n### Instructions:\n\n1. **Preheat the oven:**\n   - Set your oven to 400\u00b0F (200\u00b0C). Line a baking sheet with parchment paper or lightly grease it.\n\n2. **Prepare the asparagus:**\n   - Wash the asparagus and trim the tough ends (about 1-2 inches from the bottom).\n   - In a small bowl, toss the asparagus with 1 tablespoon of olive oil, salt, and pepper until evenly coated.\n   - Spread the asparagus on one side of the prepared baking sheet in a single layer.\n\n3. **Prepare the salmon:**\n   - Pat the salmon fillets dry with paper towels.\n   - In another small bowl, mix 1 tablespoon of olive oil, minced garlic, lemon zest, lemon juice, salt, and pepper.\n   - Brush this mixture over the top of the salmon fillets.\n\n4. **Bake:**\n   - Place the salmon fillets on the baking sheet alongside the asparagus.\n   - Bake in the preheated oven for 12-15 minutes, or until the salmon flakes easily with a fork and the asparagus is tender.\n\n5. **Finishing touches:**\n   - Once out of the oven, garnish the salmon with chopped fresh parsley or dill if desired.\n   - Serve immediately with additional lemon wedges if you like.\n\n### Tips:\n- For extra flavor, sprinkle some red pepper flakes before baking.\n- Serve with a side of rice or crusty bread for a complete meal.\n\nEnjoy your quick and healthy Lemon Garlic Salmon with Asparagus! Would you like a drink pairing or a variation?"
+      }
+    ]
+  },
+  "id": "SYN048",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

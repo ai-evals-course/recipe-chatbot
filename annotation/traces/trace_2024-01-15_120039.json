@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "can u suggest an easy keto recipe using stuff from my pantry"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "can u suggest an easy keto recipe using stuff from my pantry"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a simple and delicious Keto Garlic Butter Shrimp that uses pantry staples and comes together quickly.\n\n### Ingredients:\n- 1 lb (450 g) shrimp (peeled and deveined) \u2013 if frozen, thaw beforehand\n- 3 tablespoons unsalted butter\n- 4 cloves garlic, minced\n- Salt and pepper to taste\n- 1 teaspoon paprika (optional, for color and flavor)\n- 1 tablespoon olive oil (if needed)\n- Fresh parsley or dried if available (optional, for garnish)\n- Lemon wedges (optional, but great for serving)\n\n### Instructions:\n\n1. **Prepare the Shrimp**: If your shrimp are frozen, thawa them in cold water until fully defrosted. Pat dry with paper towels to remove excess moisture.\n\n2. **Heat the Pan**: Place a large skillet over medium heat. Add 1 tablespoon of olive oil and 1 tablespoon of butter. Let the butter melt completely and heat until shimmering.\n\n3. **Cook the Shrimp**: Season the shrimp with salt, pepper, and paprika if using. Once the butter is bubbling, add the shrimp in a single layer. Cook for about 2-3 minutes on one side until they turn pink and start to curl.\n\n4. **Flip and Add Garlic**: Turn the shrimp over and add the minced garlic to the pan. Cook for another 1-2 minutes, stirring occasionally, until the garlic is fragrant and shrimp are cooked through.\n\n5. **Finish the Dish**: Check seasoning and add a pinch more salt or pepper if needed. Remove from heat. If you like, squeeze fresh lemon juice over the shrimp for a bright flavor.\n\n6. **Serve**: Garnish with chopped parsley if available. Serve hot\u2014perfect over cauliflower rice or just as is!\n\nThis dish is quick, flavorful, and perfect for a keto-friendly meal using mostly pantry ingredients. Would you like a side suggestion to complete your meal?"
+      }
+    ]
+  },
+  "id": "SYN051",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

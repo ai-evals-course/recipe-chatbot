@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "easy curry with coconut milk and veggies in under 30 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "easy curry with coconut milk and veggies in under 30 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a simple and flavorful vegetable coconut curry that you can make in under 30 minutes:\n\n**Quick Vegetable Coconut Curry**\n\n**Ingredients:**\n- 1 tablespoon vegetable oil\n- 1 onion, diced\n- 2 cloves garlic, minced\n- 1 teaspoon grated fresh ginger (optional)\n- 2 cups mixed vegetables (such as bell peppers, carrots, zucchini, or frozen mixed vegetables)\n- 1 can (13.5 oz) coconut milk\n- 1 teaspoon curry powder\n- 1/2 teaspoon turmeric (optional)\n- Salt and pepper to taste\n- Fresh cilantro or parsley for garnish (optional)\n- Cooked rice or naan for serving\n\n**Steps:**\n\n1. **Heat the Oil**: In a large skillet or frying pan, warm the vegetable oil over medium heat.\n\n2. **Saut\u00e9 Aromatics**: Add the diced onion and cook for about 3-4 minutes, stirring occasionally, until it becomes translucent and fragrant. Then add the minced garlic and grated ginger, cooking for another 30 seconds to 1 minute until fragrant.\n\n3. **Add Spices**: Stir in the curry powder and turmeric (if using). Cook for about 30 seconds to toast the spices lightly, which enhances their flavor.\n\n4. **Cook the Vegetables**: Add your mixed vegetables to the pan. If you're using fresh vegetables like bell peppers and carrots, cook for about 5-7 minutes, stirring occasionally, until they start to soften. If using frozen vegetables, cook for about 3-5 minutes until heated through.\n\n5. **Pour Coconut Milk**: Stir in the coconut milk, bringing the mixture to a gentle simmer. Reduce the heat to low and let it simmer uncovered for about 5-8 minutes, allowing the sauce to thicken slightly and the flavors to meld.\n\n6. **Season and Serve**: Taste the curry and add salt and pepper as needed. Garnish with chopped cilantro or parsley if desired.\n\n7. **Serve**: Spoon the curry over cooked rice or serve with warm naan bread for a complete, satisfying meal.\n\nEnjoy your quick, creamy vegetable coconut curry! Would you like a variation with different ingredients or level of spice?"
+      }
+    ]
+  },
+  "id": "SYN036",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

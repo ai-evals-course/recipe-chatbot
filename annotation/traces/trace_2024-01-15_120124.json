@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for a fast keto recipe under an hr"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for a fast keto recipe under an hr"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and delicious Keto Cauliflower Fried Rice that you can prepare under an hour. It\u2019s perfect for a low-carb, satisfying meal.\n\n**Keto Cauliflower Fried Rice**\n\n**Ingredients:**\n- 1 medium head of cauliflower (about 4 cups riced)\n- 2 tablespoons coconut oil or avocado oil\n- 2 large eggs\n- 1 cup mixed vegetables (like diced bell peppers, peas\u2014if within your carb limit)\n- 2-3 cloves garlic, minced\n- 1 small onion, finely chopped\n- 3 tablespoons soy sauce or coconut aminos\n- 1 teaspoon sesame oil (optional)\n- Salt and pepper to taste\n- Green onions for garnish (optional)\n- Cooked protein like shrimp, chicken, or tofu (optional, for added protein)\n\n**Instructions:**\n\n1. **Rice the Cauliflower:**  \n   Remove the leafy top and core from the cauliflower. Break it into florets. Using a food processor, pulse the cauliflower in small batches until it resembles rice grains. If you don\u2019t have a food processor, you can grate the cauliflower with a box grater.\n\n2. **Prepare the Ingredients:**  \n   Dice the onion, mince the garlic, and chop any additional vegetables. If including protein, cook and set aside.\n\n3. **Cook the Eggs:**  \n   Heat 1 tablespoon of oil in a large skillet or wok over medium-high heat.  \n   Beat the eggs and pour into the skillet. Scramble until just cooked, then remove and set aside.\n\n4. **Saut\u00e9 Aromatics & Vegetables:**  \n   Add the remaining 1 tablespoon of oil to the skillet.  \n   Add the chopped onion and minced garlic; saut\u00e9 for 1-2 minutes until fragrant.  \n   Toss in your mixed vegetables; cook for about 3-4 minutes until tender.\n\n5. **Add the Cauliflower Rice:**  \n   Push vegetables to one side of the skillet. Add the cauliflower rice to the empty side. Cook for 4-5 minutes, stirring frequently, until the cauliflower is tender and slightly browned.\n\n6. **Combine & Season:**  \n   Mix all ingredients together. Add soy sauce or coconut aminos and sesame oil. Stir well to evenly coat everything. Season with salt and pepper to taste.\n\n7. **Finish with Eggs & Protein:**  \n   Return the scrambled eggs to the skillet, breaking them apart and mixing well. If using cooked meat or tofu, toss it in now to warm through.\n\n8. **Serve:**  \n   Garnish with chopped green onions if desired. Serve hot!\n\nThis dish is quick to make, filling, and wonderfully customizable. Would you like a recipe with a specific protein or other dietary preferences?"
+      }
+    ]
+  },
+  "id": "SYN125",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

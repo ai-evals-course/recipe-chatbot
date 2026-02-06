@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need quick chicken dish low sodium with lemon \ud83c\udf4b"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need quick chicken dish low sodium with lemon \ud83c\udf4b"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and healthy low-sodium lemon chicken recipe that is both flavorful and simple to prepare:\n\n**Lemon Herb Chicken Breasts**\n\n**Ingredients:**\n- 2 boneless, skinless chicken breasts\n- 1 lemon (juiced and zested)\n- 2 cloves garlic (minced)\n- 1 tablespoon olive oil\n- 1 teaspoon dried oregano or thyme (no added salt)\n- Freshly ground black pepper to taste\n- Fresh parsley or basil for garnishing (optional)\n\n**Steps:**\n\n1. **Prepare the Chicken:**\n   - Pat the chicken breasts dry with paper towels.\n   - If they are thick, slice each breast in half horizontally to make thinner cutlets. This helps cook faster and more evenly.\n\n2. **Make the Lemon Marinade:**\n   - In a small bowl, combine the lemon juice, lemon zest, minced garlic, olive oil, dried herbs, and pepper.\n   - Mix well until all ingredients are blended.\n\n3. **Marinate the Chicken:**\n   - Place the chicken breasts in a shallow dish or resealable plastic bag.\n   - Pour the lemon marinade over the chicken, ensuring all pieces are coated.\n   - Let it marinate for at least 15 minutes at room temperature, or up to 30 minutes in the refrigerator for more flavor.\n\n4. **Cook the Chicken:**\n   - Heat a non-stick skillet or grill pan over medium-high heat.\n   - Once hot, add the marinated chicken breasts.\n   - Cook for about 4-6 minutes per side, depending on thickness, until the internal temperature reaches 165\u00b0F (75\u00b0C) and the chicken is no longer pink inside.\n\n5. **Finish and Serve:**\n   - Remove the chicken from the pan and let it rest for a few minutes.\n   - Garnish with fresh parsley or basil if desired.\n   - Serve with steamed vegetables or a simple salad for a complete, low-sodium meal.\n\nEnjoy your zesty, flavorful lemon chicken that's low in sodium and packed with vitamin C! Would you like a side dish recommendation as well?"
+      }
+    ]
+  },
+  "id": "SYN177",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

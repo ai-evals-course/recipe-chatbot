@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a gluten free recipe quick"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a gluten free recipe quick"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and delicious gluten-free Vegetable Fried Rice recipe that you can prepare in about 15-20 minutes.\n\n**Ingredients:**\n- 1 cup of cooked rice (preferably day-old or cooled)\n- 2 tablespoons vegetable oil\n- 1 small onion, finely chopped\n- 1 cup mixed vegetables (such as peas, carrots, corn) \u2014 fresh or frozen\n- 2 garlic cloves, minced\n- 2 eggs, lightly beaten\n- 2-3 tablespoons soy sauce (gluten-free)\n- Salt and pepper to taste\n- Optional: chopped green onions for garnish\n\n**Instructions:**\n\n1. **Prepare the Rice:**  \nIf you haven't already, cook the rice according to package instructions and let it cool. Using leftover rice is ideal for fried rice because it prevents clumping.\n\n2. **Heat the Pan:**  \nPlace a large skillet or wok over medium-high heat. Add 1 tablespoon of vegetable oil and let it heat up until shimmering.\n\n3. **Cook the Eggs:**  \nPush the oil to one side of the pan. Pour the beaten eggs into the empty side. Allow them to set slightly, then scramble with a spatula until fully cooked. Remove the scrambled eggs from the pan and set aside.\n\n4. **Saut\u00e9 Vegetables:**  \nAdd the remaining 1 tablespoon of oil to the pan. Add chopped onions and cook until translucent, about 2 minutes. Add the mixed vegetables and garlic, cooking for another 3-4 minutes until tender and fragrant.\n\n5. **Combine Ingredients:**  \nAdd the cooked rice to the pan, breaking apart any clumps with your spatula. Stir well to mix with the vegetables. Cook for 2-3 minutes, ensuring the rice gets a little crisp on the edges.\n\n6. **Season and Finish:**  \nPour the soy sauce over the rice mixture and stir to evenly distribute. Add the cooked eggs back into the pan and mix everything well. Taste and season with salt and pepper as needed.\n\n7. **Serve:**  \nGarnish with chopped green onions if desired. Serve hot straight from the pan.\n\nEnjoy your quick, easy, and gluten-free Vegetable Fried Rice! Would you like to explore more gluten-free recipes?"
+      }
+    ]
+  },
+  "id": "SYN131",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey, do you have a high-protein mexican recipe using quinoa, black beans, and avocados that I can whip up in under 30 mins?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "hey, do you have a high-protein mexican recipe using quinoa, black beans, and avocados that I can whip up in under 30 mins?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend making **Quinoa, Black Bean, and Avocado Mexican Bowl** \u2014 it's nutritious, protein-packed, and ready in under 30 minutes. Here's how to prepare it:\n\n### Ingredients:\n- 1 cup quinoa\n- 1 can black beans (15 oz), drained and rinsed\n- 1 ripe avocado\n- 1 cup corn kernels (fresh or frozen)\n- 1 cup cherry tomatoes, halved\n- 1 lime (or lime juice)\n- 2 tablespoons olive oil\n- 1 teaspoon cumin powder\n- 1 teaspoon chili powder\n- Salt and pepper to taste\n- Fresh cilantro (optional, for garnish)\n- Optional: shredded cheese, hot sauce\n\n### Instructions:\n\n#### 1. Cook the Quinoa:\n- Rinse 1 cup of quinoa thoroughly under cold water using a fine mesh sieve.\n- In a medium pot, combine the rinsed quinoa with 2 cups of water and a pinch of salt.\n- Bring to a boil over medium-high heat.\n- Once boiling, reduce the heat to low, cover, and simmer for about 15 minutes or until the water is absorbed and quinoa is fluffy.\n- Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork.\n\n#### 2. Prepare the Black Beans:\n- While the quinoa cooks, heat 1 tablespoon of olive oil in a skillet over medium heat.\n- Add the drained black beans, cumin, chili powder, salt, and pepper.\n- Stir well and cook for 5-7 minutes until heated through. You can mash some beans with the back of a spoon for a creamier texture if desired.\n\n#### 3. Prepare the Veggies:\n- While the beans and quinoa cook, dice the avocado.\n- Slice cherry tomatoes in half.\n- If using frozen corn, thaw and quickly saut\u00e9 in a separate pan for 2-3 minutes or microwave until warm.\n\n#### 4. Assemble the Bowl:\n- In serving bowls, start with a base of fluffy quinoa.\n- Top with heated black beans, corn, cherry tomatoes, and slices of avocado.\n- Squeeze fresh lime juice over everything for brightness.\n- Drizzle with a little olive oil and garnish with chopped cilantro if desired.\n- Optionally, add shredded cheese or hot sauce for extra flavor.\n\n### Serving:\nEnjoy this vibrant, high-protein Mexican bowl \u2014 perfect for a quick healthy lunch or dinner!\n\nWould you like me to suggest a variation or a complementary side dish?"
+      }
+    ]
+  },
+  "id": "SYN031",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

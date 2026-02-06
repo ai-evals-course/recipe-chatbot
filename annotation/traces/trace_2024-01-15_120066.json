@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "can i get a quick recipe that uses coconut milk and curry paste, preferably dairy free?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "can i get a quick recipe that uses coconut milk and curry paste, preferably dairy free?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and flavorful Dairy-Free Coconut Curry that uses coconut milk and curry paste:\n\n**Quick Coconut Curry**\n\n**Ingredients:**\n- 1 tablespoon cooking oil (like vegetable or coconut oil)\n- 2 cloves garlic, minced\n- 1 small onion, finely chopped\n- 2 tablespoons curry paste (red or yellow, depending on your preference)\n- 1 can (13.5 oz) coconut milk\n- 2 cups mixed vegetables (like bell peppers, spinach, carrots, or peas)\n- Salt and pepper to taste\n- Optional: chopped fresh cilantro or lime wedges for garnish\n\n**Instructions:**\n\n1. **Prepare the Aromatics:**  \n   Heat the cooking oil in a large skillet or wok over medium heat. Add the minced garlic and chopped onion. Saut\u00e9 for about 2-3 minutes until the onion becomes translucent and fragrant.\n\n2. **Add the Curry Paste:**  \n   Stir in the curry paste, mixing it well with the garlic and onion. Cook for another minute to release the flavors.\n\n3. **Pour in Coconut Milk:**  \n   Slowly add the coconut milk, stirring constantly to incorporate the curry paste evenly. Bring the mixture to a gentle simmer.\n\n4. **Add the Vegetables:**  \n   Toss in your choice of vegetables. If using firm vegetables like carrots, add them first and cook for about 5 minutes. Softer greens like spinach can be added toward the end to wilt quickly.\n\n5. **Simmer:**  \n   Reduce the heat and let the curry simmer, uncovered, for about 10 minutes or until the vegetables are tender and the flavors meld. Season with salt and pepper to taste.\n\n6. **Serve:**  \n   Spoon the curry over cooked rice or noodles. Garnish with chopped cilantro or a squeeze of lime for an extra zing.\n\nEnjoy your quick, dairy-free coconut curry! Would you like suggestions for different proteins or spice levels?"
+      }
+    ]
+  },
+  "id": "SYN071",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

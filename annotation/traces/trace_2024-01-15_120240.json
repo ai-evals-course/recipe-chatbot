@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a fast dinner option that uses curry powder and coconut milk \ud83d\ude4f"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a fast dinner option that uses curry powder and coconut milk \ud83d\ude4f"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend making a quick and flavorful **Coconut Curry Chicken**. It\u2019s aromatic, satisfying, and comes together in about 30 minutes. Here\u2019s how to make it:\n\n### Ingredients:\n- 2 tablespoons oil (vegetable or coconut oil)\n- 1 onion, finely chopped\n- 2 garlic cloves, minced\n- 1 tablespoon curry powder\n- 1 can (13.5 oz) coconut milk\n- 2 chicken breasts or thighs, cut into bite-sized pieces\n- Salt and pepper to taste\n- Optional: vegetables like bell peppers, carrots, or spinach for extra flavor and nutrition\n- Rice or noodles to serve\n\n### Instructions:\n\n1. **Prep the Ingredients:**\n   - Chop the onion and garlic.\n   - Cut the chicken into bite-sized pieces.\n   - If using vegetables, chop them into manageable pieces.\n\n2. **Cook the Aromatics:**\n   - Heat the oil in a large skillet or saucepan over medium heat.\n   - Add the chopped onion and cook for about 3-4 minutes until it becomes translucent.\n   - Stir in the minced garlic and cook for another 30 seconds until fragrant.\n\n3. **Add the Curry Powder:**\n   - Sprinkle the curry powder over the onion and garlic.\n   - Stir well to coat everything evenly and cook for 1 minute to toast the spices, enhancing flavor.\n\n4. **Cook the Chicken:**\n   - Add the chicken pieces to the pan.\n   - Season with a little salt and pepper.\n   - Cook for about 5-7 minutes, stirring occasionally, until the chicken is browned on all sides.\n\n5. **Pour in Coconut Milk:**\n   - Add the entire can of coconut milk to the pan.\n   - Stir to combine everything.\n\n6. **Simmer and Thicken:**\n   - Bring it to a gentle simmer.\n   - If using vegetables like bell peppers or carrots, add them now.\n   - Let it simmer for 10-15 minutes until the chicken is cooked through and the sauce slightly thickens.\n\n7. **Taste and Adjust:**\n   - Taste the sauce and adjust seasoning if needed. Add salt or more curry powder for more flavor.\n\n8. **Serve:**\n   - Spoon the coconut curry over cooked rice or noodles.\n   - Garnish with fresh herbs like cilantro or basil if available.\n\nEnjoy your quick and comforting Coconut Curry Chicken! Would you like a vegetarian version or a different style?"
+      }
+    ]
+  },
+  "id": "SYN240",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "pls help me with a complex gluten-free Indian recipe taking around 45 mins, thx!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "pls help me with a complex gluten-free Indian recipe taking around 45 mins, thx!"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend trying **Paneer Tikka Masala** \u2014 a flavorful, gluten-free Indian dish that takes approximately 45 minutes to prepare. It combines smoky paneer skewers with a rich, spiced tomato sauce. Here's how to make it:\n\n### Ingredients:\n**For the Paneer Tikka:**\n- 250g paneer (Indian cottage cheese), cut into cubes\n- 2 tablespoons gluten-free yogurt (or coconut yogurt)\n- 1 tablespoon gram flour (besan)\n- 1 teaspoon turmeric powder\n- 1 teaspoon red chili powder\n- 1 teaspoon cumin powder\n- 1 teaspoon garam masala\n- 1 tablespoon lemon juice\n- Salt to taste\n- Wooden or metal skewers\n\n**For the Masala Sauce:**\n- 2 tablespoons oil (vegetable or mustard oil)\n- 1 large onion, finely chopped\n- 2 cloves garlic, minced\n- 1-inch piece ginger, grated\n- 2 medium tomatoes, pureed\n- 1 teaspoon cumin seeds\n- 1 teaspoon coriander powder\n- 1 teaspoon turmeric powder\n- 1 teaspoon red chili powder (adjust to taste)\n- 1 teaspoon garam masala\n- 1/2 cup water or coconut milk\n- Salt to taste\n- Fresh cilantro, chopped (for garnish)\n\n### Instructions:\n\n#### 1. Marinate the Paneer:\n- In a mixing bowl, combine the gluten-free yogurt, gram flour, turmeric, red chili, cumin, garam masala, lemon juice, and salt.\n- Add the paneer cubes and gently coat all sides with the marinade.\n- Cover and let it marinate for at least 20 minutes (or up to 30 minutes for more flavor).\n\n#### 2. Prepare the Paneer Tikka:\n- Preheat your grill or oven to 400\u00b0F (200\u00b0C).\n- Thread the marinated paneer cubes onto skewers; if using wooden skewers, soak them in water for 30 minutes beforehand to prevent burning.\n- Place the skewers on a baking sheet or grill rack.\n- Cook the paneer for about 15-20 minutes, turning occasionally, until slightly charred and cooked through. Alternatively, you can pan-fry in a non-stick skillet over medium heat until golden.\n\n#### 3. Make the Masala Sauce:\n- Heat the oil in a large pan over medium heat.\n- Add cumin seeds; once they splutter, add chopped onions.\n- Saut\u00e9 until onions are translucent, about 5 minutes.\n- Add minced garlic and grated ginger; cook for another minute.\n- Pour in the pureed tomatoes and cook until the oil begins to separate from the tomato mixture, about 10 minutes.\n- Stir in coriander powder, turmeric, red chili powder, and garam masala.\n- Cook for another 2-3 minutes to release the spices' aroma.\n- Add water or coconut milk to loosen the sauce; simmer for 5 minutes. Season with salt.\n\n#### 4. Combine and Serve:\n- Add the grilled paneer tikka to the masala sauce, gently mixing to coat.\n- Simmer everything together for 5 minutes to meld flavors.\n- Garnish with chopped cilantro.\n- Serve hot with steamed basmati rice or gluten-free flatbread.\n\nEnjoy your delicious, hearty gluten-free Paneer Tikka Masala, packed with rich flavors and perfect for a satisfying meal! Would you like a different type of recipe?"
+      }
+    ]
+  },
+  "id": "SYN070",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a nut free recipe w/ coconut milk currypaste veggies"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a nut free recipe w/ coconut milk currypaste veggies"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a delicious and nut-free Coconut Curry Vegetable Stir-Fry that is easy to make and flavorful:\n\n**Coconut Curry Vegetable Stir-Fry**\n\n**Ingredients:**\n- 1 can (13.5 oz) full-fat coconut milk\n- 2 tablespoons curry paste (check for nut-free, such as yellow or red curry paste)\n- 2 tablespoons vegetable oil\n- 1 onion, sliced\n- 2 garlic cloves, minced\n- 1 thumb-sized piece of ginger, grated\n- 2 bell peppers (any color), sliced\n- 1 carrot, sliced thinly\n- 1 zucchini, sliced\n- 1 cup broccoli florets\n- Salt to taste\n- Optional: fresh cilantro for garnish\n- Cooked rice or noodles for serving\n\n**Instructions:**\n\n1. **Prepare the vegetables:** Wash and slice all vegetables as described above. Having everything ready makes the cooking process smoother.\n\n2. **Heat the oil:** In a large skillet or wok, heat the vegetable oil over medium heat until shimmering.\n\n3. **Saut\u00e9 aromatics:** Add the sliced onion to the skillet and cook for 2-3 minutes until translucent. Add the minced garlic and grated ginger, stirring constantly, and cook for another minute until fragrant.\n\n4. **Add curry paste:** Stir in the curry paste, mixing well with the aromatics. Cook for about 1 minute to release its flavors.\n\n5. **Pour in coconut milk:** Slowly add the coconut milk, stirring to combine with the curry paste and aromatics. Bring the mixture to a gentle simmer.\n\n6. **Cook the vegetables:** Add the sliced bell peppers, carrot, zucchini, and broccoli to the skillet. Mix well to coat them in the curry sauce. Cover and let simmer for 8-10 minutes, or until the vegetables are tender but still vibrant.\n\n7. **Season and serve:** Taste the curry and add salt as needed. Garnish with fresh cilantro if desired.\n\n8. **Serve hot:** Spoon the coconut curry vegetables over cooked rice or noodles and enjoy a comforting, nut-free, veggie-packed meal!\n\nWould you like a variation or a different type of dish?"
+      }
+    ]
+  },
+  "id": "SYN037",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

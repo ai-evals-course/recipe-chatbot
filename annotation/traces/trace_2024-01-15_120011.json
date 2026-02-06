@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Eggs spinach and cheese dish under 30 mins"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Eggs spinach and cheese dish under 30 mins"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choice! I recommend making a **Cheese and Spinach Egg Bake**. It\u2019s quick, nutritious, and perfect for a satisfying meal under 30 minutes.\n\n### Cheese and Spinach Egg Bake\n\n#### Ingredients:\n- 4 large eggs\n- 1 cup fresh spinach, chopped\n- 1/2 cup shredded cheese (cheddar, mozzarella, or your favorite)\n- 1 tablespoon milk (optional, for fluffiness)\n- Salt and pepper to taste\n- 1 tablespoon olive oil or butter\n- Optional: minced garlic or onion for extra flavor\n\n#### Instructions:\n\n1. **Preheat your oven:** Set it to 375\u00b0F (190\u00b0C). If you don't want to use an oven, you can cook this in a skillet on the stove as well.\n\n2. **Prepare the spinach:** Rinse the spinach well and chop it roughly. If using fresh spinach, you might want to wilt it slightly\u2014heat a skillet with a teaspoon of olive oil or butter over medium heat, add the spinach, and cook until just wilted, about 1-2 minutes. Remove from heat and set aside.\n\n3. **Mix the eggs:** In a bowl, crack the eggs and whisk them well. Add a tablespoon of milk if you like a fluffier texture. Season with a pinch of salt and pepper.\n\n4. **Combine ingredients:** Add the chopped spinach and shredded cheese into the eggs. Mix everything together evenly.\n\n5. **Cook or bake:**\n   - **Oven method:** Pour the mixture into a greased oven-safe dish or ramekins. Bake for about 15-20 minutes, or until the eggs are set and slightly golden on top.\n   - **Stovetop method:** Heat a non-stick skillet over medium heat, add a small amount of oil or butter, pour in the egg mixture, and cook covered for about 8-10 minutes, or until the eggs are cooked through. For a fluffier top, you can briefly finish under a broiler or oven grill.\n\n6. **Serve:** Once cooked, cut into slices or serve directly from the dish. Enjoy your quick, nutritious cheese and spinach egg bake!\n\nWould you like a variation with added ingredients or a different style?"
+      }
+    ]
+  },
+  "id": "SYN023",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

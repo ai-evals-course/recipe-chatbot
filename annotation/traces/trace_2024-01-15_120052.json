@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "simple low-carb taco recipe plz! \ud83c\udf2e"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "simple low-carb taco recipe plz! \ud83c\udf2e"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a simple and flavorful low-carb taco recipe using lettuce wraps instead of traditional tortillas. It\u2019s quick, fresh, and perfect for a light yet satisfying meal.\n\n**Low-Carb Chicken Lettuce Tacos**\n\n**Ingredients:**\n- 2 boneless, skinless chicken breasts\n- 1 tablespoon olive oil\n- 1 teaspoon chili powder\n- 1/2 teaspoon paprika\n- 1/2 teaspoon cumin\n- 1/4 teaspoon garlic powder\n- Salt and pepper to taste\n- Bibb or Romaine lettuce leaves (large and sturdy)\n- Optional toppings: diced tomatoes, chopped cilantro, shredded cheese, sour cream, sliced jalape\u00f1os, lime wedges\n\n**Steps:**\n\n1. **Prepare the Chicken:**\n   - Pat the chicken breasts dry with paper towels.\n   - In a small bowl, mix chili powder, paprika, cumin, garlic powder, salt, and pepper.\n   - Rub the spice mixture evenly over both sides of the chicken breasts.\n\n2. **Cook the Chicken:**\n   - Heat the olive oil in a skillet over medium heat until shimmering.\n   - Place the chicken breasts in the skillet and cook for about 6-7 minutes on each side, or until they are cooked through and have a nice golden crust.\n   - To check for doneness, cut into the thickest part of a breast; it should be no pink inside. Alternatively, use a meat thermometer; internal temperature should reach 165\u00b0F (74\u00b0C).\n\n3. **Rest and Slice:**\n   - Remove the chicken from the skillet and let it rest for 5 minutes.\n   - Slice the chicken thinly against the grain.\n\n4. **Assemble the Tacos:**\n   - Gently separate the lettuce leaves, wash and pat them dry.\n   - Place a few slices of chicken on each leaf.\n   - Add your favorite toppings: diced tomatoes, cilantro, cheese, jalape\u00f1os, etc.\n   - Finish with a squeeze of lime for added brightness.\n\n5. **Serve:**\n   - Serve immediately for a fresh and tasty low-carb taco experience.\n\nEnjoy your healthy, flavorful lettuce tacos! Would you like a vegetarian version or a different protein option?"
+      }
+    ]
+  },
+  "id": "SYN060",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

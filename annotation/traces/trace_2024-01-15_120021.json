@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Need a quick recipe for a mexican dish with quinoa, black beans, and avos that's high in protein"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Need a quick recipe for a mexican dish with quinoa, black beans, and avos that's high in protein"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a quick and delicious Mexican-inspired Quinoa Black Bean and Avocado Bowl that's high in protein and perfect for a nutritious meal.\n\n### Quinoa Black Bean & Avocado Bowls\n\n#### Ingredients:\n- 1 cup quinoa\n- 1 can black beans (15 oz), drained and rinsed\n- 1 ripe avocado\n- 1 lime\n- 1 clove garlic (optional)\n- 1 teaspoon cumin (optional)\n- Salt and pepper to taste\n- Olive oil\n- Fresh cilantro (optional)\n- Cherry tomatoes or diced fresh tomatoes (optional)\n\n#### Instructions:\n\n1. **Cook the Quinoa:**\n   - Rinse the quinoa thoroughly under cold water using a fine mesh strainer.\n   - In a medium saucepan, combine 1 cup of quinoa with 2 cups of water and a pinch of salt.\n   - Bring to a boil over medium-high heat. Once boiling, reduce the heat to low, cover, and simmer for about 15 minutes, or until the water is absorbed and the quinoa is fluffy.\n   - Remove from heat and let it sit, covered, for 5 minutes. Fluff with a fork.\n\n2. **Prepare the Black Beans:**\n   - While the quinoa cooks, heat 1 teaspoon of olive oil in a skillet over medium heat.\n   - Add the drained black beans, a minced garlic clove if available, and 1/2 teaspoon of cumin for flavor.\n   - Season with salt and pepper. Stir occasionally, cooking for about 5-7 minutes until warmed through and flavorful.\n\n3. **Prepare the Avocado:**\n   - Cut the avocado in half, remove the pit, and scoop the flesh into a bowl.\n   - Mash it lightly with a fork until smooth or creamy, depending on your preference.\n   - Squeeze in the juice of half a lime and mix well.\n\n4. **Assemble the Bowls:**\n   - Divide the cooked quinoa into bowls.\n   - Top with the warm black beans.\n   - Add spoonfuls of mashed avocado on top.\n   - For extra freshness, sprinkle with chopped cilantro and add halved cherry tomatoes or diced fresh tomatoes if you have some on hand.\n\n5. **Finish and Serve:**\n   - Drizzle the remaining lime juice over the bowls.\n   - Optionally, add a little more olive oil, salt, and pepper to taste.\n   - Serve immediately and enjoy your high-protein, flavorful Mexican-inspired quinoa bowl!\n\nWould you like a variation with additional ingredients or a different flavor profile?"
+      }
+    ]
+  },
+  "id": "SYN032",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

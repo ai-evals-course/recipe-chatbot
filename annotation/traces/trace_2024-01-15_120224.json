@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "quick Fodmap dinner idea?? shrimp rice & zucchini"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "quick Fodmap dinner idea?? shrimp rice & zucchini"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and delicious Low FODMAP Shrimp, Rice, and Zucchini Stir-Fry that you can enjoy for dinner:\n\n**Ingredients:**\n- 1 cup long-grain white rice\n- 200g (about 7 oz) peeled shrimp (tails on or off)\n- 2 medium zucchini\n- 2 tbsp garlic-infused olive oil (for flavor without FODMAPs)\n- 1 tbsp fresh ginger, grated (optional but adds flavor)\n- 2 tbsp low-sodium soy sauce or tamari (gluten-free if needed)\n- 1 tsp sesame oil (optional)\n- A pinch of salt and pepper\n- 1 scallion green parts (just the green tops) for garnish (optional)\n\n**Instructions:**\n\n1. **Cook the Rice:**\n   - Rinse the rice under cold water until the water runs clear.\n   - In a pot, combine 1 cup of rice with 2 cups of water and a pinch of salt.\n   - Bring to a boil over medium-high heat, then reduce to low, cover, and simmer for about 15 minutes until tender. Remove from heat and let it sit, covered, for 5 minutes.\n\n2. **Prepare the Zucchini:**\n   - While the rice cooks, wash the zucchini.\n   - Cut off the ends and slice the zucchini into thin half-moons or matchsticks, about \u00bc inch thick.\n\n3. **Cook the Shrimp:**\n   - Heat 1 tablespoon of garlic-infused olive oil in a large skillet or wok over medium heat.\n   - Add the grated ginger if using, and saut\u00e9 for about 30 seconds until fragrant.\n   - Add the shrimp, season with a pinch of salt and pepper, and cook for about 2-3 minutes on each side until they turn pink and are cooked through.\n   - Remove the shrimp from the skillet and set aside.\n\n4. **Cook the Zucchini:**\n   - In the same skillet, add the remaining tablespoon of garlic-infused olive oil.\n   - Add the zucchini slices and saut\u00e9 for about 3-4 minutes until they are tender but still slightly crisp.\n\n5. **Combine and Finish:**\n   - Return the cooked shrimp to the skillet with zucchini.\n   - Pour in the soy sauce and drizzle with sesame oil if using.\n   - Toss everything together gently, heating through for another minute.\n\n6. **Serve:**\n   - Fluff the cooked rice with a fork.\n   - Serve the shrimp and zucchini stir-fry over a bed of rice.\n   - Garnish with chopped green parts of scallions if desired (use sparingly).\n\nEnjoy your quick, flavorful Low FODMAP dinner! Would you like a dessert idea next?"
+      }
+    ]
+  },
+  "id": "SYN230",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

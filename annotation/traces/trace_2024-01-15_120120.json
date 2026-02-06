@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Looking for a paleo recipe that's not too hard to make, would love to use what I have in the pantry"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Looking for a paleo recipe that's not too hard to make, would love to use what I have in the pantry"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! One easy and delicious paleo recipe you can try is **Garlic Herb Chicken Thighs**. It\u2019s flavorful, simple to prepare, and uses pantry staples like garlic, olive oil, and dried herbs. \n\n### Garlic Herb Chicken Thighs\n\n**Ingredients:**\n- 4 bone-in or boneless chicken thighs (skin-on or skinless, based on your preference)\n- 3 cloves garlic, minced\n- 2 tablespoons olive oil\n- 1 teaspoon dried thyme (or rosemary, oregano, or a mix)\n- 1 teaspoon paprika (optional, for color and flavor)\n- Salt and freshly ground black pepper to taste\n- Lemon wedges for serving (optional but recommended)\n\n**Instructions:**\n1. **Preheat Your Oven or Skillet:**  \n   - For oven: Preheat to 400\u00b0F (200\u00b0C).  \n   - For stovetop: Use a large skillet over medium-high heat.\n\n2. **Prepare the Chicken:**  \n   - Pat the chicken thighs dry with paper towels.  \n   - Season both sides generously with salt, pepper, paprika, and dried herbs.\n\n3. **Make the Garlic Mixture:**  \n   - In a small bowl, mix the minced garlic with olive oil.  \n\n4. **Cook the Chicken:**  \n   - *If using a skillet:*  \n     - Add a tablespoon of olive oil to the hot skillet.  \n     - Place the chicken thighs skin-side down (if skin-on).  \n     - Sear for about 5-7 minutes until golden brown. Then flip and cook another 5 minutes.  \n     - Reduce heat, add the garlic and oil mixture, and cook for an additional 2-3 minutes, spooning the garlic over the chicken.  \n     - Alternatively, transfer the skillet to the oven and roast for 15-20 minutes until chicken is cooked through.  \n   \n   - *If baking:*  \n     - Place the seasoned thighs on a baking sheet lined with parchment paper or foil.  \n     - Roast in the preheated oven for 25-30 minutes, or until internal temperature reaches 165\u00b0F (74\u00b0C).  \n     - During the last 5 minutes, sprinkle the garlic and oil mixture over the chicken for added flavor.\n\n5. **Finish and Serve:**  \n   - Let the chicken rest for a few minutes after cooking.  \n   - Squeeze fresh lemon over the top if desired, and serve hot.  \n\nThis dish pairs beautifully with roasted vegetables or a fresh salad. It\u2019s straightforward, flavorful, and paleo-friendly! Would you like a side dish idea to go with it?"
+      }
+    ]
+  },
+  "id": "SYN112",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

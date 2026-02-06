@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what's a good dairy-free meal i can make with curry paste and coconut milk in like 30 mins or less?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "what's a good dairy-free meal i can make with curry paste and coconut milk in like 30 mins or less?"
+      },
+      {
+        "role": "assistant",
+        "content": "A fantastic dairy-free curry you can make in under 30 minutes is **Quick Coconut Chickpea Curry**. It's flavorful, hearty, and perfect for a speedy meal using curry paste and coconut milk. Here's how to make it:\n\n### Ingredients:\n- 1 tablespoon vegetable oil\n- 1 onion, diced\n- 2 cloves garlic, minced\n- 1 tablespoon curry paste (red, green, or yellow)\n- 1 can (15 oz) chickpeas, drained and rinsed\n- 1 can (13.5 oz) coconut milk\n- 1 can (14.5 oz) diced tomatoes (optional for extra flavor)\n- Salt and pepper to taste\n- Fresh cilantro (for garnish)\n- Cooked rice or naan, for serving\n\n### Instructions:\n\n1. **Prep the Ingredients:**\n   - Dice the onion and mince the garlic.\n   - Drain and rinse the chickpeas.\n   - Open the cans of coconut milk and tomatoes if using.\n\n2. **Saut\u00e9 Aromatics:**\n   - Heat the vegetable oil in a large skillet or saucepan over medium heat.\n   - Add the diced onion and cook for 3-4 minutes until it becomes translucent.\n   - Stir in the minced garlic and cook for another 30 seconds until fragrant.\n\n3. **Add Curry Paste:**\n   - Stir in the curry paste and cook for 1-2 minutes to release its aroma.\n\n4. **Add Chickpeas and Tomatoes:**\n   - Add the drained chickpeas and diced tomatoes (if using). Stir everything together.\n\n5. **Pour in Coconut Milk:**\n   - Pour the coconut milk into the pan, stirring to combine all ingredients evenly.\n   \n6. **Simmer:**\n   - Bring the mixture to a gentle simmer.\n   - Reduce heat to low and let it cook for about 10-15 minutes, stirring occasionally, until thickened slightly.\n\n7. **Season and Serve:**\n   - Taste and add salt and pepper as needed.\n   - Garnish with fresh cilantro.\n   - Serve hot over cooked rice or with warm naan bread.\n\nThis dish is rich, creamy, and satisfying without any dairy, and it comes together quickly using simple ingredients. Enjoy!"
+      }
+    ]
+  },
+  "id": "SYN074",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

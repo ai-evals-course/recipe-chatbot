@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Looking for quick, low carb dinner ideas with zucchini, ground turkey & parmesan. Any suggestions?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Looking for quick, low carb dinner ideas with zucchini, ground turkey & parmesan. Any suggestions?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a flavorful and quick low-carb dinner idea using zucchini, ground turkey, and Parmesan: **Zucchini and Turkey Parmesan Boats**. It's delicious, easy to prepare, and perfect for a healthy evening meal.\n\n### Ingredients:\n- 2 large zucchinis\n- 1 pound ground turkey\n- 1/2 cup grated Parmesan cheese\n- 2 cloves garlic, minced\n- 1 small onion, finely chopped (optional)\n- 1/2 teaspoon dried oregano or Italian seasoning\n- Salt and pepper to taste\n- 1 tablespoon olive oil\n- Fresh basil or parsley for garnish (optional)\n- Additional Parmesan for topping (optional)\n\n### Instructions:\n\n1. **Prepare the Zucchini:**\n   - Wash the zucchinis thoroughly.\n   - Slice each zucchini in half lengthwise.\n   - Using a spoon or melon baller, carefully scoop out the flesh from the center of each zucchini half, leaving about 1/4 inch border to create a boat shape. Chop the scooped-out zucchini flesh and set aside.\n\n2. **Cook the Filling:**\n   - Heat 1 tablespoon of olive oil in a large skillet over medium heat.\n   - Add the chopped onion (if using) and cook until translucent, about 2-3 minutes.\n   - Add the minced garlic and cook for another 30 seconds until fragrant.\n   - Push the onion and garlic to the side, then add the ground turkey to the skillet.\n   - Cook, breaking up the turkey with a spoon, until browned and cooked through, about 6-8 minutes.\n   - Stir in the chopped zucchini flesh, oregano or Italian seasoning, salt, and pepper. Cook for another 2-3 minutes until the zucchini is tender.\n   - Remove from heat and mix in half of the Parmesan cheese.\n\n3. **Assemble the Boats:**\n   - Preheat your oven to 375\u00b0F (190\u00b0C).\n   - Stuff each zucchini boat generously with the turkey mixture.\n   - Place the stuffed zucchini halves on a baking sheet lined with parchment paper.\n\n4. **Bake:**\n   - Sprinkle the remaining Parmesan cheese over the top of each zucchini boat.\n   - Bake in the preheated oven for about 15-20 minutes, until the Parmesan is golden and bubbly.\n\n5. **Serve:**\n   - Garnish with freshly chopped basil or parsley if desired.\n   - Serve hot and enjoy a satisfying low-carb dinner!\n\nWould you like a vegetarian variation or a different style using these ingredients?"
+      }
+    ]
+  },
+  "id": "SYN098",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

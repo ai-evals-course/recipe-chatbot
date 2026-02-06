@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i'm trying to make an advanced keto dish, can you give me a detailed mexican recipe using general pantry items?"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "i'm trying to make an advanced keto dish, can you give me a detailed mexican recipe using general pantry items?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! How about making a **Keto Mexican Chicken Enchilada Casserole**? It\u2019s a flavorful, low-carb twist on traditional enchiladas, made with pantry staples and rich with Mexican spices. Here\u2019s a detailed recipe that\u2019s perfect for an advanced keto dish.\n\n---\n\n### Keto Mexican Chicken Enchilada Casserole\n\n#### Ingredients:\n- 2 cups cooked chicken breast, shredded (preferably poached or roasted)\n- 1 cup shredded cheese (cheddar, Monterey Jack, or a blend)\n- 1 can (10 oz) diced tomatoes with green chilies (e.g., Rotel)\n- 1/2 cup onion, finely chopped\n- 2 cloves garlic, minced\n- 1 tablespoon olive oil or avocado oil\n- 1 teaspoon ground cumin\n- 1 teaspoon smoked paprika\n- 1/2 teaspoon chili powder\n- 1/2 teaspoon oregano\n- Salt and pepper to taste\n- 1/2 cup coffee or chicken broth\n- 2 tablespoons tomato paste (optional, for added richness)\n- 1/4 cup fresh cilantro, chopped (optional garnish)\n- 1 can sliced black olives (optional)\n- 1 tablespoon lime juice (if available, optional)\n- For the topping: Additional cheese and sliced jalape\u00f1os (if desired)\n\n---\n\n### Instructions:\n\n#### 1. Prepare the Sauce:\n- In a medium skillet, heat the olive oil over medium heat.\n- Add the finely chopped onion and saut\u00e9 until translucent, about 3-4 minutes.\n- Stir in the minced garlic and cook for another minute until fragrant.\n- Add the diced tomatoes with chilies, tomato paste, cumin, smoked paprika, chili powder, oregano, salt, and pepper.\n- Pour in the chicken or coffee broth to loosen the mixture.\n- Let the sauce simmer gently for 5-7 minutes to develop flavors, stirring occasionally. If it thickens too much, add a splash more broth.\n\n#### 2. Assemble the Casserole:\n- Preheat your oven to 375\u00b0F (190\u00b0C).\n- In a mixing bowl, combine the shredded chicken, half of the shredded cheese, chopped olives (if using), and lime juice (if available). Mix well.\n- Spread a thin layer of the sauce at the bottom of a casserole dish.\n- Layer half of the shredded chicken mixture over the sauce.\n- Pour half of the remaining sauce over the chicken layer.\n- Repeat with the remaining chicken mixture and sauce.\n- Top with the remaining shredded cheese and arrange sliced jalape\u00f1os on top if desired.\n\n#### 3. Bake:\n- Cover the casserole dish with aluminum foil.\n- Bake in the preheated oven for 20-25 minutes, until bubbly.\n- Remove the foil and bake for an additional 5-7 minutes to let the cheese brown slightly.\n\n#### 4. Garnish and Serve:\n- Garnish with freshly chopped cilantro before serving.\n- Serve hot, optionally with a side of sour cream or guacamole.\n\n---\n\n### Tips:\n- You can add slices of avocado on top just before serving for extra creaminess.\n- Feel free to incorporate spices like cayenne for more heat or cumin seeds for added depth.\n- This dish stores well and can be reheated for leftovers.\n\n---\n\nWould you like a variation with seafood, beef, or vegetarian options?"
+      }
+    ]
+  },
+  "id": "SYN248",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

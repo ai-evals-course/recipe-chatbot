@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a medditeranean dish with salmon, asparagus and lemon pls"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a medditeranean dish with salmon, asparagus and lemon pls"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend making a **Lemon Garlic Salmon with Asparagus**\u2014a fresh, flavorful Mediterranean-inspired dish that highlights the bright flavors of lemon and the richness of salmon. Here's how to make it:\n\n### Ingredients:\n- 4 salmon fillets\n- 1 bunch asparagus (trimmed)\n- 2 lemons (one for juice and zest, another sliced into rounds)\n- 3 cloves garlic (minced)\n- 3 tablespoons olive oil\n- Salt and freshly ground black pepper\n- 1 teaspoon dried oregano or thyme (optional)\n- Fresh parsley or dill for garnish\n\n### Instructions:\n\n1. **Preheat your oven** to 400\u00b0F (200\u00b0C). Line a baking sheet with parchment paper for easy cleanup.\n\n2. **Prepare the Lemon-Garlic Marinade:**\n   - In a small bowl, whisk together 2 tablespoons olive oil, the juice and zest of one lemon, the minced garlic, salt, pepper, and herbs if using.\n   \n3. **Marinate the Salmon:**\n   - Place the salmon fillets on a plate or dish. Spoon half of the lemon-garlic marinade over the salmon, making sure each fillet is coated. Let it sit for about 10-15 minutes while you prepare the asparagus.\n\n4. **Prepare the Asparagus:**\n   - Toss the trimmed asparagus with the remaining 1 tablespoon olive oil, a pinch of salt and pepper, and a drizzle of lemon juice if you like. Spread them out evenly on the baking sheet alongside the salmon.\n\n5. **Arrange and Bake:**\n   - Place the salmon fillets on the baking sheet skin-side down if they have skin. Arrange the lemon slices around the salmon and on top if you like extra lemon flavor.\n   - Bake in the preheated oven for 12-15 minutes, or until the salmon is opaque and flakes easily with a fork. The asparagus should be tender but still slightly crisp.\n\n6. **Serve:**\n   - Plate the salmon fillets with the roasted asparagus on the side.\n   - Garnish with fresh chopped parsley or dill and additional lemon slices if desired.\n\n### Tips:\n- For extra flavor, you can sprinkle some crumbled feta or olives over the asparagus before roasting.\n- This dish pairs wonderfully with a side of couscous, quinoa, or a simple Greek salad.\n\nWould you like a vegetarian alternative or a different Mediterranean recipe?"
+      }
+    ]
+  },
+  "id": "SYN102",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

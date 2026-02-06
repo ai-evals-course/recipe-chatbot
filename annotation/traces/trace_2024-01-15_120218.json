@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what's a good way to cook salmon with broccoli and quinoa in a japenese style? looking for something not too hard to make"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "what's a good way to cook salmon with broccoli and quinoa in a japenese style? looking for something not too hard to make"
+      },
+      {
+        "role": "assistant",
+        "content": "A delicious and relatively simple Japanese-inspired dish combining salmon, broccoli, and quinoa is **Salmon Teriyaki Bowl with Steamed Broccoli and Quinoa**. It\u2019s flavorful, healthy, and perfect for a quick dinner. Here\u2019s how to make it:\n\n### Ingredients:\n- 2 salmon fillets\n- 1 cup quinoa\n- 2 cups water or broth (for cooking quinoa)\n- 1 head of broccoli, cut into florets\n- 2 tablespoons soy sauce\n- 2 tablespoons mirin (sweet rice wine) or substitute with a little sugar if unavailable\n- 1 tablespoon sake (optional)\n- 1 teaspoon honey or sugar\n- 1 teaspoon rice vinegar (optional)\n- 1 teaspoon sesame oil (optional)\n- Sesame seeds for garnish (optional)\n- Green onions for garnish (optional)\n- Cooking oil (vegetable or canola oil)\n\n### Instructions:\n\n1. **Cook the Quinoa:**\n   - Rinse the quinoa thoroughly in cold water to remove any bitterness.\n   - In a medium saucepan, combine 1 cup of quinoa with 2 cups of water or broth.\n   - Bring to a boil over medium-high heat, then reduce to low and cover.\n   - Simmer for about 15 minutes, or until the liquid is absorbed and the quinoa is fluffy.\n   - Remove from heat and let it rest, covered, for 5 minutes. Fluff with a fork.\n\n2. **Cook the Salmon:**\n   - While the quinoa is cooking, prepare the glaze. In a small bowl, mix soy sauce, mirin, sake (if using), honey, and rice vinegar.\n   - Heat a non-stick skillet over medium heat and add a little oil.\n   - Pat the salmon fillets dry and season lightly with salt if desired.\n   - Place the salmon skin-side down (if skin-on) in the skillet.\n   - Cook for about 3-4 minutes per side until the skin is crispy and the salmon is nearly cooked through.\n   - Pour the teriyaki sauce mixture into the skillet with the salmon, reducing the heat to medium-low.\n   - Let the sauce simmer and glaze the salmon for another 2-3 minutes until the sauce thickens slightly.\n   - Turn the salmon to coat it well with the sauce.\n\n3. **Steam the Broccoli:**\n   - While the salmon cooks, steam the broccoli florets until tender, about 4-5 minutes.\n   - You can do this in a steamer basket over boiling water or microwave with a splash of water covered with plastic wrap for 2-3 minutes.\n\n4. **Assemble the Bowls:**\n   - Divide the cooked quinoa into bowls.\n   - Place the glazed salmon on top of the quinoa.\n   - Arrange the steamed broccoli beside or on top of the salmon.\n   - Drizzle a little extra teriyaki sauce over the bowl if desired.\n\n5. **Garnish and Serve:**\n   - Sprinkle with sesame seeds and chopped green onions for added flavor and crunch.\n   - Serve immediately and enjoy your Japanese-style salmon bowl!\n\nWould you like a vegetarian variation or tips on customizing this dish?"
+      }
+    ]
+  },
+  "id": "SYN207",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

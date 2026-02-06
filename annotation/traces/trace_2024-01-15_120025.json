@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "whats a simple indian dish no dairy"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "whats a simple indian dish no dairy"
+      },
+      {
+        "role": "assistant",
+        "content": "A great simple Indian dish that is dairy-free is **Chana Masala** \u2014 a flavorful chickpea curry packed with spices. It's hearty, easy to prepare, and perfect for a quick meal. Here's how to make it:\n\n### Ingredients:\n- 1 can (15 oz) chickpeas (or 1.5 cups cooked dry chickpeas)\n- 2 tablespoons oil (vegetable or mustard oil)\n- 1 large onion, finely chopped\n- 2 cloves garlic, minced\n- 1-inch piece of ginger, grated\n- 2 tomatoes, finely chopped or pureed\n- 1 teaspoon cumin seeds\n- 1 teaspoon ground coriander\n- 1 teaspoon ground cumin\n- 1 teaspoon turmeric powder\n- 1 teaspoon garam masala\n- 1/2 teaspoon chili powder (adjust to taste)\n- Salt to taste\n- Fresh cilantro (for garnish, optional)\n- Water or vegetable broth as needed\n\n### Instructions:\n\n1. **Prepare the Base:**\n   - Heat the oil in a large skillet or saucepan over medium heat.\n   - Add cumin seeds and let them sizzle for about 30 seconds until fragrant.\n   - Add the chopped onions. Saut\u00e9 until they become soft and golden, about 5-7 minutes.\n\n2. **Add Aromatics:**\n   - Stir in the minced garlic and grated ginger. Cook for about 2 minutes until fragrant.\n\n3. **Cook the Tomatoes:**\n   - Add the chopped or pureed tomatoes to the pan.\n   - Cook for 8-10 minutes, stirring occasionally, until the oil begins to separate and the tomatoes are cooked down into a thick sauce.\n\n4. **Add Spices:**\n   - Mix in ground coriander, ground cumin, turmeric, chili powder, and garam masala.\n   - Cook for another 1-2 minutes, stirring constantly to toast the spices.\n\n5. **Add Chickpeas:**\n   - Drain and rinse the canned chickpeas, then add them to the pan.\n   - Mix well, ensuring chickpeas are coated with the spice mixture.\n\n6. **Simmer:**\n   - Add a cup of water or vegetable broth to create a gravy.\n   - Season with salt.\n   - Cover and let simmer for 15-20 minutes, allowing flavors to meld and the curry to thicken. Stir occasionally, adding more liquid if necessary.\n\n7. **Finish and Serve:**\n   - Taste and adjust salt or chili to your preference.\n   - Garnish with chopped cilantro if available.\n   - Serve hot with steamed rice or flatbread like chapati or naan.\n\nThis dish is nutrition-packed, flavorful, and entirely dairy-free. Would you like a side dish suggestion or a different type of Indian recipe?"
+      }
+    ]
+  },
+  "id": "SYN002",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "looking for an easy low-effort keto meal i can make with pantry ingredients"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "looking for an easy low-effort keto meal i can make with pantry ingredients"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a simple and flavorful Keto Egg Salad that you can whip up quickly using pantry staples:\n\n**Keto Egg Salad**\n\n**Ingredients:**\n- 4 large eggs\n- 2 tablespoons mayonnaise (preferably full-fat)\n- 1 teaspoon Dijon mustard (optional, for extra flavor)\n- Salt and pepper to taste\n- A pinch of paprika or smoked paprika (optional)\n- Fresh herbs like chopped chives or dill (if available)\n\n**Instructions:**\n\n1. **Hard Boil the Eggs**:  \n   Place the eggs in a single layer at the bottom of a saucepan. Cover them with cold water, ensuring there\u2019s about an inch of water above the eggs.  \n   Bring the water to a rolling boil over medium-high heat. Once boiling, turn off the heat, cover the saucepan, and let the eggs sit for 9-12 minutes.  \n   After the time, transfer the eggs to a bowl of ice water to cool for at least 5 minutes. This makes peeling easier.\n\n2. **Peel and Prepare**:  \n   Once cooled, gently tap each egg on a hard surface to crack the shell, then peel under running water if needed.  \n   Chop the peeled eggs into small, bite-sized pieces.\n\n3. **Combine Ingredients**:  \n   In a mixing bowl, add the chopped eggs, mayonnaise, and Dijon mustard if using.  \n   Stir well until evenly coated.\n\n4. **Season and Garnish**:  \n   Add salt and pepper to taste. For extra flavor and color, sprinkle with paprika and fresh herbs if you have any handy.\n\n5. **Serve**:  \n   Enjoy your egg salad as is, or scoop into lettuce leaves for a low-carb wrap or serve over a bed of greens.\n\nThis recipe is protein-packed, low in carbs, and requires minimal effort and pantry ingredients. Would you like a different type of keto meal?"
+      }
+    ]
+  },
+  "id": "SYN054",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

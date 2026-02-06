@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "got any cool mexican recipes that dont have nuts and require some skill? I want detailed instructions"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "got any cool mexican recipes that dont have nuts and require some skill? I want detailed instructions"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! How about trying your hand at **Chicken Enchiladas Verdes**? It's a classic Mexican dish that\u2019s flavorful, satisfying, and a bit of a culinary adventure. Plus, it doesn\u2019t contain nuts, and I\u2019ll provide detailed steps to guide you through each stage.\n\n### Chicken Enchiladas Verdes\n\n#### Ingredients:\n- 2 cups cooked chicken breast, shredded\n- 12 corn tortillas\n- 1 \u00bd cups sour cream\n- 2 cups shredded queso fresco or Monterey Jack cheese\n- 1 cup chopped cilantro (for garnish)\n- 1 medium onion, finely chopped\n- 2 cloves garlic, minced\n- 2 tablespoons vegetable oil\n- 1 teaspoon cumin\n- \u00bd teaspoon smoked paprika\n- Salt and pepper to taste\n\n#### For the Green Sauce (Salsa Verde):\n- 1 lb tomatillos, husked and rinsed\n- 1 jalape\u00f1o (or more if you like spicier)\n- 1 small onion, quartered\n- 2 cloves garlic\n- \u00bd cup cilantro leaves\n- 1 tablespoon lime juice\n- Salt to taste\n\n---\n\n### Instructions:\n\n#### Step 1: Prepare the Salsa Verde\n1. **Roast the vegetables:** Place the tomatillos, jalape\u00f1o, and quartered onion on a baking sheet under a broiler or on a grill. Roast until the skins are blistered and charred, about 5-7 minutes, turning occasionally for even charring.\n2. **Blend the ingredients:** Transfer the roasted vegetables to a blender. Add garlic, cilantro, lime juice, and a pinch of salt. Blend until smooth. Taste and adjust salt or lime if needed. Set aside.\n\n#### Step 2: Make the Chicken Filling\n1. **Cook the onion and garlic:** In a large skillet, heat 1 tablespoon of vegetable oil over medium heat. Add the chopped onion and cook until translucent, about 3-4 minutes. Add minced garlic and cook another minute.\n2. **Season the chicken:** Add the shredded chicken to the skillet. Sprinkle cumin, smoked paprika, salt, and pepper. Stir well to combine and heat through. Remove from heat.\n3. **Combine with salsa verde:** Mix in half of the salsa verde to the chicken to keep it moist and flavorful. Reserve the remaining salsa for assembly.\n\n#### Step 3: Prepare the Tortillas\n1. **Warm the tortillas:** To make them pliable, warm the corn tortillas in a dry skillet over medium heat for about 30 seconds each side or microwave them wrapped in a damp towel for 20 seconds.\n\n#### Step 4: Assemble the Enchiladas\n1. **Fill the tortillas:** Spoon about 2-3 tablespoons of chicken filling into each tortilla. Roll them tightly and place seam-side down in a baking dish.\n2. **Arrange:** Continue filling and rolling until all the tortillas are in the dish, packed closely.\n\n#### Step 5: Bake\n1. **Top with sauce and cheese:** Pour the remaining salsa verde evenly over the assembled enchiladas. Sprinkle generously with shredded queso fresco or Monterey Jack cheese.\n2. **Bake:** Preheat your oven to 375\u00b0F (190\u00b0C). Cover the dish with foil and bake for 20 minutes. Then, remove the foil and bake for another 10 minutes until bubbly and the cheese is melted and slightly browned.\n\n#### Step 6: Serve\n1. **Garnish:** Remove from oven and sprinkle freshly chopped cilantro over the top.\n2. **Enjoy:** Serve hot with a side of Mexican rice or a fresh green salad.\n\n---\n\n### Tips:\n- You can prepare the salsa verde ahead of time for deeper flavor.\n- For added texture, serve with sliced avocado or a dollop of sour cream.\n\nWould you like a vegetarian version or perhaps a different level of spiciness?"
+      }
+    ]
+  },
+  "id": "SYN143",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

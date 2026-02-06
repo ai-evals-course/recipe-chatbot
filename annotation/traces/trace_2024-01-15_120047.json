@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need a low carb mexican dish quick"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need a low carb mexican dish quick"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I recommend trying **Chicken Fajita Lettuce Wraps** \u2014 a flavorful, low-carb Mexican-inspired dish that\u2019s quick to prepare. Here\u2019s how to make them:\n\n### Ingredients:\n- 2 chicken breasts, thinly sliced\n- 1 tablespoon olive oil\n- 1 bell pepper (any color), sliced\n- 1 small onion, sliced\n- 2 cloves garlic, minced\n- 1 teaspoon chili powder\n- 1/2 teaspoon cumin\n- 1/2 teaspoon smoked paprika\n- Salt and pepper to taste\n- Lettuce leaves (romaine or iceberg)\n- Optional toppings: sliced jalape\u00f1os, chopped cilantro, avocado slices, lime wedges\n\n### Instructions:\n\n1. **Prepare the Chicken:**  \n   Slice the chicken breasts into thin strips for quick cooking and even flavor absorption.\n\n2. **Heat the Pan:**  \n   Place a large skillet or frying pan over medium-high heat. Add 1 tablespoon of olive oil and let it warm up for about 30 seconds.\n\n3. **Cook the Chicken:**  \n   Add the sliced chicken to the pan. Season with salt, pepper, chili powder, cumin, and smoked paprika. Cook for 5-7 minutes, stirring occasionally, until the chicken is browned and cooked through.\n\n4. **Saut\u00e9 the Veggies:**  \n   Push the chicken to one side of the pan. Add the sliced bell pepper and onion to the other side. Cook for 3-4 minutes until the vegetables are tender but still vibrant. Add the minced garlic during the last minute of cooking and stir well.\n\n5. **Combine & Finish:**  \n   Mix the chicken and vegetables together in the skillet. Taste and adjust seasoning if needed.\n\n6. **Assemble the Wraps:**  \n   Lay out a leaf of lettuce on a plate. Spoon the chicken and veggie mixture into the center of the lettuce leaf.\n\n7. **Serve:**  \n   Top with optional jalape\u00f1os, cilantro, avocado, or a squeeze of lime for extra flavor. Roll the leaf if desired, and enjoy immediately.\n\nThis dish is quick, full of flavor, and perfect for a low-carb Mexican meal. Would you like suggestions for side dishes or drinks to complement it?"
+      }
+    ]
+  },
+  "id": "SYN056",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

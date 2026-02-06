@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "need easy dairy free curry recipes"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "need easy dairy free curry recipes"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Here's a simple and flavorful dairy-free chicken curry recipe you can try:\n\n**Easy Dairy-Free Chicken Curry**\n\n**Ingredients:**\n- 1 lb (450g) boneless, skinless chicken breasts or thighs, cut into bite-sized pieces\n- 2 tablespoons vegetable oil (such as coconut or olive oil)\n- 1 large onion, finely chopped\n- 3 garlic cloves, minced\n- 1-inch piece of fresh ginger, grated\n- 2 tablespoons curry powder (mild or spicy, based on preference)\n- 1 teaspoon ground turmeric\n- 1 teaspoon ground cumin\n- 1 can (14 oz) diced tomatoes\n- 1 can (13.5 oz) coconut milk (full fat or light)\n- Salt and pepper to taste\n- Fresh cilantro for garnishing (optional)\n- Cooked rice or flatbread for serving\n\n---\n\n**Steps:**\n\n1. **Prepare your ingredients:** Cut the chicken into bite-sized pieces. Finely chop the onion, and mince the garlic and ginger.\n\n2. **Saut\u00e9 the aromatics:** Warm the vegetable oil in a large skillet or pot over medium heat. Add the chopped onion and cook until translucent, about 5 minutes. Stir frequently to prevent sticking.\n\n3. **Add garlic and ginger:** Incorporate the minced garlic and grated ginger into the skillet. Cook for about 1 minute, until fragrant.\n\n4. **Spice it up:** Stir in the curry powder, turmeric, and cumin. Cook for another 1-2 minutes, allowing the spices to release their aroma.\n\n5. **Cook the chicken:** Add the chicken pieces to the skillet. Cook until browned on all sides, about 5-7 minutes.\n\n6. **Add tomatoes and coconut milk:** Pour in the diced tomatoes with their juice and the coconut milk. Stir well to combine.\n\n7. **Simmer:** Bring the mixture to a gentle boil. Reduce the heat to low, cover, and let it simmer for 20 minutes. This allows the flavors to meld and the chicken to cook through.\n\n8. **Season:** Taste the curry and add salt and pepper as needed.\n\n9. **Serve:** Garnish with chopped cilantro if desired. Serve hot over cooked rice or with flatbread.\n\nEnjoy your flavorful, dairy-free chicken curry! Let me know if you'd like a vegetarian version or something more specific."
+      }
+    ]
+  },
+  "id": "SYN001",
+  "open_coding": "",
+  "axial_coding_code": ""
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Looking for quick salmon dinner ideas with lemon and herbs pls!"
+      }
+    ]
+  },
+  "response": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful recipe assistant."
+      },
+      {
+        "role": "user",
+        "content": "Looking for quick salmon dinner ideas with lemon and herbs pls!"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! Here's a quick and flavorful Lemon Herb Salmon recipe that you can enjoy in about 20 minutes.\n\n### Lemon Herb Salmon\n\n**Ingredients:**\n- 2 salmon fillets\n- 1 lemon (for juice and zest)\n- 2 tablespoons olive oil\n- 2 garlic cloves (minced)\n- 1 teaspoon dried or fresh thyme\n- 1 teaspoon dried or fresh dill (or parsley)\n- Salt and freshly ground black pepper to taste\n- Lemon slices for garnish (optional)\n\n**Steps:**\n\n1. **Prepare the Marinade:**\n   - In a small bowl, combine the juice of half the lemon, the lemon zest, olive oil, minced garlic, thyme, dill, salt, and pepper.\n   - Mix well to create a fragrant marinade.\n\n2. **Marinate the Salmon:**\n   - Pat the salmon fillets dry with paper towels.\n   - Place the fillets in a shallow dish or zip-top bag.\n   - Pour the marinade over the salmon, ensuring each piece is well coated.\n   - Let it marinate for at least 10 minutes while you prepare the pan.\n\n3. **Cook the Salmon:**\n   - Heat a non-stick skillet over medium heat.\n   - Once hot, add a little olive oil if needed.\n   - Remove the salmon from the marinade, letting excess drip off.\n   - Place the fillets skin-side down (if skin-on) in the skillet.\n   - Cook for about 4-5 minutes on each side, depending on thickness, until the salmon is opaque and flakes easily with a fork.\n\n4. **Finish and Serve:**\n   - Squeeze fresh lemon juice over the cooked fillets.\n   - Garnish with lemon slices and a sprinkle of fresh herbs if available.\n   - Serve hot with your favorite side\u2014steamed vegetables, rice, or a simple salad.\n\nEnjoy your quick, flavorful Lemon Herb Salmon! Would you like a side dish pairing suggestion?"
+      }
+    ]
+  },
+  "id": "SYN018",
+  "open_coding": "",
+  "axial_coding_code": ""
+}
