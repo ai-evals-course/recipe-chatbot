@@ -72,9 +72,9 @@ You will be adding Galileo to two places in the code - in `main.py` to manage [s
 
     # Log the Galileo project and Log stream
     config = GalileoPythonConfig.get()
-    logger = galileo_context.get_logger_instance()
-    project_url = f"{config.console_url}project/{logger.project_id}"
-    log_stream_url = f"{project_url}/log-streams/{logger.log_stream_id}"
+    galileo_logger = galileo_context.get_logger_instance()
+    project_url = f"{config.console_url}project/{galileo_logger.project_id}"
+    log_stream_url = f"{project_url}/log-streams/{galileo_logger.log_stream_id}"
     print(f"Galileo Project URL: {project_url}")
     print(f"Galileo Log Stream URL: {log_stream_url}")
     ```
@@ -86,8 +86,8 @@ You will be adding Galileo to two places in the code - in `main.py` to manage [s
 1. In the `chat_endpoint` function, add the following code immediately after the `request_messages` is defined:
 
     ```python
-    logger = galileo_context.get_logger_instance()
-    logger.start_trace(request_messages[-1]["content"])
+    galileo_logger = galileo_context.get_logger_instance()
+    galileo_logger.start_trace(request_messages[-1]["content"])
     ```
 
     This code starts a new trace. A trace is a single user interaction, so one message from the user leading to a response. Traces can contain multiple spans that define the actions that happen inside your application, such as calling LLMs, calling tools, invoking agents, or retrieving documents from a RAG system.
@@ -95,8 +95,8 @@ You will be adding Galileo to two places in the code - in `main.py` to manage [s
 1. Before the response is returned by the `chat_endpoint` function, conclude the trace with the response, then flush the trace to Galileo:
 
     ```python
-    logger.conclude(response.messages[-1].content)
-    logger.flush()
+    galileo_logger.conclude(response.messages[-1].content)
+    galileo_logger.flush()
     ```
 
 Your code will now create a new session when the page is loaded, and a new trace inside that session every time the user sends a message.
@@ -124,8 +124,8 @@ The next step is to log the LLM calls to a span. To do this, add code to the `ut
 1. After the code that creates the `assistant_reply_content` from the LLM response, log this response to Galileo:
 
     ```python
-    logger = galileo_context.get_logger_instance()
-    logger.add_llm_span(
+    galileo_logger = galileo_context.get_logger_instance()
+    galileo_logger.add_llm_span(
         input=current_messages,
         output={"role": "assistant", "content": assistant_reply_content},
         model=MODEL_NAME,
