@@ -8,6 +8,10 @@ You can read more about Galileo in our [documentation](https://v2docs.galileo.ai
 
 You can do this at any point in the homework to get tracing for the chatbot, including the inputs and outputs to the LLM, but it is especially powerful after you have created your custom LLM-as-a-judge prompt, which you can add to Galileo to provide evaluations of every trace.
 
+Click the image for a video walkthrough of this guide:
+
+[![Video walkthrough of integrating Galileo with the Recipe chatbot](./images/youtube-thumb.webp)](https://youtu.be/Lb_uxu8C5wc)
+
 ## Add Galileo to the Recipe Chatbot
 
 Complete these steps to add Galileo to the Recipe Chatbot.
