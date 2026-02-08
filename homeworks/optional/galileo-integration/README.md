@@ -10,7 +10,7 @@ You can do this at any point in the homework to get tracing for the chatbot, inc
 
 Click the image for a video walkthrough of this guide:
 
-[![Video walkthrough of integrating Galileo with the Recipe chatbot](./images/youtube-thumb.webp)](https://youtu.be/Lb_uxu8C5wc)
+[![Video walkthrough of integrating Galileo with the Recipe chatbot](https://img.youtube.com/vi/Lb_uxu8C5wc/0.jpg)](https://youtu.be/Lb_uxu8C5wc)
 
 ## Add Galileo to the Recipe Chatbot
 
