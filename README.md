@@ -20,7 +20,7 @@ This repository contains a complete AI evaluations course built around a Recipe 
 
 3. **Run the Chatbot**
    ```bash
-   uv run uvicorn backend.main:app --reload
+   uv run uvicorn backend.main:app --reload --reload-include '*.md'
    # Open http://127.0.0.1:8000
    ```
 
