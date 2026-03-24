@@ -1442,7 +1442,7 @@ requires-dist = [
     { name = "fastapi", specifier = ">=0.115.14" },
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "judgy", specifier = ">=0.1.0" },
-    { name = "litellm", specifier = ">=1.74.0,<1.82.8" },
+    { name = "litellm", specifier = ">=1.74.0,<1.82.7" },
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "numpy", specifier = ">=2.3.1" },
     { name = "pandas", specifier = ">=2.3.0" },
