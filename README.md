@@ -2,6 +2,20 @@
 
 This repository contains a complete AI evaluations course built around a Recipe Chatbot. Through 5 progressive homework assignments, you'll learn practical techniques for evaluating and improving AI systems.
 
+## About this fork (RCBT)
+
+This is a personal fork of the course repo: the **Off-Grid Recipe Chatbot**.
+It works through the homework sequence below like any other student repo, but
+the end target is a real chatbot for off-grid homestead cooking — bulk grain
+storage, fermentation, wood-fire/no-electricity constraints, and
+ingredient-tier awareness — not a general recipe assistant. It does not
+replace or fork away from the upstream course material; homework content and
+walkthroughs below are unchanged.
+
+Project governance (brief/plan/ADR/solution lifecycle, protected zones, merge
+policy) lives in [`CLAUDE.md`](CLAUDE.md), [`CONTRIBUTING.md`](CONTRIBUTING.md),
+and [`docs/`](docs/DOCUMENTATION_STANDARD.md).
+
 ## Quick Start
 
 1. **Clone & Setup**

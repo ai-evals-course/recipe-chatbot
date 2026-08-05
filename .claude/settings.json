@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(.env*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(*deploy*)",
+      "Bash(*rollback*)"
+    ],
+    "ask": [
+      "Edit(backend/system_prompt.md)",
+      "Edit(data/sample_queries.csv)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git merge*)",
+      "Bash(gh *)"
+    ],
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(uv sync*)",
+      "Bash(uv run uvicorn backend.main:app*)"
+    ]
+  },
+  "sandbox": {
+    "denyRead": ["~"],
+    "allowRead": ["."]
+  }
+}

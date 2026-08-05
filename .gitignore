@@ -185,3 +185,10 @@ results/*
 
 
 .specstory
+
+# RCBT governance: local-only Claude Code overrides, never committed
+.claude/settings.local.json
+CLAUDE.local.md
+
+# RCBT governance: handoff packages dropped in for Claude Code to read, never committed
+inbox/
